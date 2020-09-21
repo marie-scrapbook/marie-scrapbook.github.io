@@ -4,26 +4,43 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-#home h2 {
-  font-weight: 600;
-  font-size: 1.4rem;
+
+/* Mobile Screens */
+@media (max-width: 700px) {
+  #home {
+    padding: 22px 22px 64px 22px;
+  }
 }
-#signature-title {
-  font-family: 'Mrs Saint Delafield', cursive;
-  font-size: 3.2rem;
-}
-#home p {
-  color: #343a40;
-}
-#headshot {
-  width: 100%;
-}
-@media (min-width: 768px) {
+
+/* Desktop Screens */
+@media (min-width: 700px) {
   #home h1 {
     font-size: 2.5rem;
     text-align: left;
   }
+}
+
+#home h2 {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+#signature-title {
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 3.2rem;
+}
+
+#home p {
+  color: #343a40;
+}
+
+/* Desktop Screens */
+@media (min-width: 700px) {
   #home p {
     text-align: left;
   }
+}
+
+#headshot {
+  width: 100%;
 }
