@@ -58,6 +58,8 @@
 .timeline__img {
   width: auto;
   max-height: 300px;
+  position: relative;
+  top: 10px;
 }
 
 /* Desktop Screens */
@@ -81,7 +83,7 @@ li:last-child .timeline__content ~ .timeline__img {
 li:nth-child(odd) .timeline__content ~ .timeline__img {
   transform: rotate(-1deg);
 }
-    
+
 li:nth-child(even) .timeline__content ~ .timeline__img {
   transform: rotate(2deg);
 }
@@ -90,10 +92,16 @@ li:nth-child(even) .timeline__content ~ .timeline__img {
 @media (min-width: 700px) {
   li:nth-child(odd) .timeline__content ~ .timeline__img {
     float: left;
+    left: -20px;
   }
-  
+
   li:nth-child(even) .timeline__content ~ .timeline__img {
     float: right;
+    right: -20px;
+  }
+
+  #one-or-the-other {
+    right: -120px;
   }
 }
 
@@ -203,7 +211,7 @@ li:nth-child(even) .timeline__content ~ .timeline__img {
 /* Desktop Screens */
 @media (min-width: 700px) {
   .timeline__content {
-    margin: 3rem 0;
+    margin: 4rem 0;
   }
 }
 

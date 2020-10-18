@@ -4,9 +4,11 @@
   padding: 18px 16px;
 }
 
-#nav h1 {
-  font-family: 'Mrs Saint Delafield', cursive;
+#nav img {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.0rem;
   margin: auto auto auto 0;
+  width: 230px;
 }
 
 .nav-link:hover {

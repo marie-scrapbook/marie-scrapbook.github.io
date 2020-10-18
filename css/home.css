@@ -22,11 +22,16 @@
 
 #home h2 {
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+}
+
+#home h2 img {
+  width: 310px;
+  margin-bottom: -10px;
 }
 
 #signature-title {
-  font-family: 'Mrs Saint Delafield', cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 3.2rem;
 }
 
