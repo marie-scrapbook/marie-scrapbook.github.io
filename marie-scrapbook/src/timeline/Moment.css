@@ -60,10 +60,6 @@
     margin-left:0
   }
 }
-/* Set bottom spacing from this child div to preserve expected background styling */
-.moment:last-child .moment-content{
-  margin-bottom: 4rem;
-}
 
 .moment-date {
   text-align: center;
@@ -98,6 +94,7 @@
     padding-left: 10%; /* offset from .moment-content:before */
     margin: auto;
     max-width: 100%;
+    top: -10px;
   }
 }
 
@@ -151,13 +148,5 @@
   .moment:nth-child(even) .moment-content ~ .moment-img {
     float: right;
     right: -20px;
-  }
-}
-
-/**********************************************************************************/
-/* Custom overrides */
-@media (min-width: 700px) { /* Desktop Screens */
-  #one-or-the-other {
-    right: -120px;
   }
 }

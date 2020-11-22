@@ -10,11 +10,12 @@ function Timeline(props) {
   const formattedMoments = props.moments.map(moment => (
     <Moment date={moment.date}
             description={moment.description}
+            imgSrc={moment.imgSrc}
             title={moment.title}/>
   ));
 
   return (
-    <section className="timeline section pb-0 scrap-bkg">
+    <section className="timeline section pb-0 scrap-bkg" id="timeline">
       <ul className="timeline-moments">
         {formattedMoments}
       </ul>

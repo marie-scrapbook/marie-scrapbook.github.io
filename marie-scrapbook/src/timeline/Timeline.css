@@ -21,7 +21,7 @@
 .timeline-moments {
   position: relative;
   max-width: 1300px;
-  padding: 0;
+  padding: 0 0 4rem;
   list-style: none;
 }
 /* Desktop Screens */
