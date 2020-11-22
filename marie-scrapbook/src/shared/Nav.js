@@ -4,7 +4,7 @@ import logo from './assets/signature.png';
 
 function Nav() {
   return (
-    <nav className="nav sticky-top">
+    <nav className="nav sticky-top scrap-bkg">
       <a className="nav-logo-link" href="index.html">
         <img className="nav-logo" src={logo} alt="Marie Tracy"/>
       </a>
