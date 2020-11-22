@@ -2,13 +2,21 @@ import React from 'react';
 import './Timeline.css';
 import Moment from './Moment';
 
-function Timeline() {
+/**
+ * Timeline
+ * @param {Object[]} moments - Required. Array of objects of `Moment` data.
+ */
+function Timeline(props) {
+  const formattedMoments = props.moments.map(moment => (
+    <Moment date={moment.date}
+            description={moment.description}
+            title={moment.title}/>
+  ));
+
   return (
     <section className="timeline section pb-0 scrap-bkg">
       <ul className="timeline-moments">
-        <Moment date="Jan 8, 1922"
-                description="Born Elmhurst, Queens"
-                title="Born Elmhurst, Queens"/>
+        {formattedMoments}
       </ul>
 	  </section>
   );

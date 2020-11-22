@@ -1,5 +1,6 @@
 .moment {
   color: #343a40;
+  margin: 2rem 0;
 }
 .moment:before {
   content: '';
@@ -33,7 +34,7 @@
 }
 @media (min-width: 700px) { /* Desktop Screens */
   .moment-content {
-    margin: 4rem 0;
+    margin: 2rem 0;
     width: 45%
   }
 }
