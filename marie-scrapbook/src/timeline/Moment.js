@@ -21,7 +21,7 @@ function Moment({
         <h3 className="moment-title">{title}</h3>
         { description && <p className="moment-description">{description}</p> }
       </div>
-      { imgSrc && <img class="moment-img" src={`${process.env.PUBLIC_URL}/assets/timeline/${imgSrc}`} alt=""/> }
+      { imgSrc && <img className="moment-img" src={`${process.env.PUBLIC_URL}/assets/timeline/${imgSrc}`} alt=""/> }
     </li>
   );
 }
