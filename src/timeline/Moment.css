@@ -1,0 +1,152 @@
+.moment {
+  color: #343a40;
+  margin: 2rem 0;
+}
+.moment:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  margin-top: 3rem;
+  margin-left: -1rem;
+  background: #3a3a3c
+}
+@media (min-width: 700px) { /* Desktop Screens */
+  .moment:before {
+    left: 50%
+  }
+}
+.moment:after {
+  display: table;
+  content: "";
+  clear: both
+}
+
+.moment-content {
+  background-color: #f7f7f7;
+  box-shadow: 2px 5px 10px 4px #343a4038;
+  border-radius: 4px;
+  background: #f3f3f5;
+  padding: 2rem;
+  width: 90%
+}
+@media (min-width: 700px) { /* Desktop Screens */
+  .moment-content {
+    margin: 2rem 0;
+    width: 45%
+  }
+}
+@media (max-width: 700px) { /* Mobile Screens */
+  .moment-content {
+    margin: 4rem 0 0 0;
+  }
+}
+.moment-content:before {
+  content: '';
+  position: absolute;
+  left: 10%;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  width: 0;
+  height: 0;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+  border-right: 1rem solid #f3f3f5
+}
+@media (min-width: 700px) { /* Desktop Screens */
+  .moment-content:before {
+    margin-left:0
+  }
+}
+
+.moment-date {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.moment-title {
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.moment-description {
+  margin-bottom: 0.2rem;
+}
+
+.moment-img {
+  width: auto;
+  max-height: 300px;
+  position: relative;
+  top: 10px;
+}
+@media (min-width: 700px) { /* Desktop Screens */
+  .moment-img {
+    max-width: 360px;
+  }
+}
+@media (max-width: 700px) { /* Mobile Screens */
+  .moment-img {
+    display: block;
+    padding-left: 10%; /* offset from .moment-content:before */
+    margin: auto;
+    max-width: 100%;
+    top: -10px;
+  }
+}
+
+
+/**********************************************************************************/
+/* Odd numbers are aligned to the left */
+@media (min-width: 700px) { /* Desktop Screens */
+  .moment:nth-child(odd) .moment-content {
+    float: left;
+  }
+  .moment:nth-child(odd) .moment-content:before {
+    left: 45%;
+    border-right-color: transparent;
+    border-left: 1rem solid #f3f3f5;
+  }
+}
+@media (max-width: 700px) { /* Mobile Screens */
+  .moment:nth-child(odd) .moment-content {
+    float: right;
+  }
+}
+
+/* Even numbers are aligned to the right */
+.moment:nth-child(even) .moment-content {
+  float: right;
+}
+@media (min-width: 700px) { /* Desktop Screens */
+  .moment:nth-child(even) .moment-content:before {
+    right: 45%;
+    left: auto;
+  }
+}
+
+/**********************************************************************************/
+/* Odd images are negatively rotated */
+.moment:nth-child(odd) .moment-content ~ .moment-img {
+  transform: rotate(-1deg);
+}
+@media (min-width: 700px) { /* Desktop Screens */
+  .moment:nth-child(odd) .moment-content ~ .moment-img {
+    float: left;
+    left: -20px;
+  }
+}
+
+/* Even images are positively rotated */
+.moment:nth-child(even) .moment-content ~ .moment-img {
+  transform: rotate(2deg);
+}
+@media (min-width: 700px) { /* Desktop Screens */
+  .moment:nth-child(even) .moment-content ~ .moment-img {
+    float: right;
+    right: -20px;
+  }
+}

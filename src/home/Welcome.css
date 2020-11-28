@@ -1,0 +1,29 @@
+.welcome {
+  background-color: #f7f6f3;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Mobile Screens */
+@media (max-width: 700px) {
+  .welcome {
+    padding: 22px 22px 64px 22px;
+  }
+}
+
+.welcome-header {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+/* Desktop Screens */
+@media (min-width: 700px) {
+  .welcome-text {
+    text-align: left;
+  }
+}
+
+.welcome-img {
+  width: 100%;
+}
