@@ -6,9 +6,11 @@ import Timeline from './../timeline/Timeline';
 import { timelineContent } from './../timeline/timelineContent';
 
 function BasePage() {
+  const isMobile = window.innerWidth <= 700;
+
   return (
     <>
-      <Nav />
+      <Nav isMobile={isMobile} />
       <Welcome />
       <Timeline moments={timelineContent} />
     </>
