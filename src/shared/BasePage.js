@@ -25,6 +25,13 @@ function BasePage() {
         </>
       )}/>
 
+      {/* Timeline */}
+      <Route path="/timeline" render={() => (
+        <>
+          <Timeline moments={timelineContent} />
+        </>
+      )}/>
+
       {/* Scrapbook */}
       <Route path="/scrapbook/page/:index" render={({ match }) => (
         <ScrapbookPage index={match.params.index} />

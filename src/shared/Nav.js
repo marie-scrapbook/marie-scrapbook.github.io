@@ -33,7 +33,7 @@ function Nav({isMobile}) {
           <Link className="nav-link" to="/">Home</Link>
         </li>
         <li className="nav-link-item">
-          <a className="nav-link" href="https://marie-scrapbook.github.io/#timeline">Timeline</a>
+          <Link className="nav-link" to="/timeline">Timeline</Link>
         </li>
         <li className="nav-link-item">
           <Link className="nav-link" to="/scrapbook/page/1">Scrapbook</Link>
