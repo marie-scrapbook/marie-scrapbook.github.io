@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
 import logo from './assets/signature.png';
 import hamburgerMenuIcon from './assets/hamburger-menu.png';
@@ -16,9 +17,9 @@ function Nav({isMobile}) {
   return (
     <nav className="nav sticky-top scrap-bkg">
       <div className="nav-main-row">
-        <a className="nav-logo-link" href="index.html">
+        <Link className="nav-logo-link" to="/">
           <img className="nav-logo" src={logo} alt="Marie Tracy"/>
-        </a>
+        </Link>
         {isMobile &&
           <button onClick={openNav} className="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
             <img className="navbar-toggler-custom-icon"
@@ -29,13 +30,13 @@ function Nav({isMobile}) {
       </div>
       <ul className="nav-link-list p-0 m-0">
         <li className="nav-link-item">
-          <a className="nav-link" href="index.html">Home</a>
+          <Link className="nav-link" to="/">Home</Link>
         </li>
         <li className="nav-link-item">
-          <a className="nav-link" href="index.html#timeline">Timeline</a>
+          <a className="nav-link" href="https://marie-scrapbook.github.io/#timeline">Timeline</a>
         </li>
         <li className="nav-link-item">
-          <a className="nav-link" href="index.html">Scrapbook</a>
+          <Link className="nav-link" to="/scrapbook/page/1">Scrapbook</Link>
         </li>
       </ul>
     </nav>
