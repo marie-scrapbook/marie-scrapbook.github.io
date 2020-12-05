@@ -1,0 +1,10 @@
+.scrapbook-pagination__list {
+  width: fit-content;
+  margin: auto;
+}
+
+.scrapbook-pagination__link {
+  background-color: transparent;
+  border: none;
+  color: #343a40;
+}
