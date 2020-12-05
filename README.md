@@ -1,9 +1,9 @@
 # Marie's Scrapbook
 _A digitized and shareable copy of Roxyette Marie Tracy's scrapbook, detailing her dancing career throughout the 1930s and 1940s._
 
-<br />
+## About this project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Routing is configured using [React Router](https://reactrouter.com).
 
 ## Available Scripts
 
