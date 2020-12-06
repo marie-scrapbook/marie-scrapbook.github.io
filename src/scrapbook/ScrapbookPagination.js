@@ -1,28 +1,39 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './ScrapbookPagination.css';
+import { scrapbookContent } from './content';
+
+/**
+ * SinglePagination
+ * @param {Number} index - 0-indexed number
+ */
+function SinglePagination({
+  index
+}) {
+  index = index+1; // human-friendly indexing
+  let scrapbookPageLink = `/scrapbook/page/${index}`;
+  return (
+    <li class="page-item">
+      <Link className="page-link scrapbook-pagination__link" to={scrapbookPageLink}>{index}</Link>
+    </li>
+  )
+}
 
 /**
  * ScrapbookPagination
+ * @param {Number} curr - human-friendly indexed number corresponding to the current scrapbook page content
  */
-function ScrapbookPagination() {
+function ScrapbookPagination({
+  curr
+}) {
+  const scrapbookPages = scrapbookContent.map((content, index) => (
+    <SinglePagination index={index}/>
+  ));
+
   return (
     <nav className="scrapbook-pagination container" aria-label="Scrapbook page navigation">
       <ul class="pagination scrapbook-pagination__list">
-        <li class="page-item">
-          <a class="page-link scrapbook-pagination__link" href="/" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-            <span class="sr-only">Previous</span>
-          </a>
-        </li>
-        <li class="page-item"><a class="page-link scrapbook-pagination__link" href="/">1</a></li>
-        <li class="page-item"><a class="page-link scrapbook-pagination__link" href="/">2</a></li>
-        <li class="page-item"><a class="page-link scrapbook-pagination__link" href="/">3</a></li>
-        <li class="page-item">
-          <a class="page-link scrapbook-pagination__link" href="/" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-            <span class="sr-only">Next</span>
-          </a>
-        </li>
+        {scrapbookPages}
       </ul>
     </nav>
   );

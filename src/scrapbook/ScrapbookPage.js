@@ -4,8 +4,10 @@ import { scrapbookContent } from './content';
 
 /**
  * ScrapbookPage
+ * @param {Number} index - human-friendly indexed number
  */
 function ScrapbookPage({index}) {
+  index = index - 1; // 0 index the human friendly index
   const {
     audioSrc,
     caption,
