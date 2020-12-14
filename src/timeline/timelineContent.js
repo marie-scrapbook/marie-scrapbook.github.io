@@ -19,12 +19,14 @@ export const timelineContent = [
   {
     "date": "1930-1938",
     "description": "At 8 years old, Marie takes up dance lessons. It's not until high school that she begins to consider it as a career.",
+    "index": 1,
     "imgSrc": millerSisters,
     "title": "Miller Sisters Dance Studio"
   },
   {
     "date": "1937",
     "description": "Marie and her sisters ran a local dance program from their backyard. Students paid 25¢ a class, and the three sisters used the profits to fund dance classes for Marie, violin lessons for Ann, and piano lessons for Patricia.",
+    "index": 4,
     "imgSrc": tracySisters,
     "title": "Tracy Sisters Dance School",
   },
@@ -37,6 +39,7 @@ export const timelineContent = [
   {
     "date": "June 1940",
     "description": "Graduates from Newtown High School in Elmhurst, Queens, while continuing to perform with the Ames Sisters.",
+    "index": 5,
     "imgSrc": graduation,
     "title": "Graduates High School",
   },

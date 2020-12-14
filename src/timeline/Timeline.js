@@ -10,6 +10,7 @@ function Timeline(props) {
   const formattedMoments = props.moments.map((moment, index) => (
     <Moment date={moment.date}
             description={moment.description}
+            index={moment.index}
             imgSrc={moment.imgSrc}
             key={index}
             title={moment.title}/>

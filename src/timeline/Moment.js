@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Moment.css';
 
 /**
@@ -12,8 +13,10 @@ function Moment({
   date,
   description,
   imgSrc,
+  index,
   title
 }) {
+  let scrapbookPageLink = `/scrapbook/page/${index}`;
   return (
     <li className="moment">
       <div className="moment-content">
@@ -21,7 +24,8 @@ function Moment({
         <h3 className="moment-title">{title}</h3>
         { description && <p className="moment-description">{description}</p> }
       </div>
-      { imgSrc && <img className="moment-img" src={`${process.env.PUBLIC_URL}/assets/timeline/${imgSrc}`} alt=""/> }
+      { imgSrc && !index && <div className="moment-img-link"><img className="moment-img" src={`${process.env.PUBLIC_URL}/assets/timeline/${imgSrc}`} alt=""/></div> }
+      { imgSrc && index && <Link className="moment-img-link" to={scrapbookPageLink}><img className="moment-img" src={`${process.env.PUBLIC_URL}/assets/timeline/${imgSrc}`} alt=""/></Link> }
     </li>
   );
 }
