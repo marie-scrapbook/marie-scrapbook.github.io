@@ -61,20 +61,19 @@ export const timelineContent = [
     "chapterIndex": getChapterIndex("graduation"),
     "imgSrc": graduation,
     "title": formattedChapters["graduation"],
-    "navYear": "1940",
   },
   {
     "date": "1940-1941",
     "description": "As several of the Ames sisters leave to get married, the group brings in new girls and expands, now calling themselves the Marvelettes.",
     "imgSrc": marvelettes,
     "title": formattedChapters["marvelettes"],
+    "navYear": "1940",
   },
   {
     "date": "Aug 1941",
     "description": "After years of performing together, Marie declines the offer to join the Marvelettes on tour in South America.",
     "imgSrc": southAmerica,
     "title": '"No" to South America',
-    "navYear": "1941",
   },
   {
     "date": "1942",

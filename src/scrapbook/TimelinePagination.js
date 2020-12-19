@@ -10,13 +10,17 @@ import { timelineContent } from './../constants/timelineContent';
  */
 function LinkPagination({
   index,
-  text
+  text,
+  title
 }) {
   index = index+1; // human-friendly indexing
   let scrapbookPageLink = `/scrapbook/page/${index}`;
   return (
     <li className="timeline-pagination__li">
-      <Link className="timeline-pagination__link" to={scrapbookPageLink}>{text}</Link>
+      <Link className="timeline-pagination__link" to={scrapbookPageLink}>
+        {text}
+        <p className="timeline-pagination__link-title">{title}</p>
+      </Link>
     </li>
   )
 }
@@ -39,7 +43,10 @@ for (let index = 0; index < timelineContent.length; index++) {
   let year = timelineContent[index].navYear;
   if (year) {
     // include chapterIndex data
-    timeline[`${year}`] = {"chapterIndex": timelineContent[index].chapterIndex};
+    timeline[`${year}`] = {
+      "chapterIndex": timelineContent[index].chapterIndex,
+      "title": timelineContent[index].title
+    };
   }
 }
 
@@ -48,7 +55,8 @@ let timelineEls = [];
 for (let year = 1930; year <= 1947; year++) {
   if (timeline[year]) {
     let linkIndex = parseInt(timeline[year].chapterIndex);
-    timelineEls.push(<LinkPagination index={linkIndex} text={year}/>);
+    let title = timeline[year].title;
+    timelineEls.push(<LinkPagination index={linkIndex} text={year} title={title}/>);
   } else {
     timelineEls.push(<DummyPagination/>);
   }

@@ -1,6 +1,7 @@
 .timeline-pagination {
   /* 83px = nav_height */
   height: calc(100vh - 83px);
+  width: 125px;
 }
 
 .timeline-pagination__list {
@@ -8,9 +9,33 @@
   flex-direction: column;
   justify-content: space-between;
   padding-left: 16px;
+  height: 100%;
 }
 
 .timeline-pagination__li {
   font-family: 'Open Sans', sans-serif;
   list-style-type: none;
+}
+
+.timeline-pagination__link:hover,
+.timeline-pagination__link:focus {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.timeline-pagination__li:hover .timeline-pagination__link {
+  font-weight: 600;
+}
+
+/* Show chapter titles on hover */
+.timeline-pagination__li .timeline-pagination__link-title {
+  height: 0;
+  margin: 0;
+  opacity: 0;
+  transition: margin 0.5s ease-in-out 0.2s;
+}
+.timeline-pagination__li:hover .timeline-pagination__link-title {
+  height: 100%;
+  opacity: 1;
+  margin: inherit;
 }
