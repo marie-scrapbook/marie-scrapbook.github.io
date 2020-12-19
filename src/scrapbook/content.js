@@ -16,6 +16,7 @@ export const scrapbookContent = [
   {
     "audioSrc": audio.millerSisters,
     "caption": 'Inscription reads: "Best wishes to Marie from her teachers, Madeline and Paula Miller"',
+    "chapter": "millerSisters",
     "date": "1930",
     "imgSrc": img.millerSisters,
     "title": "Miller Sisters Studio",
@@ -26,16 +27,19 @@ export const scrapbookContent = [
     "caption": '"Miller Sisters Studio of Music and Dance". Marie is second from the left. As one of the tallest in her class, she preformed as a boy as needed.',
     "date": "1938",
     "description": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id imperdiet ante. Nulla at vulputate dui. Suspendisse commodo nunc massa, at gravida metus imperdiet id.',
+    "chapter": "millerSisters",
     "imgSrc": img.millerSistersRecital,
     "title": "Miller Sisters Studio: Junior Recital"
   },
   {
+    "chapter": "millerSisters",
     "imgSrc": img.nedWayburn,
     "title": "Placeholder: Ned Wayburn"
   },
   {
     "audioSrc": audio.tracySisters,
     "caption": '"Tracy Sisters Studio". Marie is center; the tallest. Her sister Ann is second from the left.',
+    "chapter": "tracySisters",
     "date": "1937",
     "imgSrc": img.tracySisters,
     "title": "Tracy Sisters Dance School",
@@ -45,6 +49,7 @@ export const scrapbookContent = [
   {
     "audioSrc": audio.graduation,
     "caption": 'Newtown High School Class of 1940',
+    "chapter": "graduation",
     "date": "June 1940",
     "imgSrc": img.graduation,
     "title": "Graduates High School",

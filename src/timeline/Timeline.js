@@ -7,12 +7,11 @@ import Moment from './Moment';
  * @param {Object[]} moments - Required. Array of objects of `Moment` data.
  */
 function Timeline(props) {
-  const formattedMoments = props.moments.map((moment, index) => (
+  const formattedMoments = props.moments.map((moment) => (
     <Moment date={moment.date}
             description={moment.description}
-            index={moment.index}
+            chapterIndex={moment.chapterIndex}
             imgSrc={moment.imgSrc}
-            key={index}
             title={moment.title}/>
   ));
 

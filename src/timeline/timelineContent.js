@@ -1,3 +1,5 @@
+import { scrapbookContent } from './../scrapbook/content';
+
 const millerSisters = 'miller-sisters-recital.jpg';
 const tracySisters = 'tracy-sister-recital.jpg';
 const amesSisters = 'ames-sisters.jpg';
@@ -11,6 +13,19 @@ const fitModel = 'fit-model.jpg';
 const retirementParty = 'bar-across-the-street.png';
 const wedding = 'wedding-card.jpg';
 
+/**
+ * Get first instance of a key with the matching chapter title property.
+ * This is the entry point fo the chapter.
+ * @param {String} chapterTitle - must correspond to chapter naming in `scrapbookContent`
+ */
+function getChapterIndex(chapterTitle) {
+  for (let index = 0; index < scrapbookContent.length; index++) {
+    if (scrapbookContent[index]["chapter"] === chapterTitle) {
+        return index;
+    }
+  }
+}
+
 export const timelineContent = [
   {
     "date": "Jan 8, 1922",
@@ -19,14 +34,14 @@ export const timelineContent = [
   {
     "date": "1930-1938",
     "description": "At 8 years old, Marie takes up dance lessons. It's not until high school that she begins to consider it as a career.",
-    "index": 1,
+    "chapterIndex": getChapterIndex("millerSisters"),
     "imgSrc": millerSisters,
     "title": "Miller Sisters Dance Studio"
   },
   {
     "date": "1937",
     "description": "Marie and her sisters ran a local dance program from their backyard. Students paid 25¢ a class, and the three sisters used the profits to fund dance classes for Marie, violin lessons for Ann, and piano lessons for Patricia.",
-    "index": 4,
+    "chapterIndex": getChapterIndex("tracySisters"),
     "imgSrc": tracySisters,
     "title": "Tracy Sisters Dance School",
   },
@@ -39,7 +54,7 @@ export const timelineContent = [
   {
     "date": "June 1940",
     "description": "Graduates from Newtown High School in Elmhurst, Queens, while continuing to perform with the Ames Sisters.",
-    "index": 5,
+    "chapterIndex": getChapterIndex("graduation"),
     "imgSrc": graduation,
     "title": "Graduates High School",
   },

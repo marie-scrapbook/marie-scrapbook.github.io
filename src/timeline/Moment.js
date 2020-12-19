@@ -13,10 +13,11 @@ function Moment({
   date,
   description,
   imgSrc,
-  index,
+  chapterIndex,
   title
 }) {
-  let scrapbookPageLink = `/scrapbook/page/${index}`;
+  chapterIndex = chapterIndex + 1; // human friendly index the zero index
+  let scrapbookPageLink = `/scrapbook/page/${chapterIndex}`;
   return (
     <li className="moment">
       <div className="moment-content">
@@ -24,8 +25,8 @@ function Moment({
         <h3 className="moment-title">{title}</h3>
         { description && <p className="moment-description">{description}</p> }
       </div>
-      { imgSrc && !index && <div className="moment-img-link"><img className="moment-img" src={`${process.env.PUBLIC_URL}/assets/timeline/${imgSrc}`} alt=""/></div> }
-      { imgSrc && index && <Link className="moment-img-link" to={scrapbookPageLink}><img className="moment-img" src={`${process.env.PUBLIC_URL}/assets/timeline/${imgSrc}`} alt=""/></Link> }
+      { imgSrc && !chapterIndex && <div className="moment-img-link"><img className="moment-img" src={`${process.env.PUBLIC_URL}/assets/timeline/${imgSrc}`} alt=""/></div> }
+      { imgSrc && chapterIndex && <Link className="moment-img-link" to={scrapbookPageLink}><img className="moment-img" src={`${process.env.PUBLIC_URL}/assets/timeline/${imgSrc}`} alt=""/></Link> }
     </li>
   );
 }

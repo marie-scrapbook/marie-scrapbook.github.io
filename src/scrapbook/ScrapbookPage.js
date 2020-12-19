@@ -7,7 +7,7 @@ import { scrapbookContent } from './content';
  * @param {Number} index - human-friendly indexed number
  */
 function ScrapbookPage({index}) {
-  index = index - 1; // 0 index the human friendly index
+  index = index - 1; // zero index the human friendly index
   const {
     audioSrc,
     caption,
