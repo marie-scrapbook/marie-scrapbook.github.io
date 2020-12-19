@@ -13,7 +13,14 @@
   max-width: 60vw;
 }
 
+.scrapbook__chapter {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+
 .scrapbook__title {
+  font-weight: normal;
+  font-size: 1.5rem;
   margin-bottom: 24px;
 }
 

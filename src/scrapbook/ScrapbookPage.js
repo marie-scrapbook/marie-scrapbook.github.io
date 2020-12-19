@@ -11,12 +11,21 @@ function ScrapbookPage({index}) {
   const {
     audioSrc,
     caption,
+    chapter,
     date,
     description,
     imgSrc,
     title,
     transcription
   } = scrapbookContent[index];
+
+  const formattedChapters = {
+    "millerSisters": "Miller Sisters Dance Studio",
+    "tracySisters": "Tracy Sisters Studio",
+    "graduation": "Graduates High School"
+  }
+
+  let formattedChapter = formattedChapters[chapter];
 
   return (
     <section className="scrapbook container pb-0">
@@ -26,8 +35,8 @@ function ScrapbookPage({index}) {
           { caption && <figcaption className="figure-caption">{caption}</figcaption> }
         </figure>
         <div className="scrapbook__content">
-            <h3 className="scrapbook__date date">{date}</h3>
-            <h3 className="scrapbook__title">{title}</h3>
+          <h3 className="scrapbook__chapter">{formattedChapter}</h3>
+          { title && <h4 className="scrapbook__title">{title}</h4> }
           { audioSrc && <audio controls src={`${process.env.PUBLIC_URL}/assets/audio/${audioSrc}`}></audio> }
           { transcription && <blockquote className="blockquote"><p className="scrapbook__transcription">{transcription}</p></blockquote>}
           { description && <p className="scrapbook__description">{description}</p>}

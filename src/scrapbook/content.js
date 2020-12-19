@@ -19,7 +19,7 @@ export const scrapbookContent = [
     "chapter": "millerSisters",
     "date": "1930",
     "imgSrc": img.millerSisters,
-    "title": "Miller Sisters Studio",
+    "title": "First dancing teachers",
     "transcription": 
       'When I was about 8 years old, I was a sickly kid, so the doctor said "Send her to dancing school to build her up". So I went to dancing school and these were my first teachers: The Miller Sisters. Paula and Madeline. Madeline was the dancing teacher and Paula was the [piano] teacher. Patricia took lessons from Paula. I must have stayed with them until 8th grade at school, because then I opened my own school.'
   },
@@ -29,10 +29,10 @@ export const scrapbookContent = [
     "description": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id imperdiet ante. Nulla at vulputate dui. Suspendisse commodo nunc massa, at gravida metus imperdiet id.',
     "chapter": "millerSisters",
     "imgSrc": img.millerSistersRecital,
-    "title": "Miller Sisters Studio: Junior Recital"
+    "title": "Junior Recital"
   },
   {
-    "chapter": "millerSisters",
+    "chapter": "nedWayburn",
     "imgSrc": img.nedWayburn,
     "title": "Placeholder: Ned Wayburn"
   },
@@ -42,7 +42,7 @@ export const scrapbookContent = [
     "chapter": "tracySisters",
     "date": "1937",
     "imgSrc": img.tracySisters,
-    "title": "Tracy Sisters Dance School",
+    "title": "Backyard Recital",
     "transcription": 
       "Oh, this is my dancing school... My mother made most of the costumes. That's me, the teacher. We were doing one of the fairy tales, as you can see. This is Ann, my sister Ann. Patricia was the pianist. This is our backyard in Elmhurst. Ann tap danced but... she knew everything, she was a pain in the neck so we threw her out. I don't think she liked it. I wound up with like 100. It snowballed. Because it was 25¢ a lesson. When I look back now, it must have hurt the Miller Sisters. This was a time when Shirley Temple was starting to come up. Everyone wanted a Shirley Temple."
   },
@@ -52,7 +52,6 @@ export const scrapbookContent = [
     "chapter": "graduation",
     "date": "June 1940",
     "imgSrc": img.graduation,
-    "title": "Graduates High School",
     "transcription": 
       "During high school I was doing my homework at night while we were working the shows. I had my own dancing school on Saturdays, and then we would get gigs. The Masons would have a big banquet and they'd hire a couple of acts, or Jewish weddings would have a couple of acts..."
   },
