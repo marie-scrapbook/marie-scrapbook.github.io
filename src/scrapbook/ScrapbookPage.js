@@ -1,6 +1,7 @@
 import React from 'react';
 import './ScrapbookPage.css';
 import { scrapbookContent } from './../constants/scrapbookContent';
+import { formattedChapters } from './../constants/formattedChapters';
 
 /**
  * ScrapbookPage
@@ -18,12 +19,6 @@ function ScrapbookPage({index}) {
     title,
     transcription
   } = scrapbookContent[index];
-
-  const formattedChapters = {
-    "millerSisters": "Miller Sisters Dance Studio",
-    "tracySisters": "Tracy Sisters Studio",
-    "graduation": "Graduates High School"
-  }
 
   let formattedChapter = formattedChapters[chapter];
 

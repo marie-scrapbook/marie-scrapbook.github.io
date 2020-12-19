@@ -1,4 +1,5 @@
 import { scrapbookContent } from './scrapbookContent';
+import { formattedChapters } from './formattedChapters';
 
 const millerSisters = 'miller-sisters-recital.jpg';
 const tracySisters = 'tracy-sister-recital.jpg';
@@ -36,33 +37,33 @@ export const timelineContent = [
     "description": "At 8 years old, Marie takes up dance lessons. It's not until high school that she begins to consider it as a career.",
     "chapterIndex": getChapterIndex("millerSisters"),
     "imgSrc": millerSisters,
-    "title": "Miller Sisters Dance Studio"
+    "title": formattedChapters["millerSisters"]
   },
   {
     "date": "1937",
     "description": "Marie and her sisters ran a local dance program from their backyard. Students paid 25¢ a class, and the three sisters used the profits to fund dance classes for Marie, violin lessons for Ann, and piano lessons for Patricia.",
     "chapterIndex": getChapterIndex("tracySisters"),
     "imgSrc": tracySisters,
-    "title": "Tracy Sisters Dance School",
+    "title": formattedChapters["tracySisters"],
   },
   {
     "date": "Mar 1939",
     "description": "Took over as the fifth Ames Sister after one of the real sisters became pregnant. At 17, toured from New England to Chicago in this singing, dancing, and acrobatic act.",
     "imgSrc": amesSisters,
-    "title": "The Ames Sisters",
+    "title": formattedChapters["amesSisters"],
   },
   {
     "date": "June 1940",
     "description": "Graduates from Newtown High School in Elmhurst, Queens, while continuing to perform with the Ames Sisters.",
     "chapterIndex": getChapterIndex("graduation"),
     "imgSrc": graduation,
-    "title": "Graduates High School",
+    "title": formattedChapters["graduation"],
   },
   {
     "date": "1940-1941",
     "description": "As several of the Ames sisters leave to get married, the group brings in new girls and expands, now calling themselves the Marvelettes.",
     "imgSrc": marvelettes,
-    "title": "The Marvelettes",
+    "title": formattedChapters["marvelettes"],
   },
   {
     "date": "Aug 1941",
@@ -74,7 +75,7 @@ export const timelineContent = [
     "date": "1942",
     "description": 'Marie auditions at both the Roxy and Radio City Music Hall, the first glimpse at the opportunity to fulfill her dream of being "one or the other"– a Rockette or Roxyette.',
     "imgSrc": oneOrTheOther,
-    "title": '"One or the other',
+    "title": '"One or the other"',
   },
   {
     "date": "Feb 1942",
@@ -98,12 +99,12 @@ export const timelineContent = [
     "date": "Oct 1946",
     "description": "Marie falls ill with mastoiditis– a serious complication from an ear infection. The infection forces her into retirement. \nAlthough it may have felt like an early retirement, few lasted as long as Marie did at the Roxy, due to the rigorous standards for the dancers as well as societal pressure on the girls.",
     "imgSrc": retirementParty,
-    "title": "Early Retirement",
+    "title": formattedChapters["retirement"],
   },
   {
     "date": "Sept 1947",
     "description": "With Joe's graduation from St. John's Law School, the happy couple were free to marry. Marie Tracy becomes Marie Irwin on September 13, 1947.",
     "imgSrc": wedding,
-    "title": "Wedding Bells",
+    "title": formattedChapters["wedding"],
   },
 ];
