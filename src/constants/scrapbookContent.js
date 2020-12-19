@@ -24,7 +24,7 @@ export const scrapbookContent = [
       'When I was about 8 years old, I was a sickly kid, so the doctor said "Send her to dancing school to build her up". So I went to dancing school and these were my first teachers: The Miller Sisters. Paula and Madeline. Madeline was the dancing teacher and Paula was the [piano] teacher. Patricia took lessons from Paula. I must have stayed with them until 8th grade at school, because then I opened my own school.'
   },
   {
-    "caption": '"Miller Sisters Studio of Music and Dance". Marie is second from the left. As one of the tallest in her class, she preformed as a boy as needed.',
+    "caption": '"Miller Sisters Studio of Music and Dance". Marie is second from the left.',
     "date": "1938",
     "description": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id imperdiet ante. Nulla at vulputate dui. Suspendisse commodo nunc massa, at gravida metus imperdiet id.',
     "chapter": "millerSisters",
@@ -38,7 +38,7 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.tracySisters,
-    "caption": '"Tracy Sisters Studio". Marie is center; the tallest. Her sister Ann is second from the left.',
+    "caption": 'Marie is center; the tallest. Her sister Ann is second from the left.',
     "chapter": "tracySisters",
     "date": "1937",
     "imgSrc": img.tracySisters,
@@ -48,10 +48,10 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.graduation,
-    "caption": 'Newtown High School Class of 1940',
     "chapter": "graduation",
     "date": "June 1940",
     "imgSrc": img.graduation,
+    "title": "Newtown High School Class of 1940",
     "transcription": 
       "During high school I was doing my homework at night while we were working the shows. I had my own dancing school on Saturdays, and then we would get gigs. The Masons would have a big banquet and they'd hire a couple of acts, or Jewish weddings would have a couple of acts..."
   },

@@ -24,11 +24,11 @@ function ScrapbookPage({index}) {
   let formattedChapter = formattedChapters[chapter];
 
   return (
-    <section className="scrapbook container pb-0">
+    <section className="scrapbook pt-0 pb-0">
       <div className="scrapbook__container">
         <figure className="scrapbook__figure figure">
           <img className="scrapbook__figure-img figure-img img-fluid" src={`${process.env.PUBLIC_URL}/assets/${imgSrc}`} alt=""/>
-          { caption && <figcaption className="figure-caption">{caption}</figcaption> }
+          { caption && <figcaption className="scrapbook__figure-caption figure-caption">{caption}</figcaption> }
         </figure>
         <div className="scrapbook__content">
           <h3 className="scrapbook__chapter">{formattedChapter}</h3>
@@ -36,9 +36,9 @@ function ScrapbookPage({index}) {
           { audioSrc && <audio controls src={`${process.env.PUBLIC_URL}/assets/audio/${audioSrc}`}></audio> }
           { transcription && <blockquote className="blockquote"><p className="scrapbook__transcription">{transcription}</p></blockquote>}
           { description && <p className="scrapbook__description">{description}</p>}
+          <ScrapbookPagination index={index} />
         </div>
       </div>
-      <ScrapbookPagination index={index} />
     </section>
   );
 }

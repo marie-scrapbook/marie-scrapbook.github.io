@@ -1,16 +1,46 @@
+.scrapbook {
+  display: flex;
+  flex-direction: column;
+  /* 83px = nav_height */
+  height: calc(100vh - 83px);
+  overflow: hidden;
+}
+
 .scrapbook__container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  flex-grow: 1;
+}
+
+.scrapbook__figure {
+  width: 70%;
+  margin-top: 12px;
+  background-color: white;
 }
 
 .scrapbook__figure-img {
-  max-height: 75vh;
+  display: block;
+  height: 100%;
+  margin: auto;
+  padding: 12px;
+}
+
+.scrapbook__figure-caption {
+  position: relative;
+  background-color: lavender;
+  width: 220px;
+  left: 90%;
+  bottom: 20%;
+  padding: 12px;
+  box-shadow: 3px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  color: #343a40;
 }
 
 .scrapbook__content {
   margin-left: 32px;
-  max-width: 60vw;
+  margin-top: 64px;
+  width: 30%;
 }
 
 .scrapbook__chapter {

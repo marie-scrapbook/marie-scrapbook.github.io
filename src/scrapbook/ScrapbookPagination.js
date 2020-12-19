@@ -16,7 +16,7 @@ function ScrapbookPagination({
         prevLink = prevIndex > 0 ? `/scrapbook/page/${prevIndex}` : '';
 
   return (
-    <nav className="scrapbook-pagination container" aria-label="Scrapbook page navigation">
+    <nav className="scrapbook-pagination" aria-label="Scrapbook page navigation">
       <ul className="pagination scrapbook-pagination__list">
         <li className="page-item">
           {prevLink && <Link className="page-link scrapbook-pagination__link" to={prevLink}>« Prev</Link>}

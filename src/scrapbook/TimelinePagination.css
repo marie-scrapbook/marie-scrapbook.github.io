@@ -2,6 +2,8 @@
   /* 83px = nav_height */
   height: calc(100vh - 83px);
   width: 125px;
+  flex-shrink: 0;
+  margin-right: 8px;
 }
 
 .timeline-pagination__list {
@@ -25,6 +27,11 @@
 
 .timeline-pagination__li:hover .timeline-pagination__link {
   font-weight: 600;
+}
+
+.timeline-pagination__link-title {
+  font-size: 0.8rem;
+  font-style: italic;
 }
 
 /* Show chapter titles on hover */
