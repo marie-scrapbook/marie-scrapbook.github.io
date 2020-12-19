@@ -34,7 +34,7 @@ function BasePage() {
       {/* Scrapbook */}
       <Route path="/scrapbook/page/:index" render={({ match }) => (
         <div class="d-flex">
-          <TimelinePagination />
+          {!isMobile && <TimelinePagination />}
           <ScrapbookPage index={match.params.index} />
         </div>
       )}/>

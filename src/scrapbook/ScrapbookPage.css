@@ -1,47 +1,92 @@
-.scrapbook {
-  display: flex;
-  flex-direction: column;
-  /* 83px = nav_height */
-  height: calc(100vh - 83px);
-  width: 100%;
-  overflow: hidden;
+/* Desktop Screens */
+@media (min-width: 700px) {
+  .scrapbook {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /* 83px = nav_height */
+    height: calc(100vh - 83px);
+    overflow: hidden;
+  }
 }
 
-.scrapbook__container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  flex-grow: 1;
+/* Desktop Screens */
+@media (min-width: 700px) {
+  .scrapbook__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+  }
 }
 
 .scrapbook__figure {
-  width: 70%;
   margin-top: 12px;
   background-color: white;
 }
 
+/* Desktop Screens */
+@media (min-width: 700px) {
+  .scrapbook__figure {
+    width: 70%;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 700px) {
+  .scrapbook__figure {
+    padding-bottom: 12px;
+  }
+}
+
 .scrapbook__figure-img {
-  display: block;
-  height: 100%;
-  margin: auto;
   padding: 12px;
 }
 
-.scrapbook__figure-caption {
-  position: relative;
-  background-color: lavender;
-  width: 220px;
-  left: 90%;
-  bottom: 20%;
-  padding: 12px;
-  box-shadow: 3px 4px 6px 0px rgba(0, 0, 0, 0.2);
-  color: #343a40;
+/* Desktop Screens */
+@media (min-width: 700px) {
+  .scrapbook__figure-img {
+    display: block;
+    height: 100%;
+    margin: auto;
+  }
 }
 
-.scrapbook__content {
-  margin-left: 32px;
-  margin-top: 64px;
-  width: 30%;
+/* Desktop Screens */
+@media (min-width: 700px) {
+  .scrapbook__figure-caption {
+    position: relative;
+    background-color: lavender;
+    width: 220px;
+    left: 90%;
+    bottom: 20%;
+    padding: 12px;
+    box-shadow: 3px 4px 6px 0px rgba(0, 0, 0, 0.2);
+    color: #343a40;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 700px) {
+  .scrapbook__figure-caption {
+    margin: 0 16px;
+  }
+}
+
+/* Desktop Screens */
+@media (min-width: 700px) {
+  .scrapbook__content {
+    margin-left: 32px;
+    margin-top: 64px;
+    width: 30%;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 700px) {
+  .scrapbook__content {
+    margin: 0 16px;
+  }
 }
 
 .scrapbook__chapter {

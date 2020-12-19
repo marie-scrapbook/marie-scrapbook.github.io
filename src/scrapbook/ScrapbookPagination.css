@@ -1,3 +1,7 @@
+.scrapbook-pagination {
+  margin-bottom: 24px;
+}
+
 .scrapbook-pagination__list {
   width: fit-content;
   margin: auto;
