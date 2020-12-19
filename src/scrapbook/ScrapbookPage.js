@@ -2,13 +2,14 @@ import React from 'react';
 import './ScrapbookPage.css';
 import { scrapbookContent } from './../constants/scrapbookContent';
 import { formattedChapters } from './../constants/formattedChapters';
+import ScrapbookPagination from './ScrapbookPagination';
 
 /**
  * ScrapbookPage
  * @param {Number} index - human-friendly indexed number
  */
 function ScrapbookPage({index}) {
-  index = index - 1; // zero index the human friendly index
+  const realIndex = index - 1; // zero index the human friendly index
   const {
     audioSrc,
     caption,
@@ -18,7 +19,7 @@ function ScrapbookPage({index}) {
     imgSrc,
     title,
     transcription
-  } = scrapbookContent[index];
+  } = scrapbookContent[realIndex];
 
   let formattedChapter = formattedChapters[chapter];
 
@@ -37,6 +38,7 @@ function ScrapbookPage({index}) {
           { description && <p className="scrapbook__description">{description}</p>}
         </div>
       </div>
+      <ScrapbookPagination index={index} />
     </section>
   );
 }

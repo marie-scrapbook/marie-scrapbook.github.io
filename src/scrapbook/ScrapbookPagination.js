@@ -4,36 +4,26 @@ import './ScrapbookPagination.css';
 import { scrapbookContent } from './../constants/scrapbookContent';
 
 /**
- * SinglePagination
- * @param {Number} index - 0-indexed number
- */
-function SinglePagination({
-  index
-}) {
-  index = index+1; // human-friendly indexing
-  let scrapbookPageLink = `/scrapbook/page/${index}`;
-  return (
-    <li className="page-item">
-      <Link className="page-link scrapbook-pagination__link" to={scrapbookPageLink}>{index}</Link>
-    </li>
-  )
-}
-
-/**
  * ScrapbookPagination
- * @param {Number} curr - human-friendly indexed number corresponding to the current scrapbook page content
+ * @param {Number} index - human-friendly indexed number corresponding to the current scrapbook page content
  */
 function ScrapbookPagination({
-  curr
+  index
 }) {
-  const scrapbookPages = scrapbookContent.map((content, index) => (
-    <SinglePagination index={index}/>
-  ));
+  const nextIndex = parseInt(index) + 1,
+        nextLink = nextIndex <= scrapbookContent.length ? `/scrapbook/page/${nextIndex}` : '',
+        prevIndex = parseInt(index) - 1,
+        prevLink = prevIndex > 0 ? `/scrapbook/page/${prevIndex}` : '';
 
   return (
     <nav className="scrapbook-pagination container" aria-label="Scrapbook page navigation">
       <ul className="pagination scrapbook-pagination__list">
-        {scrapbookPages}
+        <li className="page-item">
+          {prevLink && <Link className="page-link scrapbook-pagination__link" to={prevLink}>« Prev</Link>}
+        </li>
+        <li className="page-item">
+          {nextLink && <Link className="page-link scrapbook-pagination__link" to={nextLink}>Next »</Link>}
+        </li>
       </ul>
     </nav>
   );
