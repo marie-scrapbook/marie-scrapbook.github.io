@@ -1,0 +1,16 @@
+.timeline-pagination {
+  /* 83px = nav_height */
+  height: calc(100vh - 83px);
+}
+
+.timeline-pagination__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 16px;
+}
+
+.timeline-pagination__li {
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+}

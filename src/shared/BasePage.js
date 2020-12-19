@@ -9,7 +9,7 @@ import ScrapbookPage from './../scrapbook/ScrapbookPage';
 import Timeline from './../timeline/Timeline';
 import Welcome from './../home/Welcome';
 import { timelineContent } from './../constants/timelineContent';
-import ScrapbookPagination from '../scrapbook/ScrapbookPagination';
+import TimelinePagination from '../scrapbook/TimelinePagination';
 
 function BasePage() {
   const isMobile = window.innerWidth <= 700;
@@ -33,10 +33,10 @@ function BasePage() {
 
       {/* Scrapbook */}
       <Route path="/scrapbook/page/:index" render={({ match }) => (
-        <>
+        <div class="d-flex">
+          <TimelinePagination />
           <ScrapbookPage index={match.params.index} />
-          <ScrapbookPagination current={match.params.index}/>
-        </>
+        </div>
       )}/>
     </Router>
   );

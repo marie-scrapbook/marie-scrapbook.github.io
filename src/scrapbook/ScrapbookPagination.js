@@ -13,7 +13,7 @@ function SinglePagination({
   index = index+1; // human-friendly indexing
   let scrapbookPageLink = `/scrapbook/page/${index}`;
   return (
-    <li class="page-item">
+    <li className="page-item">
       <Link className="page-link scrapbook-pagination__link" to={scrapbookPageLink}>{index}</Link>
     </li>
   )
@@ -32,7 +32,7 @@ function ScrapbookPagination({
 
   return (
     <nav className="scrapbook-pagination container" aria-label="Scrapbook page navigation">
-      <ul class="pagination scrapbook-pagination__list">
+      <ul className="pagination scrapbook-pagination__list">
         {scrapbookPages}
       </ul>
     </nav>

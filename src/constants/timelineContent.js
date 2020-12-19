@@ -37,7 +37,8 @@ export const timelineContent = [
     "description": "At 8 years old, Marie takes up dance lessons. It's not until high school that she begins to consider it as a career.",
     "chapterIndex": getChapterIndex("millerSisters"),
     "imgSrc": millerSisters,
-    "title": formattedChapters["millerSisters"]
+    "title": formattedChapters["millerSisters"],
+    "navYear": "1930",
   },
   {
     "date": "1937",
@@ -45,12 +46,14 @@ export const timelineContent = [
     "chapterIndex": getChapterIndex("tracySisters"),
     "imgSrc": tracySisters,
     "title": formattedChapters["tracySisters"],
+    "navYear": "1937",
   },
   {
     "date": "Mar 1939",
     "description": "Took over as the fifth Ames Sister after one of the real sisters became pregnant. At 17, toured from New England to Chicago in this singing, dancing, and acrobatic act.",
     "imgSrc": amesSisters,
     "title": formattedChapters["amesSisters"],
+    "navYear": "1939",
   },
   {
     "date": "June 1940",
@@ -58,6 +61,7 @@ export const timelineContent = [
     "chapterIndex": getChapterIndex("graduation"),
     "imgSrc": graduation,
     "title": formattedChapters["graduation"],
+    "navYear": "1940",
   },
   {
     "date": "1940-1941",
@@ -70,6 +74,7 @@ export const timelineContent = [
     "description": "After years of performing together, Marie declines the offer to join the Marvelettes on tour in South America.",
     "imgSrc": southAmerica,
     "title": '"No" to South America',
+    "navYear": "1941",
   },
   {
     "date": "1942",
@@ -88,6 +93,7 @@ export const timelineContent = [
     "description": "As a full-time dancer, Marie performed twice-a-day, seven days a week.",
     "imgSrc": roxyette,
     "title": "Roxyette",
+    "navYear": "1942",
   },
   {
     "date": "Sept 1945",
@@ -100,11 +106,13 @@ export const timelineContent = [
     "description": "Marie falls ill with mastoiditis– a serious complication from an ear infection. The infection forces her into retirement. \nAlthough it may have felt like an early retirement, few lasted as long as Marie did at the Roxy, due to the rigorous standards for the dancers as well as societal pressure on the girls.",
     "imgSrc": retirementParty,
     "title": formattedChapters["retirement"],
+    "navYear": "1946",
   },
   {
     "date": "Sept 1947",
     "description": "With Joe's graduation from St. John's Law School, the happy couple were free to marry. Marie Tracy becomes Marie Irwin on September 13, 1947.",
     "imgSrc": wedding,
     "title": formattedChapters["wedding"],
+    "navYear": "1947",
   },
 ];
