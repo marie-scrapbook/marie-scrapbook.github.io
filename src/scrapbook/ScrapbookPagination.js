@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './ScrapbookPagination.css';
-import { scrapbookContent } from './content';
+import { scrapbookContent } from './../constants/scrapbookContent';
 
 /**
  * SinglePagination

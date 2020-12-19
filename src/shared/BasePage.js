@@ -8,7 +8,7 @@ import Nav from './Nav';
 import ScrapbookPage from './../scrapbook/ScrapbookPage';
 import Timeline from './../timeline/Timeline';
 import Welcome from './../home/Welcome';
-import { timelineContent } from './../timeline/timelineContent';
+import { timelineContent } from './../constants/timelineContent';
 import ScrapbookPagination from '../scrapbook/ScrapbookPagination';
 
 function BasePage() {

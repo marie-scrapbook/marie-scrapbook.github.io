@@ -1,6 +1,6 @@
 import React from 'react';
 import './ScrapbookPage.css';
-import { scrapbookContent } from './content';
+import { scrapbookContent } from './../constants/scrapbookContent';
 
 /**
  * ScrapbookPage

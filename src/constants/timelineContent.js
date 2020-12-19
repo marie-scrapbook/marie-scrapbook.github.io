@@ -1,4 +1,4 @@
-import { scrapbookContent } from './../scrapbook/content';
+import { scrapbookContent } from './scrapbookContent';
 
 const millerSisters = 'miller-sisters-recital.jpg';
 const tracySisters = 'tracy-sister-recital.jpg';
