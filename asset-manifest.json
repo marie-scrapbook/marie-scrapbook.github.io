@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.12cf976e.chunk.css",
-    "main.js": "/static/js/main.a8cd9495.chunk.js",
-    "main.js.map": "/static/js/main.a8cd9495.chunk.js.map",
+    "main.css": "/static/css/main.970bc49e.chunk.css",
+    "main.js": "/static/js/main.dcecca2f.chunk.js",
+    "main.js.map": "/static/js/main.dcecca2f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bb5f3b43.js",
     "runtime-main.js.map": "/static/js/runtime-main.bb5f3b43.js.map",
     "static/js/2.d75c8572.chunk.js": "/static/js/2.d75c8572.chunk.js",
     "static/js/2.d75c8572.chunk.js.map": "/static/js/2.d75c8572.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.12cf976e.chunk.css.map": "/static/css/main.12cf976e.chunk.css.map",
+    "static/css/main.970bc49e.chunk.css.map": "/static/css/main.970bc49e.chunk.css.map",
     "static/js/2.d75c8572.chunk.js.LICENSE.txt": "/static/js/2.d75c8572.chunk.js.LICENSE.txt",
     "static/media/roxy.57bbe52a.png": "/static/media/roxy.57bbe52a.png",
     "static/media/signature.0fb58e51.png": "/static/media/signature.0fb58e51.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.bb5f3b43.js",
     "static/js/2.d75c8572.chunk.js",
-    "static/css/main.12cf976e.chunk.css",
-    "static/js/main.a8cd9495.chunk.js"
+    "static/css/main.970bc49e.chunk.css",
+    "static/js/main.dcecca2f.chunk.js"
   ]
 }
