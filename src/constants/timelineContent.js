@@ -41,12 +41,12 @@ export const timelineContent = [
     "navYear": "1930",
   },
   {
-    "date": "1937",
+    "date": "1935",
     "description": "Marie and her sisters ran a local dance program from their backyard. Students paid 25¢ a class, and the three sisters used the profits to fund dance classes for Marie, violin lessons for Ann, and piano lessons for Patricia.",
     "chapterIndex": getChapterIndex("tracySisters"),
     "imgSrc": tracySisters,
     "title": formattedChapters["tracySisters"],
-    "navYear": "1937",
+    "navYear": "1935",
   },
   {
     "chapterIndex": getChapterIndex("amesSisters"),

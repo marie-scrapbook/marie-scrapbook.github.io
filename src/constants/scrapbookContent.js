@@ -8,12 +8,14 @@ const img = {
   'retirement': 'timeline/bar-across-the-street.png',
   'roxyette': 'scrapbook/ColorSpread.jpg',
   'tracySisters': 'timeline/tracy-sister-recital.jpg',
+  'tracySistersProgram': 'scrapbook/tracy-sisters-program.jpg',
   'weddingCard': 'timeline/wedding-card.jpg'
 }
 
 const audio = {
   'millerSisters': 'miller-sisters.mp3',
   'tracySisters': 'tracy-sisters.mp3',
+  'tracySistersProgram': 'tracy-sisters-program.mp3',
   'graduation': 'during-high-school.mp3'
 }
 
@@ -45,11 +47,20 @@ export const scrapbookContent = [
     "audioSrc": audio.tracySisters,
     "caption": 'Marie is center; the tallest. Her sister Ann is second from the left.',
     "chapter": "tracySisters",
-    "date": "1937",
+    "date": "1935",
     "imgSrc": img.tracySisters,
     "title": "Backyard Recital",
     "transcription": 
-      "Oh, this is my dancing school... My mother made most of the costumes. That's me, the teacher. We were doing one of the fairy tales, as you can see. This is Ann, my sister Ann. Patricia was the pianist. This is our backyard in Elmhurst. Ann tap danced but... she knew everything, she was a pain in the neck so we threw her out. I don't think she liked it. I wound up with like 100. It snowballed. Because it was 25¢ a lesson. When I look back now, it must have hurt the Miller Sisters. This was a time when Shirley Temple was starting to come up. Everyone wanted a Shirley Temple."
+      "Oh, this is my dancing school... My mother made most of the costumes. That's me, the teacher. We were doing one of the fairy tales, as you can see. This is Ann, my sister Ann. Patricia was the pianist. This is our backyard in Elmhurst. I wound up with like 100. It snowballed. Because it was 25¢ a lesson. When I look back now, it must have hurt the Miller Sisters. This was a time when Shirley Temple was starting to come up. Everyone wanted a Shirley Temple."
+  },
+  {
+    "audioSrc": audio.tracySistersProgram,
+    "chapter": "tracySisters",
+    "date": "1935",
+    "imgSrc": img.tracySistersProgram,
+    "title": "First Spring Recital",
+    "transcription": 
+      "And this is the program... First recital: Patricia and Marie Tracy at 7:30PM. We rented a hall. We did baby acrobatics, we did waltz clog (that's tap dancing). Ann tap danced but... she knew everything, she was a pain in the neck so we threw her out. I don't think she liked it."
   },
   {
     "chapter": "amesSisters",
