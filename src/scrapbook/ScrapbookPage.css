@@ -17,6 +17,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     flex-grow: 1;
+    overflow: hidden;
   }
 }
 
@@ -41,6 +42,7 @@
 
 .scrapbook__figure-img {
   padding: 12px;
+  object-fit: contain;
 }
 
 /* Desktop Screens */

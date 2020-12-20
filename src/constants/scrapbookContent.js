@@ -6,7 +6,7 @@ const img = {
   'millerSistersRecital': 'timeline/miller-sisters-recital.jpg',
   'nedWayburn': 'scrapbook/ned-wayburn.jpg',
   'retirement': 'timeline/bar-across-the-street.png',
-  'roxyette': 'timeline/roxyette-ball.png',
+  'roxyette': 'scrapbook/ColorSpread.jpg',
   'tracySisters': 'timeline/tracy-sister-recital.jpg',
   'weddingCard': 'timeline/wedding-card.jpg'
 }
