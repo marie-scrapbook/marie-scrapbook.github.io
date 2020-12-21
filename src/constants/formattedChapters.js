@@ -6,8 +6,9 @@ export const formattedChapters = {
   "marvelettes": "The Marvelettes",
   "nedWayburn": "Ned Wayburn's School",
   "pathToTheRoxy": "Path to the Roxy",
+  "training": "First Stop: DC",
   "roxyette": "Life at the Roxy",
-  "fitModel": "Life at the Roxy",
+  "fitModel": "Show Girl",
   "retirement": "Early Retirement",
   "wedding": "Wedding Bells"
 }

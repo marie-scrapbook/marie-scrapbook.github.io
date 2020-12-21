@@ -86,11 +86,12 @@ export const timelineContent = [
     "title": '"One or the other"',
   },
   {
-    "chapterIndex": getChapterIndex("roxyette"),
+    "chapterIndex": getChapterIndex("training"),
     "date": "Feb 1942",
     "description": "A month after her audition, a spot opens up at the Roxy. Marie lands the gig and fulfills her childhood dream.",
     "imgSrc": showUpAtRoxy,
     "title": "Show up at the Roxy",
+    "navYear": "1942",
   },
   {
     "chapterIndex": getChapterIndex("roxyette"),
@@ -98,10 +99,9 @@ export const timelineContent = [
     "description": "As a full-time dancer, Marie performed twice-a-day, seven days a week.",
     "imgSrc": roxyette,
     "title": "Roxyette",
-    "navYear": "1942",
   },
   {
-    "chapterIndex": getChapterIndex("roxyette"),
+    "chapterIndex": getChapterIndex("fitModel"),
     "date": "Sept 1945",
     "description": "In addition to rehersals and performances, Marie also acts the official fit model for the Roxy costumes. She joins the IATSE Labor Union as part of her expanded role.",
     "imgSrc": fitModel,
