@@ -12,7 +12,7 @@ const showUpAtRoxy = 'thru-door.png';
 const roxyette = 'roxyette-ball.png';
 const fitModel = 'fit-model.jpg';
 const retirementParty = 'bar-across-the-street.png';
-const wedding = 'wedding-card.jpg';
+const wedding = 'cropped-wedding.jpeg';
 
 /**
  * Get first instance of a key with the matching chapter title property.
