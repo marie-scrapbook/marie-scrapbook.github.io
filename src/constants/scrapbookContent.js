@@ -1,20 +1,23 @@
 const img = {
   'adler': 'scrapbook/adler.jpeg',
   'amesSisters': 'timeline/ames-sisters.jpg',
+  'beachheadBelle': 'scrapbook/beachhead-belle.jpg',
   'bicycles': 'scrapbook/bicycles.jpeg',
-  'dcLineUp': 'scrapbook/washington-placeholder.png',
+  'dcLineUp': 'scrapbook/earle-dances.png',
   'graduation': 'timeline/graduation.jpeg',
   'earleTheatre': 'scrapbook/earlePage.png',
   'engagementParty': 'scrapbook/BarAcrossStreet.jpg',
   'marvelettes': 'scrapbook/six-marvelettes.jpg',
   'millerSisters': 'scrapbook/miller-sisters.png',
-  'millerSistersJuniorRecital': 'timeline/miller-sisters-recital.jpg',
+  'millerSistersJuniorRecital': 'scrapbook/junior-recital.png',
   'millerSistersLastRecital': 'scrapbook/miller-sisters-last-recital.jpg',
   'nedWayburn': 'scrapbook/ned-wayburn.jpg',
+  'photoshoot': 'scrapbook/photoshoot.png',
   'purpleHeart': 'scrapbook/purpleHeart.png',
   'retirement': 'timeline/bar-across-the-street.png',
   'roxyMemories1': 'scrapbook/roxyMemories1.jpg',
   'roxyette': 'scrapbook/ColorSpread.jpg',
+  'roxyetteCloseUp': 'scrapbook/ColorSpread003.jpg',
   'shorePatrol': 'scrapbook/presBall.jpg',
   'shoeCapt': 'scrapbook/shoeCapt.jpeg',
   'showGirlContract': 'scrapbook/showGirlContract.jpg',
@@ -48,7 +51,7 @@ export const scrapbookContent = [
       'When I was about 8 years old, I was a sickly kid, so the doctor said "Send her to dancing school to build her up". So I went to dancing school and these were my first teachers: The Miller Sisters. Paula and Madeline. Madeline was the dancing teacher and Paula was the [piano] teacher. Patricia took lessons from Paula. I must have stayed with them until 8th grade at school, because then I opened my own school.'
   },
   {
-    "caption": '"Miller Sisters Studio of Music and Dance". Marie is second from the left.',
+    "caption": 'Clockwise from left: Marie is second from the right ("Me"), top row second from the right, and second from the left (performing as a boy)',
     "date": "1938",
     "description": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id imperdiet ante. Nulla at vulputate dui. Suspendisse commodo nunc massa, at gravida metus imperdiet id.',
     "chapter": "millerSisters",
@@ -187,10 +190,38 @@ export const scrapbookContent = [
   },
   {
     "chapter": "roxyette",
-    "date": "1942",
+    "date": "1943",
     "imgSrc": img.roxyette,
     "title": "On the ball",
     // "transcription": "36 I think the line was. And then, Christmastime, they'd hire more. There were more on the line. // 'Night of Stars', that's the one. You've got twenty thousand MSG to see the tenth annual... United Jewish Appeal. Danny K, Henny,.. Bill Robinson. That was a great night. Yeah, we did that a couple of years.",
+    "transcription": 
+      "[0:39] This was in the middle of the NY News, the Sunday News. Now that'll tell ya where each girl comes from. See, Marie Tracy, Elmhurst, New York, Long Island, Queens. That's me right there. Fourth.",
+  },
+  {
+    "chapter": "roxyette",
+    "date": "1943",
+    "imgSrc": img.roxyetteCloseUp,
+    "title": "On the ball",
+    "transcription":
+      "That was a tough number. Those balls were made of plaster; heavy, you couldn't lift them up. You'd have to roll them and you had to work mostly on your heels– no– your toes to roll them and then you stop them on your heels, you know, you'd balance back and forth. And we'd weave in formation, circles, squares, rounds. That was a tough number. We were famous for that one, Rockettes were famous for their kicks. We were famous for bicycles, the roller skates, we did a number on roller skates... we did more tricks than Music Hall. We were more agile.",
+  },
+  {
+    "chapter": "roxyette",
+    "date": "1946",
+    // "description":
+    //   'Caption reads: "Look, but brother thats all. Says John Shea SP(G)3rd class of Ordinance, when referring to the lovely, back home in Elmhurst, Long Island, N. Y. The name is Marie Tracy (No relation to the comic strip detective)"',
+    "imgSrc": img.beachheadBelle,
+    "title": "Look but brother, that's all",
+    "transcription":
+      "[0:42] This is when we had a little newspaper we put out for the soldiers and sailors and every once in a while they'd put in a pinup girl and I was chosen one time to be a pinup girl. And we sent it in that magazine. So I was in somebody's locker. ([0:45] Ned: 'So all the girls did these?') No, well, the war was over right after this. No, I think only like four of us.",
+  },
+  {
+    "chapter": "roxyette",
+    "date": "1946",
+    "imgSrc": img.photoshoot,
+    "title": "Working with Murray Korman",
+    "transcription":
+      "[0:43] When they sent me for that pinup picture, this was a very famous photographer. I remember, I had to go down in a cab, they put me in a cab and sent me down there. Murray Korman, He was very famous. I just went where they sent me. (Ned: 'That's quite a bracelet you have on there.') Oh yeah, it was all fabric."
   },
   {
     "chapter": "fitModel",
@@ -199,6 +230,20 @@ export const scrapbookContent = [
     "title": "$10 raise",
     "transcription":
       "1946? That's when they made me a showgirl. Instead of dancing, one of the show girls was missing. Show girls are all 6 footers and they parade around in costumes. $85 a week... wow, that was a lot of money. That's when they built the costumes on me for the sample to see if it would work. They'd send me out front to the chairman to see if he likes it. If he'd approve them, and then they'd make 36 of 'em.",
+  },
+  {
+    "chapter": "retirement",
+    "date": "1946",
+    "imgSrc": img.getWellSoon,
+    "transcription":
+      "Is this when I was sick? Yeah, this is when I got sick. That was the end of me.",
+  },
+  {
+    "chapter": "retirement",
+    "date": "1946",
+    "imgSrc": img.honorableWithdrawal,
+    "transcription":
+      "That's the end of my career, yeah.",
   },
   {
     "chapter": "wedding",
@@ -214,5 +259,7 @@ export const scrapbookContent = [
     "description":
      "Marie Tracy becomes Marie Irwin on September 13, 1947",
     "imgSrc": img.weddingParty,
+    "transcription":
+      "[44] It was September '43, he was just gonna start law school. So I stayed working and he went to law school."
   },
 ];
