@@ -1,7 +1,7 @@
 const img = {
   'adler': 'scrapbook/adler.jpeg',
   'amesSisters': 'timeline/ames-sisters.jpg',
-  'bicycles': 'scrapbook/washington-placeholder.png',
+  'bicycles': 'scrapbook/bicycles.jpeg',
   'dcLineUp': 'scrapbook/washington-placeholder.png',
   'graduation': 'timeline/graduation.jpeg',
   'earleTheatre': 'scrapbook/earlePage.png',
@@ -22,7 +22,8 @@ const img = {
   'thruTheseDoors': 'scrapbook/earleTheater.jpg',
   'tracySisters': 'timeline/tracy-sister-recital.jpg',
   'tracySistersProgram': 'scrapbook/tracy-sisters-program.jpg',
-  'weddingCard': 'timeline/wedding-card.jpg'
+  'weddingCard': 'timeline/wedding-card.jpg',
+  'weddingParty': 'scrapbook/wedding-party.jpeg',
 }
 
 const audio = {
@@ -206,5 +207,12 @@ export const scrapbookContent = [
     "title": "Engagement party",
     "transcription":
       "This is my engagement party. What does that say?... oh, it was [Rita's], I thought it was mine. That's across the street where the boys used to wait for us. Our boyfriends used to wait for us until the last show was done at 11:30 or 11. Run across the street to the bar and we'd meet them.",
+  },
+  {
+    "chapter": "wedding",
+    "date": "1947",
+    "description":
+     "Marie Tracy becomes Marie Irwin on September 13, 1947",
+    "imgSrc": img.weddingParty,
   },
 ];
