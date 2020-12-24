@@ -25,6 +25,11 @@
   color: #343a40;
 }
 
+.timeline-pagination__link:hover .timeline-pagination__link-title,
+.timeline-pagination__link:focus .timeline-pagination__link-title {
+  text-decoration: underline;
+}
+
 .timeline-pagination__li:hover .timeline-pagination__link {
   font-weight: 600;
 }

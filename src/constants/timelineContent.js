@@ -88,9 +88,9 @@ export const timelineContent = [
   {
     "chapterIndex": getChapterIndex("training"),
     "date": "Feb 1942",
-    "description": "A month after her audition, a spot opens up at the Roxy. Marie lands the gig and fulfills her childhood dream.",
+    "description": "A month after her audition, a spot opens up at the Roxy. Marie lands the gig and fulfills her childhood dream. She begins her training on her 20th birthday at the Earle Theater in Washington, D.C.",
     "imgSrc": showUpAtRoxy,
-    "title": "Show up at the Roxy",
+    "title": formattedChapters["training"],
     "navYear": "1942",
   },
   {
@@ -98,7 +98,8 @@ export const timelineContent = [
     "date": "1942-1946",
     "description": "As a full-time dancer, Marie performed twice-a-day, seven days a week.",
     "imgSrc": roxyette,
-    "title": "Roxyette",
+    "title": formattedChapters["roxyette"],
+    "navYear": "1942",
   },
   {
     "chapterIndex": getChapterIndex("fitModel"),
