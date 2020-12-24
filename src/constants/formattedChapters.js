@@ -8,7 +8,7 @@ export const formattedChapters = {
   "pathToTheRoxy": "Path to the Roxy",
   "training": "First Stop: DC",
   "roxyette": "Life at the Roxy",
-  "fitModel": "Show Girl",
+  "fitModel": "Costume Model",
   "retirement": "Early Retirement",
   "wedding": "Wedding Bells"
 }

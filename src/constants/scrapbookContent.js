@@ -3,6 +3,13 @@ const img = {
   'amesSisters': 'timeline/ames-sisters.jpg',
   'beachheadBelle': 'scrapbook/beachhead-belle.jpg',
   'bicycles': 'scrapbook/bicycles.jpeg',
+  'costumesAllPage': 'scrapbook/costumes-all.png',
+  'costumesBells': 'scrapbook/costumes-bells.jpg',
+  'costumesBoJangles': 'scrapbook/costumes-bojangles.png',
+  'costumesBustle': 'scrapbook/costumes-bustle.png',
+  'costumesIlonaMassey': 'scrapbook/costumes-ilona-massey.jpg',
+  'costumesJohnny': 'scrapbook/costumes-johnny.png',
+  'costumesMarine': 'scrapbook/costumes-marine.png',
   'dcLineUp': 'scrapbook/earle-dances.png',
   'getWellSoon': 'scrapbook/getwellcard-2.jpeg',
   'graduation': 'timeline/graduation.jpeg',
@@ -296,33 +303,67 @@ export const scrapbookContent = [
   // We worked with Jimmy dorsey and I think there's a dog there? And that's my best friend, Viola.
   // Somebody had to take the dog up to the roof and walk it. Who wants to take the dog? I'll take the dog. Sent a photographer up to take a picture of me and that stupid dog.
 
-  // [48:04] You'd get a girlfriend with a camera, 'Come on, let's take pictures'.
-
-  // [48:10] Bo Jangles number
-
-  // [48:28] lona Massey ... hungarian singer  ... gave me pearls
-
-  // Try to dance with some of the hats they create
-
-  // [48:40] we wore bells ... 'The bells of St Mary' and we'd sing a song.
-
-  // [49:20] We did a bustle number. Thank God I was never the bustle. You had to go, like you were on skates so you looked like one piece
-
   // [50:20] stilts. even tho it was only a foot or two... you'd have to do kicks and everything else. if you were a klutz they'd give you the week off. you'd take a vacation week that week. you'd get on on the wings on a ladder. that was scary i didn't like that number
-
-  // [51:52] During the war, we had a real marine sargent teaching us ... real rifle, they were heavy. We had to do a drill, and the Queen Ann's salute. It was a tough number
-
-  // [54:08] Daddy loved me in that outfit. 'Johnny comes marching home', you remember that?
 
   // [57:50] You know when you ... I was a Jane Russell. You put light behind things like that. I was chosen, I was the only one who was chosen for that. They liked me for some reason...
 
   {
     "chapter": "fitModel",
-    "date": "1946",
-    "imgSrc": img.showGirlContract,
-    "title": "$10 raise",
+    "date": "1945",
+    "description": "Although we don't have official photos of Marie as a fit model, she did keep quite a few of her own costume pictures.",
+    "imgSrc": img.costumesAllPage,
+    "transcriptionIntro": 
+      "That's when they built the costumes on me for the sample to see if it would work. They'd send me out front to the chairman to see if he likes it. If he'd approve them, and then they'd make 36 of them.",
     "transcription":
-      "1946? That's when they made me a showgirl. Instead of dancing, one of the show girls was missing. Show girls are all 6 footers and they parade around in costumes. ($85 a week) Wow, that was a lot of money. That's when they built the costumes on me for the sample to see if it would work. They'd send me out front to the chairman to see if he likes it. If he'd approve them, and then they'd make 36 of them.",
+      "[48:01] You'd get a girlfriend with a camera, 'Come on we're going out to take pictures between shows'. We'd go out in the courtyard and we'd take pictures of each other in the different costumes and then we'd remember each number."
+  },
+  {
+    "chapter": "fitModel",
+    "date": "1945",
+    "imgSrc": img.costumesBoJangles,
+    "title": "Bill Robinson, AKA Bojangles",
+    "transcription":
+      "[48:16] This was Bojangles number, I'll tell you right now. [48:33] (That's quite a hat you have on there) Try to dance with some of those hats they create. You have to balance them."
+  },
+  {
+    "chapter": "fitModel",
+    "date": "1945",
+    "imgSrc": img.costumesIlonaMassey,
+    "title": "Ilona Massey",
+    "transcription":
+      "[48:23] This was [for] Ilona Massey. She was a Hungarian singer. She was the one I taught how to do some kind of dance and she gave me those pearls."
+  },
+  {
+    "chapter": "fitModel",
+    "date": "1945",
+    "imgSrc": img.costumesBells,
+    "title": "Bells of St. Mary",
+    "transcription":
+      "[48:48] This one was a good number. We wore bells on our waists, and our ankles, and our wrists and the musician would tune them. We'd do the Bells of St. Mary and we each had a note. And we'd go the 'Bells... of St. Mary' and we'd sing a song. We'd jump for them."
+  },
+  {
+    "chapter": "fitModel",
+    "data": "1945",
+    "imgSrc": img.costumesBustle,
+    "title": "Bustle Number",
+    "transcription":
+      "[49:25] We did a bustle number. Thank God I was never the bustle. I was the girl in front. She's supposed to be hiding, one girl underneath me, holding my waist. You had to go, like you were on skates so that you looked like you were one piece. That was a cute number."
+  },
+  {
+    "chapter": "fitModel",
+    "date": "1945",
+    "imgSrc": img.costumesMarine,
+    "title": "Marine Drill",
+    "transcription":
+      "[51:32] Oh, this is a great story. During the war, now the marine drill. We had a real marine sargent teaching us how to use– real rifles and they were heavy, 10lbs. And he taught us even how to– we had to do a drill, and how to do the Queen Ann's salute, where you go around and you go down on your knee and everything. Oh, it was a tough number. Yeah, that was something..."
+  },
+  {
+    "chapter": "fitModel",
+    "date": "1945",
+    "imgSrc": img.costumesJohnny,
+    "title": "When Johnny Comes Marching Home",
+    "transcription":
+      "[53:55] Here's Daddy's favorite outfit, Daddy loved me in that outfit. It was blue. It was 'Johnny comes marching home', you remember that song? It was like an orange pearl, red hat." 
   },
   {
     "chapter": "retirement",
@@ -339,6 +380,15 @@ export const scrapbookContent = [
     "title": "Honorable Withdrawal",
     "transcription":
       "[59:01] That's the end of my career, yeah.",
+  },
+  {
+    "chapter": "retirement",
+    "date": "1946",
+    "description": "Marie continued to do contract work with the Roxy, even after her illness.",
+    "imgSrc": img.showGirlContract,
+    "title": "Contract work",
+    "transcription":
+      "That's when they made me a showgirl. Instead of dancing, one of the show girls was missing. Show girls are all 6 footers and they parade around in costumes. ($85 a week) Wow, that was a lot of money.",
   },
   {
     "chapter": "wedding",
