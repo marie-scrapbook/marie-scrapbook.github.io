@@ -1,6 +1,11 @@
 const img = {
   'adler': 'scrapbook/adler.jpeg',
   'amesSisters': 'timeline/ames-sisters.jpg',
+  'amesSistersChicago': 'scrapbook/chicago.png',
+  'amesSistersInCoats': 'scrapbook/ames-sisters-car.png',
+  'amesSistersOnStairs': 'scrapbook/ames-sisters-stairs.png',
+  'articleMusicHall': 'scrapbook/hoofersLotRockettes.jpg',
+  'articleRoxy': 'scrapbook/hoofersLotGaeFoster.jpg',
   'beachheadBelle': 'scrapbook/beachhead-belle.jpg',
   'bicycles': 'scrapbook/bicycles.jpeg',
   'costumesAllPage': 'scrapbook/costumes-all.png',
@@ -17,10 +22,15 @@ const img = {
   'engagementParty': 'scrapbook/BarAcrossStreet.jpg',
   'honorableWithdrawal': 'scrapbook/honorable-withdrawal.jpg',
   'marvelettes': 'scrapbook/six-marvelettes.jpg',
+  'marvelettesAndCar': 'scrapbook/marvelettes-car.png',
+  'marvelettesContract': 'scrapbook/marvelettes-contract.jpg',
+  'marvelettesPage1': 'scrapbook/marvelette-page-1.jpg',
+  'marvelettesWithTheBand': 'scrapbook/marvelettes-pyramid.png',
   'millerSisters': 'scrapbook/miller-sisters.png',
   'millerSistersJuniorRecital': 'scrapbook/junior-recital.png',
   'millerSistersLastRecital': 'scrapbook/miller-sisters-last-recital.jpg',
   'nedWayburn': 'scrapbook/ned-wayburn.jpg',
+  'oneOrTheOther': 'scrapbook/one-or-the-other.png',
   'photoshoot': 'scrapbook/photoshoot.png',
   'purpleHeart': 'scrapbook/purpleHeart.png',
   'retirement': 'timeline/bar-across-the-street.png',
@@ -30,10 +40,13 @@ const img = {
   'shorePatrol': 'scrapbook/presBall.jpg',
   'shoeCapt': 'scrapbook/shoeCapt.jpeg',
   'showGirlContract': 'scrapbook/showGirlContract.jpg',
+  'stopLookListen': 'scrapbook/stop-look-listen-revue.png',
+  'southAmericaLetter': 'scrapbook/south-america.jpg',
   'telegrams': 'scrapbook/RoxyTelegrams.jpg',
   'thruTheseDoors': 'scrapbook/earleTheater.jpg',
   'tracySisters': 'timeline/tracy-sister-recital.jpg',
   'tracySistersProgram': 'scrapbook/tracy-sisters-program.jpg',
+  'upsideDown': 'scrapbook/upside-down.png',
   'weddingCard': 'timeline/wedding-card.jpg',
   'weddingParty': 'scrapbook/wedding-party.jpeg',
 }
@@ -110,47 +123,36 @@ export const scrapbookContent = [
     "chapter": "amesSisters",
     "date": "March 1939",
     "imgSrc": img.amesSisters,
+    "transcription":
+      "Now the Ames Sisters! That was when I was in high school. I went to another dancing studio. It was just acrobatic work and we had an Arabian teacher, Hassey. There were 5 real Ames Sisters and one of them, she got married and she got pregnant so they had all these bills to fill. They had been in the business a long time, the mother, the father were the managers, and the mother made the costumes. So they had to fill the bill that they had contracted for. So Hassey said take her; I was pretty much the same size. I looked something like some of them. So they put me in the costumes and taught me the routines and I was an Ames sister.",
+  },
+  {
+    "caption": "Marie– the newest Ames Sister– sits at the top of the stairs",
+    "chapter": "amesSisters",
+    "date": "1939",
+    "imgSrc": img.amesSistersOnStairs,
+    "title": "Blending in",
+    "transcription":
+    "[16:30] So you see, in the costume, with the same haircut, you all look the same. They told me, in the wings, not to talk to anyone because I wasn't union, they were. And I was supposed to be an Ames sister, so they didn't want anybody to know it wasn't 5 real girls.",
+  },
+    // [14:16] The Five Ames Sisters: Ten Feet of Rhythm
+  // [14:30] 
+  //   "[0:18:20] We didn't do just one number. We'd do something, somebody else would come out, we'd change costumes, do a different kind of a number. [0:21:13] an hour, because we had so many people work in the show. The bill, you know, they'd call it a bill..."
+  {
+    "chapter": "amesSisters",
+    "date": "1939",
+    "imgSrc": img.amesSistersInCoats,
     "title": "On the road",
     "transcription":
-      "Now the Ames Sisters! That was when I was in high school. I went to another dancing studio. It was just acrobatic work and we had an Arabian teacher, Hansi. There were 5 real Ames Sisters and one of them, she got married and she got pregnant so they had all these bills to fill. They had been in the business a long time, the mother, the father were the managers, and the mother made the costumes. So they had to fill the bill that they had contracted for. So Hansi said take her; I was pretty much the same size. I looked something like some of them. So they put me in the costumes and taught me the routines and I was an Ames sister.",
+    "[14:30] Here we are travelling. [13:25] The father, he had a big pack-up car, the top had a big box with all the costumes and we were all jammed in there, a whole flock of us in the car, and he'd take us from one place to another. [14:30] That's me, the tallest one. Barbara and I were the youngest ones, the big girl next to me. Very happy group. Very nice family. They taught me how to put makeup on, they taught me so much. They befriended me.",
   },
-  // {
-  //   "chapter": "amesSisters",
-  //   "date": "1939",
-  //   "imgSrc": img.amesSisters,
-  //   "title": "On the road",
-  //   "transcription":
-  //   "[0:13:0] We played all kinds of different benefits and shows. The father had a big pack-up car, the top had a ... we were all jammed in there, a whole flock of us in the car, and he'd take us from one place to another. When school closed in September, we went out of town. We did all of Pennsylvania, we did New England, we did Chicago.",
-  // },
-  // {
-  //   "chapter": "amesSisters",
-  //   "date": "1939",
-  //   "imgSrc": img.amesSistersInCoats,
-  //   "title": "On the road",
-  //   "transcription":
-  //   "[0:14:0] Here we are travelling. The father gave us a little car. Very happy group. They taught me how to put makeup on, they taught me so much. Barbara and I were the youngest ones. They lived in Nutley, New Jersey, where Martha Stewart lives.",
-  // },
-  // {
-  //   "chapter": "amesSisters",
-  //   "date": "1939",
-  //   "imgSrc": img.amesSistersOnStairs,
-  //   "title": "On the road",
-  //   "transcription":
-  //   "[0:16:0] In the costume, with the same hair, we all look the same. In the wings, they told me not to talk to anyone because they were all union, and I wasn't. I was supposed to be an Ames sister.",
-  // },
-  // {
-  //   "chapter": "amesSisters",
-  //   "date": "1939",
-  //   "imgSrc": img.amesSistersOnStairs,
-  //   "title": "On the road",
-  //   "transcription":
-  //   "[19:30] and here's the little car! [0:17] We slept in the daytime ... drive... didn't make a lot of money on that job.",
-  // },
-  // {
-  //   "chapter": "amesSisters",
-  //   "transcription":
-  //   "[0:18:0] We didn't do just one number. We'd get changed, come out, do another number.[0:21:0] an hour",
-  // },
+  {
+    "chapter": "amesSisters",
+    "imgSrc": img.amesSistersChicago,
+    "title": "Cross-country tour",
+    "transcription":
+    "[13:48] When school closed in September, then we went out of town. [13:48] We did all of Pennsylvania, we did New England... we did Chicago! [16:16] Got top billing on that one, huh? [0:17:13] We didn't make a lot of money evidently because we used to work at night, and then, we slept in the daytime and somebody would drive and co-pilot. Didn't get rich on that job but it was certainly a lot of fun. We had a ball."
+  },
   {
     "audioSrc": audio.graduation,
     "chapter": "graduation",
@@ -158,40 +160,91 @@ export const scrapbookContent = [
     "imgSrc": img.graduation,
     "title": "Newtown High School Class of 1940",
     "transcription":
-      "During high school I was doing my homework at night while we were working the shows. I had my own dancing school on Saturdays, and then we'd get gigs. The Masons would have a big banquet and they'd hire a couple of acts, or Jewish weddings would have a couple of acts..."
-    // "[24:15] i had to do homework"
+      "During high school I was doing my homework at night while we were working the shows. I had my own dancing school on Saturdays, and then we'd get gigs. The Masons would have a big banquet and they'd hire a couple of acts, or Jewish weddings would have a couple of acts... [24:40] A political meeting or something, they'd have an act or two. [24:10] During the school year, I had to only work in the city at night because I had homework and everything. In the summertime, it didn't matter where you worked."
   },
   {
-    "caption": "From left to right: Marie, an original Ames Sister, Joan, a new girl, the second Ames Sister, and another new girl",
+    "caption": "From left to right: Marie; Barbara, an original Ames Sister; two new girls; the second Ames Sister; and another new girl",
     "chapter": "marvelettes",
     "date": "1940",
     "imgSrc": img.marvelettes,
     "title": "Growing into a new group",
     "transcription":
-      "This is the Marvelettes now. Some of the Ames sisters are in here. These two are Ames sisters, and I was an Ames sister, and we picked up another two. This is the girl from Dobbs Ferry, Joan, I even remember her name.",
-      // "[0:17:0] One girl from Dobbys Ferry had a small dog"
-      
-      // "[18:50] We worked the line up and down the Hudson here. (They used to have a cruise ..?) [0:27] Here we worked that line again. We never went around the island, New York island."
-      
-      // "[19:30] And that's me upside down. [21:48] I was always upside down. I was very good at acrobatics. Tap and acrobatics."
-      
-      // "[0:22:0] /washing dc show/ I remember that show because there was no AC. No A.C. in D.C. in the summertime, it was so humid. Aw, that was terrible. (It says it was air conditioned) Well it wasn't backstage, I'll tell you right now.
-      
-      // [29:40] That was Hasi, that was our agent. "It was like Vaudeville... and your agent would get 10%... [0:05] [24:10] your agent would call you up... 'oh i got a good act for ya'. [0:25:0] He promied us– evidently, where he came from, he was an Arab... he was gonna get us leather boots. What sticks in a kid's head, huh?"
-      
-      // Stop Look and Listen review. "[25: ] I think we worked that for weeks. That was a big show."
-
-      // [0:36:0] somebody auditioned for the Paramount, oh it was the Marvelettes, and we couldn't do the stage because it was so small.. we would've gone right off. 
+      "[19:13] This is the Marvelettes now. Some of the Ames sisters are in here. These two are Ames sisters, and I was an Ames sister, and we picked up another two.",
   },
-
-  // {
-  //   "title": "South America",
-  //   "transcription": "[0:30:0] My mother wouldn't let me go to South America. [0:31:0] I know I didn't go. I would've remembered that one!",
-  // },
-    // {
-  //   "title": "One or the other",
-  //   "transcription": "[0:04:0] In high school I decided, oh I'm going to dance. I auditioned for both places in New York. I didn't care which one, Rockettes or Music Hall... the difference was, we were all Rockettes and when Rockefeller built Musica Hall, the ... took his name with him. So then Mr. Roxy, ... named us the Roxyettes. It was 1934 when they opened Music Hall. So a lot of the girls stayed, and a lot went over to Music Hall. [0:07:0] When I went for the audition... there was a girl... if I hadn't gone there, I would've been a Rockette.",
-  // },
+  {
+    "caption": "Joan is first from the left. Marie is two over at center right.",
+    "chapter": "marvelettes",
+    "date": "",
+    "imgSrc": img.marvelettesAndCar,
+    "title": "Six girls and a dog",
+    "transcription":
+      "[19:30] And here's the little car! With all the costumes on the roof. [17:38] One girl here from Dobbs Ferry, [19:25] Joan, I even remember her name, she had dog, like a small dog, she even brought the dog with her. (Oh, it wasn't part of the act?) No!"
+  },
+  {
+    "caption": "Marie is fourth from the right",
+    "chapter": "marvelettes",
+    "date": "",
+    "imgSrc": img.stopLookListen,
+    "title": "A typical show",
+    "transcription":
+      "[25:44] 'Stop Look and Listen review.' [25:37] Now there's a typical show that we'd travel with. The whole show would go. Some singers, some dancers, some comics. Went from one place to the other. Every night a different place. That was a big show. I think we worked that for weeks."
+  },
+  {
+    "chapter": "marvelettes",
+    "imgSrc": img.marvelettesWithTheBand,
+    "title": "With the band",
+    "transcription":
+      "[26:05] One of the Ames sisters used to work with the band before we went on to get the tempo right. She'd rehearse first, you know, when we first got there. We'd take whatever band they had. We'd bring our own music and she'd go over the music with them."
+  },
+  {
+    "chapter": "marvelettes",
+    "date": "1941",
+    "imgSrc": img.marvelettesContract,
+    "title": "1941 Contract",
+    "transcription":
+      "[24:40] We weren't under contract for any one person, we just had an agent. [29:39] That was Hassey, that was our agent, the acrobatic teacher. [24:40] The agent would go out and look for work. He was the PR man, he'd go out and say 'Hey, I got a good act for you'. He was very proud of us."
+      // [0:25:0] He promied us– evidently, where he came from, he was an Arab... he was gonna get us boots– leather boots from wherever he came from and we never got them. We were waiting for them, we never got them. What sticks in a kid's head, huh?"
+  },
+  {
+    "chapter": "marvelettes",
+    "date": "1940",
+    "imgSrc": img.upsideDown,
+    "title": "Upside down",
+    "transcription":
+      "[19:30] And that's me upside down. [21:48] I was always upside down. I was very good at acrobatics. Tap and acrobatics."
+  },
+  {
+    "chapter": "marvelettes",
+    "date": "1940",
+    "imgSrc": img.marvelettesPage1,
+    "title": "Tumbling with Speed",
+    "transcription":
+      "[36:06] Somebody auditioned for the Paramount... it was the Marvelettes, and we couldn't work the stage it was so small. In New York, where Sinatra was, same time. Couldn't work the stage because we were doing acrobatic work and we would've gone right off. (You would've done it with Sinatra?) Yup."
+  },
+   // "[19:04] We worked the line up and down the Hudson here. (They used to have a cruise line up and down the Hudson?) Yeah. [27:14] Here we worked that line again. I think we went up like from here to Albany. We never went around the island, New York island. We used to go up the Hudson and down. We probably went up to the Whitestone Bridge and back."
+      
+    // "[0:22:0] Oh the Lotus Club that was in Washington, D.C. I remember that show especially because there was no air conditioning. In Washington, D.C. in the summertime, it was so humid. The costumes would be soaking wet from the last show and you'd be trying to put them on. Aw, that was terrible mess. (It says air conditioned) Well it wasn't backstage, I'll tell you right now.
+    
+    //[0:06] (So it was almost like Vaudeville?) That's what it was. They'd have singers, and dancers, and magicians. It would be a whole show, a whole thing, and your agent would get 10%. And then you'd travel with the same show. One night here, one night there, what you call barnstorming, the whole show would go.
+  {
+    "chapter": "southAmerica",
+    "imgSrc": img.southAmericaLetter,
+    "title": "Leaving the Marvelettes",
+    "transcription": "[0:30:11] My mother wouldn't let me go to South America. Oh that was Hassey, that was our agent. [0:31:0] He was trying to see if he could make me go, maybe. I know I didn't go. I would've remembered that one! Probably took you a week to get there in those days, ha.",
+  },
+  {
+    "chapter": "auditions",
+    "imgSrc": img.oneOrTheOther,
+    "title": "Just wanted to be one of them",
+    "transcription": "[0:03:50] I auditioned for both places in New York. [0:06:54] I worked behind the lines at Music Hall. They let you work there and when they need you, they'd put you in line. They didn't need anybody, but the day I went over to the Roxy, I auditioned, and I think a day or two later I got a telegram: they needed me. There was a girl missing, and I got right in. That's why, if I hadn't gone there, I would've been at Music Hall, if I had held out. But I didn't care which one I wanted. I just wanted to be one of them.",
+  },
+  {
+    "chapter": "auditions",
+    "imgSrc": img.articleRoxy,
+    "title": "What was the difference?",
+    "transcription":
+      "[0:06:00] That was my boss, Gae Foster. Gae Foster was an original Rockette. So instead of going to Music Hall, she stayed with Roxy and she was head of the Roxyettes. (What was the difference?) [0:06:54] There was none. [0:03:50] We did the same kind of work at that time. [0:06:54] See, that's the same line. [0:03:50] The difference was– we were all Rockettes and when Rockefeller built Music Hall, the dance director for the Rockettes moved to the new Music Hall and took his name with him. So then Mr. Roxy, who owned the Roxy theatre where we all started, he named us the Roxyettes. [07:50] There was nothing to compete with the Roxy until Music Hall. There was no other dance line. They called them chorus lines but– 'chorus' we didn't like that."
+  },
   {
     "chapter": "training",
     "date": "1942",
@@ -228,6 +281,8 @@ export const scrapbookContent = [
     "imgSrc": img.roxyMemories1,
     "title": "Called to New York",
     "transcription": "[0:36:0] Now we're up in New York. Now I'm called to New York. I'll tell you why I was called to New York– they closed the Earle Theatre. And they brought all the Roxyettes home. So some of us made it up here and some of us didn't.",
+    // [52] multiple costumes, had to learn new dances for each movie
+    // for two weeks while the movie is there, and then when the movie 
   },
   {
     "chapter": "roxyette",
@@ -270,9 +325,6 @@ export const scrapbookContent = [
     "transcription":
       "That was a tough number. Those balls were made of plaster; heavy, you couldn't lift them up. You'd have to roll them and you had to work mostly on your heels– no– your toes to roll them and then you stop them on your heels, you know, you'd balance back and forth. And we'd weave in formation, circles, squares, rounds. That was a tough number. We were famous for that one, Rockettes were famous for their kicks. We were famous for bicycles, the roller skates, we did a number on roller skates... we did more tricks than Music Hall. We were more agile.",
   },
-
-  // [52] multiple costumes, had to learn new dances for each movie
-  // for two weeks while the movie is there, and then when the movie 
 
   // [53:18] my Grandpa sat first row, center ... "Hey is Grandpa out there? Oh yeah, there is is." I'd see and he'd say "You make your money easy this week"– he didn't like the show.
 

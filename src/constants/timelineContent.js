@@ -72,18 +72,18 @@ export const timelineContent = [
     "navYear": "1940",
   },
   {
-    "chapterIndex": getChapterIndex("marvelettes"),
+    "chapterIndex": getChapterIndex("southAmerica"),
     "date": "1941",
     "description": "After years of performing together, Marie declines the offer to join the Marvelettes on tour in South America.",
     "imgSrc": southAmerica,
-    "title": '"No" to South America',
+    "title": formattedChapters["southAmerica"],
   },
   {
-    "chapterIndex": getChapterIndex("roxyette"),
+    "chapterIndex": getChapterIndex("auditions"),
     "date": "1942",
     "description": 'Marie auditions at both the Roxy and Radio City Music Hall, the first glimpse at the opportunity to fulfill her dream of being "one or the other"– a Rockette or Roxyette.',
     "imgSrc": oneOrTheOther,
-    "title": '"One or the other"',
+    "title": formattedChapters["auditions"],
   },
   {
     "chapterIndex": getChapterIndex("training"),

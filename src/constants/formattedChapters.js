@@ -1,14 +1,16 @@
 export const formattedChapters = {
-  "millerSisters": "Miller Sisters Dance Studio",
-  "tracySisters": "Tracy Sisters Studio",
   "amesSisters": "The Ames Sisters",
+  "auditions": "One or the other",
+  "fitModel": "Costume Model",
   "graduation": "Graduates High School",
   "marvelettes": "The Marvelettes",
+  "millerSisters": "Miller Sisters Dance Studio",
   "nedWayburn": "Ned Wayburn's School",
   "pathToTheRoxy": "Path to the Roxy",
   "training": "First Stop: DC",
-  "roxyette": "Life at the Roxy",
-  "fitModel": "Costume Model",
+  "tracySisters": "Tracy Sisters Studio",
   "retirement": "Early Retirement",
+  "roxyette": "Life at the Roxy",
+  "southAmerica": "'No' to South America",
   "wedding": "Wedding Bells"
 }
