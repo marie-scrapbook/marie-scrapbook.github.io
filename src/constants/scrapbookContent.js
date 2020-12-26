@@ -1,9 +1,9 @@
 const img = {
   'adler': 'scrapbook/adler.jpeg',
-  'amesSisters': 'timeline/ames-sisters.jpg',
+  'amesSisters': 'scrapbook/ames-sisters.jpg',
   'amesSistersChicago': 'scrapbook/chicago.png',
   'amesSistersInCoats': 'scrapbook/ames-sisters-car.png',
-  'amesSistersOnStairs': 'scrapbook/ames-sisters-stairs.png',
+  'amesSistersOnStairs': 'timeline/ames-sisters-stairs.png',
   'articleMusicHall': 'scrapbook/hoofersLotRockettes.jpg',
   'articleRoxy': 'scrapbook/hoofersLotGaeFoster.jpg',
   'beachheadBelle': 'scrapbook/beachhead-belle.jpg',
@@ -25,7 +25,7 @@ const img = {
   'marvelettesAndCar': 'scrapbook/marvelettes-car.png',
   'marvelettesContract': 'scrapbook/marvelettes-contract.jpg',
   'marvelettesPage1': 'scrapbook/marvelette-page-1.jpg',
-  'marvelettesWithTheBand': 'scrapbook/marvelettes-pyramid.png',
+  'marvelettesPage2': 'scrapbook/marvelette-page-2.jpg',
   'millerSisters': 'scrapbook/miller-sisters.png',
   'millerSistersJuniorRecital': 'scrapbook/junior-recital.png',
   'millerSistersLastRecital': 'scrapbook/miller-sisters-last-recital.jpg',
@@ -191,7 +191,7 @@ export const scrapbookContent = [
   },
   {
     "chapter": "marvelettes",
-    "imgSrc": img.marvelettesWithTheBand,
+    "imgSrc": img.marvelettesPage2,
     "title": "With the band",
     "transcription":
       "[26:05] One of the Ames sisters used to work with the band before we went on to get the tempo right. She'd rehearse first, you know, when we first got there. We'd take whatever band they had. We'd bring our own music and she'd go over the music with them."

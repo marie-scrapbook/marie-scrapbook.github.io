@@ -3,7 +3,7 @@ import { formattedChapters } from './formattedChapters';
 
 const millerSisters = 'miller-sisters-recital.jpg';
 const tracySisters = 'tracy-sister-recital.jpg';
-const amesSisters = 'ames-sisters.jpg';
+const amesSisters = 'ames-sisters-stairs.png';
 const graduation = 'graduation.jpeg';
 const marvelettes = 'marvelettes-pyramid.png';
 const southAmerica = 'south-america-crop.png';
