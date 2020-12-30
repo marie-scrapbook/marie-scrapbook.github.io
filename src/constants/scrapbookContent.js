@@ -54,14 +54,19 @@ const img = {
 const audio = {
   'amesSisters': 'and-i-was-an-ames-sister.mp3',
   'amesSistersTravelling': 'five-ames-sisters-travelling.mp3',
+  'graduation': 'during-high-school-ext.mp3',
+  'joansDog': 'joans-dog.mp3',
   'lookTheSame': 'look-the-same.mp3',
+  'marvelettes': 'marvelettes-now.mp3',
   'millerSisters': 'miller-sisters.mp3',
   'millerSistersLastRecital': 'miller-sisters-last.mp3',
+  'theAgent': 'the-agent.mp3',
   'nedWayburn': 'ned-wayburn.mp3',
+  'stopLookListen': 'stop-look-listen.mp3',
   'toBeOneOfThem': 'to-be-one-of-them.mp3',
   'tracySisters': 'tracy-sisters.mp3',
   'tracySistersProgram': 'tracy-sisters-program.mp3',
-  'graduation': 'during-high-school.mp3',
+  'upsideDown': 'upside-down.mp3',
   'whatWasTheDifference': 'what-was-the-difference.mp3',
   'whenSchoolClosed': 'chicago.mp3',
 }
@@ -168,34 +173,37 @@ export const scrapbookContent = [
     "imgSrc": img.graduation,
     "title": "Newtown High School Class of 1940",
     "transcription":
-      "During high school I was doing my homework at night while we were working the shows. I had my own dancing school on Saturdays, and then we'd get gigs. The Masons would have a big banquet and they'd hire a couple of acts, or Jewish weddings would have a couple of acts... [24:40] A political meeting or something, they'd have an act or two. [24:10] During the school year, I had to only work in the city at night because I had homework and everything. In the summertime, it didn't matter where you worked."
+      "During high school I was doing my homework at night while we were working the shows. I had my own dancing school on Saturdays, and then we'd get gigs. The Masons would have a big banquet and they'd hire a couple of acts, or Jewish weddings would have a couple of acts... A meeting, a political meeting or something, they'd have an act or two. During the school year, I had to only work in the city at night because I had homework and everything, you know, I had to graduate from high school. In the summertime, it didn't matter where you worked."
   },
   {
+    "audioSrc": audio.marvelettes,
     "caption": "From left to right: Marie; Barbara, an original Ames Sister; two new girls; the second Ames Sister; and another new girl",
     "chapter": "marvelettes",
     "date": "1940",
     "imgSrc": img.marvelettes,
     "title": "Growing into a new group",
     "transcription":
-      "[19:13] This is the Marvelettes now. Some of the Ames sisters are in here. These two are Ames sisters, and I was an Ames sister, and we picked up another two.",
+      "This is the Marvelettes now. Some of the Ames sisters are in here. These two are Ames sisters, and I was an Ames sister, and we picked up another two.",
   },
   {
+    "audioSrc": audio.joansDog,
     "caption": "Joan is first from the left. Marie is two over at center right.",
     "chapter": "marvelettes",
     "date": "",
     "imgSrc": img.marvelettesAndCar,
     "title": "Six girls and a dog",
     "transcription":
-      "[19:30] And here's the little car! With all the costumes on the roof. [17:38] One girl here from Dobbs Ferry, [19:25] Joan, I even remember her name, she had dog, like a small dog, she even brought the dog with her. (Oh, it wasn't part of the act?) No!"
+      "And here's the little car! we had, with all the costumes on the roof. One girl here from Dobbs Ferry, she had dog, like a small dog, she even brought the dog with her. (Oh, it wasn't part of the act?) No!"
   },
   {
+    "audioSrc": audio.stopLookListen,
     "caption": "Marie is fourth from the right",
     "chapter": "marvelettes",
     "date": "",
     "imgSrc": img.stopLookListen,
     "title": "A typical show",
     "transcription":
-      "[25:44] 'Stop Look and Listen review.' [25:37] Now there's a typical show that we'd travel with. The whole show would go. Some singers, some dancers, some comics. Went from one place to the other. Every night a different place. That was a big show. I think we worked that for weeks."
+      "Now there's a typical show that we'd travel with. The whole show would go. Some singers, some dancers, some comics. That was a big show. I think we worked that for weeks. Went from one place to the other. Every night a different place."
   },
   {
     "chapter": "marvelettes",
@@ -205,21 +213,23 @@ export const scrapbookContent = [
       "[26:05] One of the Ames sisters used to work with the band before we went on to get the tempo right. She'd rehearse first, you know, when we first got there. We'd take whatever band they had. We'd bring our own music and she'd go over the music with them."
   },
   {
+    "audioSrc": audio.theAgent,
     "chapter": "marvelettes",
     "date": "1941",
     "imgSrc": img.marvelettesContract,
     "title": "1941 Contract",
     "transcription":
-      "[24:40] We weren't under contract for any one person, we just had an agent. [29:39] That was Hassey, that was our agent, the acrobatic teacher. [24:40] The agent would go out and look for work. He was the PR man, he'd go out and say 'Hey, I got a good act for you'. He was very proud of us."
-      // [0:25:0] He promied us– evidently, where he came from, he was an Arab... he was gonna get us boots– leather boots from wherever he came from and we never got them. We were waiting for them, we never got them. What sticks in a kid's head, huh?"
+      "We weren't under contract for any one person, we just had an agent. That was Hassey, that was our agent, the acrobatic teacher. The agent would go out and look for work. He was the one, the PR man, he'd go out and say 'Hey, I got a good act for you'. (He kept you busy?) He did! He did. He was very proud of us."
+      // Only thing he promied us– evidently, where he came from, he was an Arab... he was gonna get us boots– leather boots from wherever he came from and we never got them. We were waiting for them, we never got them. What sticks in a kid's head, huh?"
   },
   {
+    "audioSrc": audio.upsideDown,
     "chapter": "marvelettes",
     "date": "1940",
     "imgSrc": img.upsideDown,
     "title": "Upside down",
     "transcription":
-      "[19:30] And that's me upside down. [21:48] I was always upside down. I was very good at acrobatics. Tap and acrobatics."
+      "There's me upside down. I was always upside down. I was very good at acrobatics."
   },
   {
     "chapter": "marvelettes",
