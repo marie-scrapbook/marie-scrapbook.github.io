@@ -55,6 +55,8 @@ const img = {
 const audio = {
   'amesSisters': 'and-i-was-an-ames-sister.mp3',
   'amesSistersTravelling': 'five-ames-sisters-travelling.mp3',
+  'earleTheatre': 'earle-theatre.mp3',
+  'earleTheatreDances': 'earle-theatre-dances.mp3',
   'graduation': 'during-high-school-ext.mp3',
   'joansDog': 'joans-dog.mp3',
   'lookTheSame': 'look-the-same.mp3',
@@ -64,6 +66,7 @@ const audio = {
   'music': 'tempo-with-band.mp3',
   'nearingWar': 'nearing-war.mp3',
   'nedWayburn': 'ned-wayburn.mp3',
+  'southAmericaLetter': 'south-america.mp3',
   'stopLookListen': 'stop-look-listen.mp3',
   'toBeOneOfThem': 'to-be-one-of-them.mp3',
   'theAgent': 'the-agent.mp3',
@@ -258,10 +261,11 @@ export const scrapbookContent = [
     
     //[0:06] (So it was almost like Vaudeville?) That's what it was. They'd have singers, and dancers, and magicians. It would be a whole show, a whole thing, and your agent would get 10%. And then you'd travel with the same show. One night here, one night there, what you call barnstorming, the whole show would go.
   {
+    "audioSrc": audio.southAmericaLetter,
     "chapter": "southAmerica",
     "imgSrc": img.southAmericaLetter,
     "title": "Leaving the Marvelettes",
-    "transcription": "Oh that was Hassey, that was our agent. [0:30:11] My mother wouldn't let me go to South America. [0:31:0] He was trying to see if he could make me go, maybe. I know I didn't go. I would've remembered that one! Probably took you a week to get there in those days, ha.",
+    "transcription": "Oh that was Hassey, that was our agent, the acrobatic teacher. My mother wouldn't let me go to South America. He was trying to see if he could make me go, maybe, I don't know. (Did they end up doing it?) I really don't know. I know I didn't go. I would've remembered that one! Probably took you a week to get there in those days!",
   },
   {
     "audioSrc": audio.toBeOneOfThem,
@@ -279,19 +283,21 @@ export const scrapbookContent = [
       "That was my boss, Gae Foster. Gae Foster was an original Rockette. So instead of going to Music Hall, she stayed with Roxy and she was head of the Roxyettes. (What was the difference?) There was none. We were all Rockettes and when Rockefeller built Music Hall, the dance director for the Rockettes moved to the new Music Hall and took his name with him. So then Mr. Roxy, who owned the Roxy theatre where we all started, he named us the Roxyettes. There was nothing to compete with the Roxy until Music Hall. There was no other dance line. They called them chorus lines but– 'chorus' we didn't like that."
   },
   {
+    "audioSrc": audio.earleTheatre,
     "chapter": "training",
     "date": "1942",
     "imgSrc": img.earleTheatre,
     "title": "Arriving at the Earle Theatre",
     "transcription":
-      "This is very important for me. 'Come as soon as possible. Miss Cody'– that's from the Roxy. I didn't rehearse with them. They sent me to Washington to break in. They had a line in the Earle Theatre in Washington. That's where I lived until Easter. That was my 20th birthday. I got there at noontime, I went in on the train, and I went in the last show at night. Learned the routine and everything else. I don't know how I did it. I must have been good.",
+      "This is very important for me. 'Call me as soon as possible. Miss Cody'– that's from the Roxy. I didn't rehearse with them. They sent me to Washington to break in. See I had to go down to Washington, they had a line in the Earle Theatre in Washington. That's where I lived until Easter. That was my 20th birthday. I got there at noontime, I went in on the train, and I went in the last show at night. Learned the routine and everything else. I don't know how I did it. I must have been good.",
   },
   {
+    "audioSrc": audio.earleTheatreDances,
     "chapter": "training",
     "date": "1942",
     "imgSrc": img.dcLineUp,
     "title": "Washington Routine",
-    "transcription": "[0:35] Here's all the routines we did. We did about 5 numbers. I rehearsed every day, every day, every day. We rehearsed while the movie was on. Here's all the routines we did. I had to learn all this down there. Shore Patrol, bicycle, stilts– I had to learn how to walk on stilts–, soft shoe, and fencing.",
+    "transcription": "Here's all the routines we did. I had to learn all this down there. Shore Patrol, bicycle, stilts– I had to learn how to walk, dance in stilts–, soft shoe, and fencing. We rehearsed while the movie was on. And then I rehearsed every day, every day, every day.",
   },
   {
     "caption": "Marie is second from the left",
