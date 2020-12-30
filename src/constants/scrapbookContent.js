@@ -53,12 +53,17 @@ const img = {
 
 const audio = {
   'amesSisters': 'and-i-was-an-ames-sister.mp3',
+  'amesSistersTravelling': 'five-ames-sisters-travelling.mp3',
+  'lookTheSame': 'look-the-same.mp3',
   'millerSisters': 'miller-sisters.mp3',
   'millerSistersLastRecital': 'miller-sisters-last.mp3',
   'nedWayburn': 'ned-wayburn.mp3',
+  'toBeOneOfThem': 'to-be-one-of-them.mp3',
   'tracySisters': 'tracy-sisters.mp3',
   'tracySistersProgram': 'tracy-sisters-program.mp3',
-  'graduation': 'during-high-school.mp3'
+  'graduation': 'during-high-school.mp3',
+  'whatWasTheDifference': 'what-was-the-difference.mp3',
+  'whenSchoolClosed': 'chicago.mp3',
 }
 
 export const scrapbookContent = [
@@ -70,7 +75,7 @@ export const scrapbookContent = [
     "imgSrc": img.millerSisters,
     "title": "First dancing teachers",
     "transcription": 
-      'When I was about 8 years old, I was a sickly kid, so the doctor said "Send her to dancing school to build her up". So I went to dancing school and these were my first teachers: The Miller Sisters. Paula and Madeline. Madeline was the dancing teacher and Paula was the violin teacher, and Patricia took lessons from Paula– piano!– Patricia took piano lessons. [0:01] I took tap, ballet, and acrobatic. Tap was my favorite. I must have stayed with them until 8th grade at school, because then I opened my own school.'
+      'When I was about 8 years old, I was a sickly kid, so the doctor said "Send her to dancing school to build her up". So I went to dancing school and these were my first teachers: The Miller Sisters. Paula and Madeline. Madeline was the dancing teacher and Paula was the violin teacher, and Patricia took lessons from– piano!– Patricia took lessons from the other one. It was a walk from school right there. I didnt take ballet, I took tap and and acrobatic. Tap was my favorite. I must have stayed with them until 8th grade at school, because then I opened my own school.'
   },
   {
     "caption": 'Clockwise from left: Marie is second from the right ("Me"), top row second from the right, and second from the left (performing as a boy)',
@@ -127,31 +132,34 @@ export const scrapbookContent = [
       "Now the Ames Sisters! That was when I was in high school. I went to another dancing studio. It was just acrobatic work and we had an Arabian teacher, Hassey. There were 5 real Ames Sisters and one of them, she got married and she got pregnant so they had all these bills to fill. They had been in the business a long time, the mother, the father were the managers, and the mother made the costumes. So they had to fill the bill that they had contracted for. So Hassey said take her; I was pretty much the same size. I looked something like some of them. So they put me in the costumes and taught me the routines and I was an Ames sister.",
   },
   {
+    "audioSrc": audio.lookTheSame,
     "caption": "Marie– the newest Ames Sister– sits at the top of the stairs",
     "chapter": "amesSisters",
     "date": "1939",
     "imgSrc": img.amesSistersOnStairs,
     "title": "Blending in",
     "transcription":
-    "[16:30] So you see, in the costume, with the same haircut, you all look the same. They told me, in the wings, not to talk to anyone because I wasn't union, they were. And I was supposed to be an Ames sister, so they didn't want anybody to know it wasn't 5 real girls.",
+      "So you see, in the costume, with the same haircut, you all look the same. They told me, in the wings, not to talk to anyone because I wasn't union, they were. And I was supposed to be an Ames sister, so they didn't want anybody to know it wasn't 5 real girls.",
   },
     // [14:16] The Five Ames Sisters: Ten Feet of Rhythm
   // [14:30] 
   //   "[0:18:20] We didn't do just one number. We'd do something, somebody else would come out, we'd change costumes, do a different kind of a number. [0:21:13] an hour, because we had so many people work in the show. The bill, you know, they'd call it a bill..."
   {
+    "audioSrc": audio.amesSistersTravelling,
     "chapter": "amesSisters",
     "date": "1939",
     "imgSrc": img.amesSistersInCoats,
     "title": "On the road",
     "transcription":
-    "[14:30] Here we are travelling. [13:25] The father, he had a big pack-up car, the top had a big box with all the costumes and we were all jammed in there, a whole flock of us in the car, and he'd take us from one place to another. [14:30] That's me, the tallest one. Barbara and I were the youngest ones, the big girl next to me. Very happy group. Very nice family. They taught me how to put makeup on, they taught me so much. They befriended me.",
+    "Here we are travelling. [The father], he had a big pack-up car, the top had a big box with all the costumes and we were all jammed in there, a whole flock of us in the car, and he'd take us from one place to another, here we are, the Ames Sisters. That's me, the tallest one. Barbara and I were the youngest ones, the big girl next to me, I think we were the youngest ones. Very happy group. Very nice family. They taught me how to put makeup on, they taught me so much. They befriended me, yeah...",
   },
   {
+    "audioSrc": audio.whenSchoolClosed,
     "chapter": "amesSisters",
     "imgSrc": img.amesSistersChicago,
     "title": "Cross-country tour",
     "transcription":
-    "[13:48] When school closed in September, then we went out of town. [13:48] We did all of Pennsylvania, we did New England... we did Chicago! [16:16] Got top billing on that one, huh? [0:17:13] We didn't make a lot of money evidently because we used to work at night, and then, we slept in the daytime and somebody would drive and co-pilot. Didn't get rich on that job but it was certainly a lot of fun. We had a ball."
+    "When school closed in September, then we went out of town. We did all of Pennsylvania, we did New England... we did Chicago! Got top billing on that one, huh? We didn't make a lot of money evidently because we used to work at night, and then, we slept in the daytime and somebody would drive and co-pilot. Didn't get rich on that job but it was certainly a lot of fun. We had a ball."
   },
   {
     "audioSrc": audio.graduation,
@@ -230,20 +238,22 @@ export const scrapbookContent = [
     "chapter": "southAmerica",
     "imgSrc": img.southAmericaLetter,
     "title": "Leaving the Marvelettes",
-    "transcription": "[0:30:11] My mother wouldn't let me go to South America. Oh that was Hassey, that was our agent. [0:31:0] He was trying to see if he could make me go, maybe. I know I didn't go. I would've remembered that one! Probably took you a week to get there in those days, ha.",
+    "transcription": "Oh that was Hassey, that was our agent. [0:30:11] My mother wouldn't let me go to South America. [0:31:0] He was trying to see if he could make me go, maybe. I know I didn't go. I would've remembered that one! Probably took you a week to get there in those days, ha.",
   },
   {
+    "audioSrc": audio.toBeOneOfThem,
     "chapter": "auditions",
     "imgSrc": img.oneOrTheOther,
     "title": "Just wanted to be one of them",
-    "transcription": "[0:03:50] I auditioned for both places in New York. [0:06:54] I worked behind the lines at Music Hall. They let you work there and when they need you, they'd put you in line. They didn't need anybody, but the day I went over to the Roxy, I auditioned, and I think a day or two later I got a telegram: they needed me. There was a girl missing, and I got right in. That's why, if I hadn't gone there, I would've been at Music Hall, if I had held out. But I didn't care which one I wanted. I just wanted to be one of them.",
+    "transcription": "I auditioned for both places in New York. I worked behind the lines at Music Hall. They let you work there and when they need you, they'd put you in line. They didn't need anybody, but the day I went over to the Roxy, I auditioned, and I think a day or two later I got a telegram: they needed me. There was a girl missing, and I got right in. That's why, if I hadn't gone there, I would've been at Music Hall, if I had held out. But I didn't care which one I wanted. I just wanted to be one of them.",
   },
   {
+    "audioSrc": audio.whatWasTheDifference,
     "chapter": "auditions",
     "imgSrc": img.articleRoxy,
     "title": "What was the difference?",
     "transcription":
-      "[0:06:00] That was my boss, Gae Foster. Gae Foster was an original Rockette. So instead of going to Music Hall, she stayed with Roxy and she was head of the Roxyettes. (What was the difference?) [0:06:54] There was none. [0:03:50] We did the same kind of work at that time. [0:06:54] See, that's the same line. [0:03:50] The difference was– we were all Rockettes and when Rockefeller built Music Hall, the dance director for the Rockettes moved to the new Music Hall and took his name with him. So then Mr. Roxy, who owned the Roxy theatre where we all started, he named us the Roxyettes. [07:50] There was nothing to compete with the Roxy until Music Hall. There was no other dance line. They called them chorus lines but– 'chorus' we didn't like that."
+      "That was my boss, Gae Foster. Gae Foster was an original Rockette. So instead of going to Music Hall, she stayed with Roxy and she was head of the Roxyettes. (What was the difference?) There was none. We were all Rockettes and when Rockefeller built Music Hall, the dance director for the Rockettes moved to the new Music Hall and took his name with him. So then Mr. Roxy, who owned the Roxy theatre where we all started, he named us the Roxyettes. There was nothing to compete with the Roxy until Music Hall. There was no other dance line. They called them chorus lines but– 'chorus' we didn't like that."
   },
   {
     "chapter": "training",
