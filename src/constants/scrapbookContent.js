@@ -26,6 +26,7 @@ const img = {
   'marvelettesContract': 'scrapbook/marvelettes-contract.jpg',
   'marvelettesPage1': 'scrapbook/marvelette-page-1.jpg',
   'marvelettesPage2': 'scrapbook/marvelette-page-2.jpg',
+  'marvelettesRedWhiteBlue': 'scrapbook/red-white-blue.jpg',
   'millerSisters': 'scrapbook/miller-sisters.png',
   'millerSistersJuniorRecital': 'scrapbook/junior-recital.png',
   'millerSistersLastRecital': 'scrapbook/miller-sisters-last-recital.jpg',
@@ -60,10 +61,12 @@ const audio = {
   'marvelettes': 'marvelettes-now.mp3',
   'millerSisters': 'miller-sisters.mp3',
   'millerSistersLastRecital': 'miller-sisters-last.mp3',
-  'theAgent': 'the-agent.mp3',
+  'music': 'tempo-with-band.mp3',
+  'nearingWar': 'nearing-war.mp3',
   'nedWayburn': 'ned-wayburn.mp3',
   'stopLookListen': 'stop-look-listen.mp3',
   'toBeOneOfThem': 'to-be-one-of-them.mp3',
+  'theAgent': 'the-agent.mp3',
   'tracySisters': 'tracy-sisters.mp3',
   'tracySistersProgram': 'tracy-sisters-program.mp3',
   'upsideDown': 'upside-down.mp3',
@@ -206,11 +209,21 @@ export const scrapbookContent = [
       "Now there's a typical show that we'd travel with. The whole show would go. Some singers, some dancers, some comics. That was a big show. I think we worked that for weeks. Went from one place to the other. Every night a different place."
   },
   {
+    "audioSrc": audio.music,
     "chapter": "marvelettes",
     "imgSrc": img.marvelettesPage2,
     "title": "With the band",
     "transcription":
-      "[26:05] One of the Ames sisters used to work with the band before we went on to get the tempo right. She'd rehearse first, you know, when we first got there. We'd take whatever band they had. We'd bring our own music and she'd go over the music with them."
+      "One of the Ames sisters used to work with the band before we went on to get the tempo right. She'd rehearse first, you know, when we first got there. We'd bring our own music and she'd go over the music with them."
+  },
+  {
+    "audioSrc": audio.nearingWar,
+    "caption": "Marie is the base on the bottom right",
+    "chapter": "marvelettes",
+    "imgSrc": img.marvelettesRedWhiteBlue,
+    "title": "Musclebound",
+    "transcription":
+      "There's me on the end here. Musclebound. These were red, white, and blue costumes. They were– it was a military [number]. We're getting near the war now, see? 1941."
   },
   {
     "audioSrc": audio.theAgent,
