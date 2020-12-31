@@ -4,6 +4,7 @@ const img = {
   'amesSistersChicago': 'scrapbook/chicago.png',
   'amesSistersInCoats': 'scrapbook/ames-sisters-car.png',
   'amesSistersOnStairs': 'timeline/ames-sisters-stairs.png',
+  'armin': 'scrapbook/armin-placeholder.jpg',
   'articleMusicHall': 'scrapbook/hoofersLotRockettes.jpg',
   'articleRoxy': 'scrapbook/hoofersLotGaeFoster.jpg',
   'beachheadBelle': 'scrapbook/beachhead-belle.jpg',
@@ -60,6 +61,7 @@ const audio = {
   'allTheCostumes': 'all-the-costumes.mp3',
   'amesSisters': 'and-i-was-an-ames-sister.mp3',
   'amesSistersTravelling': 'five-ames-sisters-travelling.mp3',
+  'armin': 'armin.mp3',
   'bells': 'bells-of-st-mary.mp3',
   'bojangles': 'bojangles.mp3',
   'bicycle': 'bicycle.mp3',
@@ -81,6 +83,7 @@ const audio = {
   'married': 'married.mp3',
   'marvelettes': 'marvelettes-now.mp3',
   'millerSisters': 'miller-sisters.mp3',
+  'millerSistersJuniorRecital': 'junior-recital.mp3',
   'millerSistersLastRecital': 'miller-sisters-last.mp3',
   'music': 'tempo-with-band.mp3',
   'nearingWar': 'nearing-war.mp3',
@@ -118,13 +121,14 @@ export const scrapbookContent = [
       'When I was about 8 years old, I was a sickly kid, so the doctor said "Send her to dancing school to build her up". So I went to dancing school and these were my first teachers: The Miller Sisters. Paula and Madeline. Madeline was the dancing teacher and Paula was the violin teacher, and Patricia took lessons from– piano!– Patricia took lessons from the other one. It was a walk from school right there. I didnt take ballet, I took tap and and acrobatic. Tap was my favorite. I must have stayed with them until 8th grade at school, because then I opened my own school.'
   },
   {
+    "audioSrc": audio.millerSistersJuniorRecital,
     "caption": 'Clockwise from left: Marie is second from the right ("Me"), top row second from the right, and second from the left (performing as a boy)',
     "date": "1938",
     "chapter": "millerSisters",
     "imgSrc": img.millerSistersJuniorRecital,
     "title": "Junior Recital",
     "transcription": 
-      "Every junior had a recital. I was second-tallest, I was like Tarin, I was the same height then as when I finished growing. And when there were boys and girls they always picked me for a boy. There I am. One boy in the class. Must have been just before high school. Because in high school I decided, oh I wanted to dance."
+      "Every junior had a recital. I think this is me. I was second-tallest, I was like Tarin, I was the same height then as when I finished growing. And when there were boys and girls they always picked me for a boy. There I am. One boy in the class. It must have been just before high school. Yeah. Because in high school I decided, oh I wanted to dance."
   },
   {
     "audioSrc": audio.millerSistersLastRecital,
@@ -222,7 +226,7 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.joansDog,
-    "caption": "Joan is first from the left. Marie is two over at center right.",
+    "caption": "Joan, the girl with the dog, is first from the left. Marie is two over (the tallest).",
     "chapter": "marvelettes",
     "date": "",
     "imgSrc": img.marvelettesAndCar,
@@ -242,6 +246,7 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.music,
+    "caption": "Marie is bottom left of the pyramid. She is fourth in from the left in the ballgown picture.",
     "chapter": "marvelettes",
     "imgSrc": img.marvelettesPage2,
     "title": "With the band",
@@ -250,7 +255,7 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.nearingWar,
-    "caption": "Marie is the base on the bottom right",
+    "caption": "Marie is the base of the pyramid on the bottom right",
     "chapter": "marvelettes",
     "imgSrc": img.marvelettesRedWhiteBlue,
     "title": "Musclebound",
@@ -278,6 +283,7 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.rightOff,
+    "caption": "Marie is bottom left of the pyramid and doing a split in the photo to the right.",
     "chapter": "marvelettes",
     "date": "1940",
     "imgSrc": img.marvelettesPage1,
@@ -401,9 +407,31 @@ export const scrapbookContent = [
     "transcription":
       "That was a tough number. Those balls were made of plaster; heavy, you couldn't lift them up. You'd have to roll them and you had to work mostly on your heels– no– your toes to roll them and then you stop them on your heels, you know, you'd balance back and forth. And we'd weave in formation, circles, squares, rounds. That was a tough number. We were famous for that one, Rockettes were famous for their kicks. We were famous for bicycles, the roller skates, we did a number on roller skates... we did more tricks than Music Hall. We were more agile.",
   },
-
-  // [53:18] my Grandpa sat first row, center ... "Hey is Grandpa out there? Oh yeah, there is is." I'd see and he'd say "You make your money easy this week"– he didn't like the show.
-
+  {
+    "audioSrc": audio.armin,
+    "chapter": "roxyette",
+    "imgSrc": img.armin,
+    "title": "Hey, is Grandpa out there?",
+    "transcription":
+      "My Grandpa sat first show, front center. He never missed a show. And the kids would say, 'Hey is Grandpa out there? Yeah, there is is.' Sometimes I'd come home, and I'd see him, and he'd say 'You make your money easy this week'– he didn't like the show. (He was a critic, huh?) Oh, yeah."
+  },
+  {
+    "audioSrc": audio.dorseyDog1,
+    "caption": "Marie stands with the dog. Viola is seated, center, pointing.",
+    "chapter": "roxyette",
+    "imgSrc": img.dorseyDog1,
+    "title": "Dorsey's Dog",
+    "transcription":
+      "And this is [for] Jimmy Dorsey– we worked with Jimmy Dorsey, and I think there's a dog there, is there? And that's me. And my best friend Viola! Yeah, because I think the next page, I took the dog up, somebody had to take the dog up on the roof to walk it..."
+  },
+  {
+    "audioSrc": audio.dorseyDog2,
+    "chapter": "roxyette",
+    "imgSrc": img.dorseyDog2,
+    "title": "Dorsey's Dog (cont'd)",
+    "transcription":
+      "I took the dog up, somebody had to take the dog up on the roof [of the Roxy] to walk it and I had the dog up there and somebody came up and took- there - and took my picture. Now that was in rehersal clothes. I guess in rehersal somebody: 'Who wants to take the dog?' 'I'll take the dog'. Somebody said 'Well, hold it!'. They sent a photographer up to take a picture of me with the stupid dog."
+  },
   {
     "audioSrc": audio.pinup,
     "chapter": "roxyette",
@@ -435,23 +463,6 @@ export const scrapbookContent = [
 
   // dezy arnes
   // "[0:42]"
-
-  {
-    "audioSrc": audio.dorseyDog1,
-    "chapter": "roxyette",
-    "imgSrc": img.dorseyDog1,
-    "title": "Dorsey's Dog",
-    "transcription":
-      "And this is Jimmy Dorsey [number]– we worked with Jimmy Dorsey, and I think there's a dog there, is there? And that's me. And my best friend Viola! Yeah, because I think the next page, I took the dog up, somebody had to take the dog up on the roof to walk it..."
-  },
-  {
-    "audioSrc": audio.dorseyDog2,
-    "chapter": "roxyette",
-    "imgSrc": img.dorseyDog2,
-    "title": "Dorsey's Dog (cont'd)",
-    "transcription":
-      "I took the dog up, somebody had to take the dog up on the roof [of the Roxy] to walk it and I had the dog up there and somebody came up and took- there - and took my picture. Now that was in rehersal clothes. I guess in rehersal somebody: 'Who wants to take the dog?' 'I'll take the dog'. Somebody said 'Well, hold it!'. They sent a photographer up to take a picture of me with the stupid dog."
-  },
 
   // [50:20] stilts. even tho it was only a foot or two... you'd have to do kicks and everything else. if you were a klutz they'd give you the week off. you'd take a vacation week that week. you'd get on on the wings on a ladder. that was scary i didn't like that number
 
@@ -553,6 +564,7 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.engagementParty,
+    "caption": "Marie and Joe, at center left and right.",
     "chapter": "wedding",
     "date": "1947",
     "imgSrc": img.engagementParty,
@@ -568,7 +580,7 @@ export const scrapbookContent = [
      "Marie Tracy becomes Marie Irwin on September 13, 1947",
     "imgSrc": img.weddingParty,
     "transcription":
-      "(When did you meet Joe?) It was September '43, he was just gonna start law school. So it was perfect, I stayed working and he went to law school. I made more money than Daddy when I got married. Daddy was a marshal and he wasn't making that [kind of money]."
+      "(When did you meet Joe?) It was September '43, he was just gonna start law school. So it was perfect, I stayed working and he went to law school. I made more money than Daddy when I got married. Daddy was a marshal and he wasn't making that."
   },
   // [59:47] I wanted two bricks as book ends. What a beautiful theatre.
 ];
