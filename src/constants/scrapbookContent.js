@@ -53,8 +53,12 @@ const img = {
 }
 
 const audio = {
+  'adler': 'adler.mp3',
   'amesSisters': 'and-i-was-an-ames-sister.mp3',
   'amesSistersTravelling': 'five-ames-sisters-travelling.mp3',
+  'bicycle': 'bicycle.mp3',
+  'calledToNewYork': 'back-to-new-york.mp3',
+  'colorSpread': 'color-spread.mp3',
   'earleTheatre': 'earle-theatre.mp3',
   'earleTheatreDances': 'earle-theatre-dances.mp3',
   'graduation': 'during-high-school-ext.mp3',
@@ -66,6 +70,9 @@ const audio = {
   'music': 'tempo-with-band.mp3',
   'nearingWar': 'nearing-war.mp3',
   'nedWayburn': 'ned-wayburn.mp3',
+  'rightOff': 'gone-right-off.mp3',
+  'shoeCaptain': 'shoe-capt.mp3',
+  'shorePatrol': 'fdr.mp3',
   'southAmericaLetter': 'south-america.mp3',
   'stopLookListen': 'stop-look-listen.mp3',
   'toBeOneOfThem': 'to-be-one-of-them.mp3',
@@ -73,6 +80,7 @@ const audio = {
   'tracySisters': 'tracy-sisters.mp3',
   'tracySistersProgram': 'tracy-sisters-program.mp3',
   'upsideDown': 'upside-down.mp3',
+  'walkingBalls': 'walking-balls.mp3',
   'whatWasTheDifference': 'what-was-the-difference.mp3',
   'whenSchoolClosed': 'chicago.mp3',
 }
@@ -248,12 +256,13 @@ export const scrapbookContent = [
       "There's me upside down. I was always upside down. I was very good at acrobatics."
   },
   {
+    "audioSrc": audio.rightOff,
     "chapter": "marvelettes",
     "date": "1940",
     "imgSrc": img.marvelettesPage1,
     "title": "Tumbling with Speed",
     "transcription":
-      "[36:06] Somebody auditioned for the Paramount... it was the Marvelettes, and we couldn't work the stage it was so small. In New York, where Sinatra was, same time. Couldn't work the stage because we were doing acrobatic work and we would've gone right off. (You would've done it with Sinatra?) Yup."
+      "Somebody auditioned for the Paramount... it was the Marvelettes, and we couldn't work the stage it was so small. In New York, where Sinatra was, same time. Couldn't work the stage because we were doing acrobatic work and we would've gone right off. (You would've done it with Sinatra?) Yup."
   },
    // "[19:04] We worked the line up and down the Hudson here. (They used to have a cruise line up and down the Hudson?) Yeah. [27:14] Here we worked that line again. I think we went up like from here to Albany. We never went around the island, New York island. We used to go up the Hudson and down. We probably went up to the Whitestone Bridge and back."
       
@@ -300,6 +309,7 @@ export const scrapbookContent = [
     "transcription": "Here's all the routines we did. I had to learn all this down there. Shore Patrol, bicycle, stilts– I had to learn how to walk, dance in stilts–, soft shoe, and fencing. We rehearsed while the movie was on. And then I rehearsed every day, every day, every day.",
   },
   {
+    "audioSrc": audio.bicycle,
     "caption": "Marie is second from the left",
     "chapter": "training",
     "date": "1942",
@@ -308,34 +318,38 @@ export const scrapbookContent = [
     "transcription": "I knew how to ride a bicycle. But we did all the formations on a bicycle holding one hand. You had to break it so I'd go forward and she'd go back. There were no breaks on the bikes. It was all controlled with your feet.",
   },
   {
+    "audioSrc": audio.shorePatrol,
     "chapter": "training",
     "date": "1942",
     "imgSrc": img.shorePatrol,
     "title": "The President's Ball",
-    "transcription": "[0:34] And the Shore Patrol, that was a tough one too. The President's ball, look at that. Well, we were down in Washington. (FDR? You performed for FDR?) Well it was in '42.",
+    "transcription": "And the Shore Patrol, that was a tough one too. The President's ball, look at that. Well, we were down in Washington. (FDR? You performed for FDR?) Well it was in '42.",
   },
   {
+    "audioSrc": audio.calledToNewYork,
     "chapter": "roxyette",
     "date": "1942",
     "imgSrc": img.roxyMemories1,
     "title": "Called to New York",
-    "transcription": "[0:36:0] Now we're up in New York. Now I'm called to New York. I'll tell you why I was called to New York– they closed the Earle Theatre. And they brought all the Roxyettes home. So some of us made it up here and some of us didn't.",
+    "transcription": "Now we're up in New York. Now I'm called to New York. I'll tell you why I'm called to New York– they closed the Earle Theatre. And they brought all the Roxyettes home. So some of us made it back here and some of didn't.",
     // [52] multiple costumes, had to learn new dances for each movie
     // for two weeks while the movie is there, and then when the movie 
   },
   {
+    "audioSrc": audio.shoeCaptain,
     "chapter": "roxyette",
     "date": "1942",
     "imgSrc": img.shoeCapt,
     "title": "Shoe Captain",
-    "transcription": "[0:37:20] I was shoe captain. We had lockers and lockers of pink shoes, red shoes, green shoes. 'Alright, next show we need red shoes, everyone go down to Marie– Tracy, my name was– and get shoes.' I had to listen to everybody: 'these are too small,' 'these are too big,' and everything else. Anyhow, I had that job. You got no pay for it but you got a name.",
+    "transcription": "I was shoe captain. We had lockers and lockers of pink shoes, red shoes, green shoes. 'Alright, next show we need red shoes, everyone go down to Marie– Tracy, my name was– and get shoes.' I had to listen to everybody: 'these are too small,' 'these are too big,' and everything else. Anyhow, I had that job. You got no pay for it but you got a name.",
   },
   {
+    "audioSrc": audio.adler,
     "chapter": "roxyette",
     "date": "1942",
     "imgSrc": img.adler,
     "title": "The hairdresser",
-    "transcription": "[0:36:0] Earnest Adler, he was the hairdresser. Everyone had to wear their hair the same. And he dressed my hair for the wedding, my own wedding.",
+    "transcription": "This is Adler, Earnest Adler, he was the hairdresser. Everyone had to wear their hair the same. And he dressed my hair for the wedding, my own wedding.",
   },
   // [0:37:59] Night of stars "That was a great night, yeah. We did that a couple of years."
   // "[0:22:45] To work a benefit was a plus, but ... it was like an honor."
@@ -349,14 +363,16 @@ export const scrapbookContent = [
   //     "[0:37:45] I got the purple heart for a fencing number. I got hurt.",
   // },
   {
+    "audioSrc": audio.colorSpread,
     "chapter": "roxyette",
     "date": "1943",
     "imgSrc": img.roxyette,
     "title": "On the ball",
     "transcription": 
-      "[0:39] This was in the middle of the NY News, the Sunday News. Now that'll tell you where each girl comes from. See, Marie Tracy, Elmhurst, New York, Long Island, Queens. That's me right there. Fourth.",
+      "This was in the middle of the New York News, the Sunday News. Now that'll tell you where each girl comes from. See, Marie Tracy, Elmhurst, New York. Long Island. Queens. That's me right there. Fourth.",
   },
   {
+    "audioSrc": audio.walkingBalls,
     "chapter": "roxyette",
     "date": "1943",
     "imgSrc": img.roxyetteCloseUp,
