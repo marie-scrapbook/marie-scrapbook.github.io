@@ -17,9 +17,10 @@ function ScrapbookPage({index}) {
     date,
     description,
     imgSrc,
+    introAudioSrc,
+    introTranscription,
     title,
-    transcription,
-    transcriptionIntro
+    transcription
   } = scrapbookContent[realIndex];
 
   let formattedChapter = formattedChapters[chapter];
@@ -34,7 +35,8 @@ function ScrapbookPage({index}) {
         <div className="scrapbook__content">
           <h3 className="scrapbook__chapter">{formattedChapter}</h3>
           { title && <h4 className="scrapbook__title">{title}</h4> }
-          { transcriptionIntro && <blockquote className="blockquote"><p className="scrapbook__transcription">{transcriptionIntro}</p></blockquote>}
+          { introAudioSrc && <audio controls src={`${process.env.PUBLIC_URL}/assets/audio/${introAudioSrc}`}></audio> }
+          { introTranscription && <blockquote className="blockquote"><p className="scrapbook__transcription">{introTranscription}</p></blockquote>}
           { description && <p className="scrapbook__description">{description}</p>}
           { audioSrc && <audio controls src={`${process.env.PUBLIC_URL}/assets/audio/${audioSrc}`}></audio> }
           { transcription && <blockquote className="blockquote"><p className="scrapbook__transcription">{transcription}</p></blockquote>}

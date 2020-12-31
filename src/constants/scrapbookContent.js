@@ -63,16 +63,22 @@ const audio = {
   'bells': 'bells-of-st-mary.mp3',
   'bojangles': 'bojangles.mp3',
   'bicycle': 'bicycle.mp3',
+  'bustle': 'bustle-number.mp3',
   'calledToNewYork': 'back-to-new-york.mp3',
+  'careerEnd': 'end-of-my-career.mp3',
   'colorSpread': 'color-spread.mp3',
+  'costumesJohnny': 'johnny-marching-home.mp3',
   'dorseyDog1': 'dorsey-dog-1.mp3',
   'dorseyDog2': 'dorsey-dog-2.mp3',
   'earleTheatre': 'earle-theatre.mp3',
   'earleTheatreDances': 'earle-theatre-dances.mp3',
+  'engagementParty': 'engagement-party.mp3',
+  'fitGirl': 'fitgirl.mp3',
   'graduation': 'during-high-school-ext.mp3',
   'ilonaMassey': 'ilona-massey.mp3',
   'joansDog': 'joans-dog.mp3',
   'lookTheSame': 'look-the-same.mp3',
+  'married': 'married.mp3',
   'marvelettes': 'marvelettes-now.mp3',
   'millerSisters': 'miller-sisters.mp3',
   'millerSistersLastRecital': 'miller-sisters-last.mp3',
@@ -82,9 +88,12 @@ const audio = {
   'photoshoot': 'headshots.mp3',
   'pinup': 'pinup-1.mp3',
   'rickshaw': 'rickshaw.mp3',
+  'rifle': 'rifle-number.mp3',
   'rightOff': 'gone-right-off.mp3',
   'shoeCaptain': 'shoe-capt.mp3',
   'shorePatrol': 'fdr.mp3',
+  'showgirl': 'showgirl.mp3',
+  'sick': 'sick.mp3',
   'southAmericaLetter': 'south-america.mp3',
   'stopLookListen': 'stop-look-listen.mp3',
   'toBeOneOfThem': 'to-be-one-of-them.mp3',
@@ -427,12 +436,6 @@ export const scrapbookContent = [
   // dezy arnes
   // "[0:42]"
 
-  // Oriental number; rickshaw [0:45]
-
-  // [45:38]
-  // We worked with Jimmy dorsey and I think there's a dog there? And that's my best friend, Viola.
-  // Somebody had to take the dog up to the roof and walk it. Who wants to take the dog? I'll take the dog. Sent a photographer up to take a picture of me and that stupid dog.
-
   {
     "audioSrc": audio.dorseyDog1,
     "chapter": "roxyette",
@@ -460,8 +463,9 @@ export const scrapbookContent = [
     "date": "1945",
     "description": "Although we don't have official photos of Marie as a fit model, she did keep quite a few of her own costume pictures.",
     "imgSrc": img.costumesAllPage,
-    "transcriptionIntro": 
-      "That's when they built the costumes on me for the sample to see if it would work. They'd send me out front to the chairman to see if he likes it. If he'd approve them, and then they'd make 36 of them.",
+    "introAudioSrc": audio.fitGirl,
+    "introTranscription": 
+      "They built the costumes on me for the sample to see if it would work. They'd send me out front to the chairman to see if he likes it. If he'd approve them, and then they'd make 36 of them.",
     "transcription":
       "And these are all the costumes. We used to, you know, you'd get a girlfriend with a camera, 'Come on we're going out to take pictures between shows'. We'd go out in the courtyard and we'd take pictures of each other in the different costumes and then we'd remember each number."
   },
@@ -493,70 +497,78 @@ export const scrapbookContent = [
       "This one was a good number. This one was– we wore bells on our waists, and our ankles, and our wrists and the musician would tune them. We'd do the Bells of St. Mary and we each had a note. And we'd go the 'Bells... of St. Mary' and we'd sing a song. We'd jump for them."
   },
   {
+    "audioSrc": audio.bustle,
     "chapter": "fitModel",
     "data": "1945",
     "imgSrc": img.costumesBustle,
     "title": "Bustle Number",
     "transcription":
-      "[49:25] We did a bustle number. Thank God I was never the bustle. I was the girl in front. She's supposed to be hiding, one girl underneath me, holding my waist. You had to go, like you were on skates so that you looked like you were one piece. That was a cute number."
+      "We did a bustle number. Thank God I was never the bustle. I was the girl in front. She's supposed to be hiding, one girl underneath me, holding my waist. You had to go, like you were on skates so that you looked like you were one piece. That was a cute number."
   },
   {
+    "audioSrc": audio.rifle,
     "chapter": "fitModel",
     "date": "1945",
     "imgSrc": img.costumesMarine,
     "title": "Marine Drill",
     "transcription":
-      "[51:32] Oh, this is a great story. During the war, now the marine drill. We had a real marine sargent teaching us how to use– real rifles and they were heavy, 10lbs. And he taught us even how to– we had to do a drill, and how to do the Queen Ann's salute, where you go around and you go down on your knee and everything. Oh, it was a tough number. Yeah, that was something..."
+      "Oh, this is a great story. This is, during the war, now the marine drill. We had a real marine sargent teaching us how to use they were– rifles and they had to be heavy. And he taught us even how to– we had to do a drill, and how to do the Queen Ann's salute, where you go around and you go down on your knee and everything. Oh, it was a tough number. Yeah, that was something..."
   },
   {
+    "audioSrc": audio.costumesJohnny,
     "chapter": "fitModel",
     "date": "1945",
     "imgSrc": img.costumesJohnny,
     "title": "When Johnny Comes Marching Home",
     "transcription":
-      "[53:55] Here's Daddy's favorite outfit, Daddy loved me in that outfit. It was blue. It was 'Johnny comes marching home', you remember that song? It was like an orange pearl, red hat." 
+      "Here's Daddy's favorite outfit, Daddy loved me in that outfit. It was blue. It was 'Johnny comes marching home', you remember that song? It was like an orange– red hat." 
   },
   {
+    "audioSrc": audio.sick,
     "chapter": "retirement",
     "date": "1946",
     "imgSrc": img.getWellSoon,
     "title": "Get Well Soon",
     "transcription":
-      "[58:30] Is this when I was sick? Yeah, this is when I got sick. That was the end of me. That's the end of my career, yeah. [0:41] We worked the USO. That's where they think I got the encephilitis. We used to go down and entertain the boys once a week.",
+      "'Here's hoping we'll see you back soon' ... Yeah, this is when I got sick. That was the end of me. We worked the USO. That's where they think I got my encephilitis. We used to go down and entertain the boys once a week.",
   },
   {
+    "audioSrc": audio.careerEnd,
     "chapter": "retirement",
     "date": "1946",
     "imgSrc": img.honorableWithdrawal,
     "title": "Honorable Withdrawal",
     "transcription":
-      "[59:01] That's the end of my career, yeah.",
+      "That's the end of my career, yeah.",
   },
   {
+    "audioSrc": audio.showgirl,
     "chapter": "retirement",
     "date": "1946",
     "description": "Marie continued to do contract work with the Roxy, even after her illness.",
     "imgSrc": img.showGirlContract,
     "title": "Contract work",
     "transcription":
-      "That's when they made me a showgirl. Instead of dancing, one of the show girls was missing. Show girls are all 6 footers and they parade around in costumes. ($85 a week) Wow, that was a lot of money.",
+      "Oh, that's when they made me a showgirl. Instead of dancing, one of the show girls was missing. And so I was then a show girl. Show girls are all 6 footers and they parade around with costumes, you know? That's what a showgirl is. I think that's what that was. Does it say that? ($85 a week) Wow, that was a lot of money.",
   },
   {
+    "audioSrc": audio.engagementParty,
     "chapter": "wedding",
     "date": "1947",
     "imgSrc": img.engagementParty,
     "title": "Engagement parties at the bar",
     "transcription":
-      "This is my engagement party. What does that say?... oh, it was [Rita's], I thought it was mine. That's across the street where the boys used to wait for us. Our boyfriends used to wait for us until the last show was done at 11:30 or 11. Run across the street to the bar and we'd meet them.",
+      "This is my engagement party. What does that say?... oh, it was [Rita's], I thought it was mine. That's across the street where the boys used to wait for us. Our boyfriends used to wait for us until the last show was done at 11:30 or 11 o'clock. Run across the street to the bar and we'd meet them.",
   },
   {
+    "audioSrc": audio.married,
     "chapter": "wedding",
     "date": "1947",
     "description":
      "Marie Tracy becomes Marie Irwin on September 13, 1947",
     "imgSrc": img.weddingParty,
     "transcription":
-      "[44:40] (When did you meet Joe?) It was September '43, he was just gonna start law school. So I stayed working and he went to law school. [0:38:50] I made more money than Daddy when we got married. [56:50] $75... Daddy was a marshal and he wasn't making that kind of money. "
+      "(When did you meet Joe?) It was September '43, he was just gonna start law school. So it was perfect, I stayed working and he went to law school. I made more money than Daddy when I got married. Daddy was a marshal and he wasn't making that [kind of money]."
   },
   // [59:47] I wanted two bricks as book ends. What a beautiful theatre.
 ];
