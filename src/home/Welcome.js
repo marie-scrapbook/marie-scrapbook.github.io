@@ -12,29 +12,16 @@ function Welcome() {
           </h2>
         </div>
         <div className="row">
-          <div className="col-md-8 col-sm-12">
-            <p className="welcome-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id imperdiet ante.
-              Nulla at vulputate dui. Suspendisse commodo nunc massa, at gravida metus imperdiet id.
-              Sed et mauris arcu. Donec libero felis, rutrum eu tellus eget, vulputate pharetra ante.
-              Sed sed posuere sapien, at dapibus libero. Nulla felis velit, venenatis tempus placerat vitae,
-              dictum in arcu. Vivamus viverra, mi nec pulvinar fermentum, nunc risus mollis lorem, nec efficitur
-              velit diam ultricies dolor. Nulla ultrices rutrum tellus, quis elementum elit molestie et.
-              Vivamus vestibulum, diam non euismod semper, ligula augue sagittis neque, et blandit neque ipsum nec
-              diam. Pellentesque eu convallis enim. Fusce suscipit nibh vel lectus ultricies,
-              a maximus nibh tristique.
+          <div className="welcome-text col-md-8 col-sm-12">
+            <p>Hi Irwins,</p>
+            <p>
+              For the past 6 months, my family and I have been using some of our quarantine time to digitize Grandma's dancing scrapbook. In the 1970s, my mom helped Grandma put together a scrapbook of photos, ticket stubs, and newspaper clippings related to her dancing career. In 2008, my dad sat down with Grandma to record her memories as they flipped through the pages. And in 2020, we finally got the VHS tape converted, cut the audio clips, scanned the pages and pieces we had, and my mom and I worked on designing a timeline and scrapbook page website to bring everything together.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id imperdiet ante.
-              Nulla at vulputate dui. Suspendisse commodo nunc massa, at gravida metus imperdiet id.
-              Sed et mauris arcu. Donec libero felis, rutrum eu tellus eget, vulputate pharetra ante.
-              Sed sed posuere sapien, at dapibus libero. Nulla felis velit, venenatis tempus placerat vitae,
-              dictum in arcu. Vivamus viverra, mi nec pulvinar fermentum, nunc risus mollis lorem, nec efficitur
-              velit diam ultricies dolor. Nulla ultrices rutrum tellus, quis elementum elit molestie et.
-              Vivamus vestibulum, diam non euismod semper, ligula augue sagittis neque, et blandit neque ipsum nec
-              diam. Pellentesque eu convallis enim. Fusce suscipit nibh vel lectus ultricies,
-              a maximus nibh tristique.
+              There's nothing like hearing Grandma's story told in her own words. Getting to know her a little better through this website has been a really special experience, and I'm so happy to finally be able to share it with you all.
             </p>
+            <p>I will continue updating and adding to the website, so if you have anything to add– or bug reports to file!– please let me know.</p>
+            <p>With love,<br/>Tarin</p>
           </div>
           <div className="col-md-4 col-sm-12">
             <img className="welcome-img" src={welcomeImg} alt=""/>
