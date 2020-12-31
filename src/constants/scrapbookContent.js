@@ -4,7 +4,7 @@ const img = {
   'amesSistersChicago': 'scrapbook/chicago.png',
   'amesSistersInCoats': 'scrapbook/ames-sisters-car.png',
   'amesSistersOnStairs': 'timeline/ames-sisters-stairs.png',
-  'armin': 'scrapbook/armin-placeholder.jpg',
+  'armin': 'scrapbook/armin-placeholder.png',
   'articleMusicHall': 'scrapbook/hoofersLotRockettes.jpg',
   'articleRoxy': 'scrapbook/hoofersLotGaeFoster.jpg',
   'beachheadBelle': 'scrapbook/beachhead-belle.jpg',
@@ -39,6 +39,7 @@ const img = {
   'purpleHeart': 'scrapbook/purpleHeart.png',
   'retirement': 'timeline/bar-across-the-street.png',
   'rickshaw': 'scrapbook/rickshaw-number.jpg',
+  'roxyDemolition': 'scrapbook/roxy-swan-song.jpg',
   'roxyMemories1': 'scrapbook/roxyMemories1.jpg',
   'roxyette': 'scrapbook/ColorSpread.jpg',
   'roxyetteCloseUp': 'scrapbook/ColorSpread003.jpg',
@@ -93,6 +94,7 @@ const audio = {
   'rickshaw': 'rickshaw.mp3',
   'rifle': 'rifle-number.mp3',
   'rightOff': 'gone-right-off.mp3',
+  'roxyDemolition': 'end-of-the-roxy.mp3',
   'shoeCaptain': 'shoe-capt.mp3',
   'shorePatrol': 'fdr.mp3',
   'showgirl': 'showgirl.mp3',
@@ -436,8 +438,6 @@ export const scrapbookContent = [
     "audioSrc": audio.pinup,
     "chapter": "roxyette",
     "date": "1946",
-    // "description":
-    //   'Caption reads: "Look, but brother thats all. Says John Shea SP(G)3rd class of Ordinance, when referring to the lovely, back home in Elmhurst, Long Island, N. Y. The name is Marie Tracy (No relation to the comic strip detective)"',
     "imgSrc": img.beachheadBelle,
     "title": "Look but brother, that's all",
     "transcription":
@@ -582,5 +582,14 @@ export const scrapbookContent = [
     "transcription":
       "(When did you meet Joe?) It was September '43, he was just gonna start law school. So it was perfect, I stayed working and he went to law school. I made more money than Daddy when I got married. Daddy was a marshal and he wasn't making that."
   },
-  // [59:47] I wanted two bricks as book ends. What a beautiful theatre.
+  {
+    "audioSrc": audio.roxyDemolition,
+    "chapter": "roxySwanSong",
+    "date": "1960",
+    "description":
+      "In 1960, the Roxy theatre closes its doors for good.",
+    "imgSrc": img.roxyDemolition,
+    "transcription":
+      "This is the end of the Roxy. And I missed it. I wanted Daddy– I wanted two bricks for book ends, but we didn't get it, yeah. What a beautiful theatre it was. But, it did have its day."
+  }
 ];

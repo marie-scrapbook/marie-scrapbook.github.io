@@ -11,6 +11,7 @@ export const formattedChapters = {
   "tracySisters": "Tracy Sisters Studio",
   "retirement": "Early Retirement",
   "roxyette": "Life at the Roxy",
+  "roxySwanSong": "Swan Song for the Roxy",
   "southAmerica": "'No' to South America",
-  "wedding": "Wedding Bells"
+  "wedding": "Wedding Bells",
 }
