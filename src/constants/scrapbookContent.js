@@ -70,6 +70,8 @@ const audio = {
   'music': 'tempo-with-band.mp3',
   'nearingWar': 'nearing-war.mp3',
   'nedWayburn': 'ned-wayburn.mp3',
+  'photoshoot': 'headshots.mp3',
+  'pinup': 'pinup-1.mp3',
   'rightOff': 'gone-right-off.mp3',
   'shoeCaptain': 'shoe-capt.mp3',
   'shorePatrol': 'fdr.mp3',
@@ -384,6 +386,7 @@ export const scrapbookContent = [
   // [53:18] my Grandpa sat first row, center ... "Hey is Grandpa out there? Oh yeah, there is is." I'd see and he'd say "You make your money easy this week"– he didn't like the show.
 
   {
+    "audioSrc": audio.pinup,
     "chapter": "roxyette",
     "date": "1946",
     // "description":
@@ -391,15 +394,16 @@ export const scrapbookContent = [
     "imgSrc": img.beachheadBelle,
     "title": "Look but brother, that's all",
     "transcription":
-      "[0:42] This is when we had a little newspaper we put out for the soldiers and sailors and every once in a while they'd put in a pinup girl and I was chosen one time to be a pinup girl. And we sent it in that magazine. So I was in somebody's locker. ([0:45] Ned: 'So all the girls did these?') No, well, the war was over right after this. No, I think only like four of us.",
+      "This is when we had a little newspaper we put out for the soldiers and sailors and every once in a while they'd put in a pinup girl and I was chosen one time to be a pinup girl. And we sent it in that magazine. So I was in somebody's locker. (So all the girls did these?) No, well, the war was over right after this. No, I think only like four of us.",
   },
   {
+    "audioSrc": audio.photoshoot,
     "chapter": "roxyette",
     "date": "1946",
     "imgSrc": img.photoshoot,
     "title": "Working with Murray Korman",
     "transcription":
-      "[0:43] When they sent me for that pinup picture, this was a very famous photographer. I remember, I had to go down in a cab, they put me in a cab and sent me down there. Murray Korman, He was very famous. I just went where they sent me. (Ned: 'That's quite a bracelet you have on there.') Oh yeah, it was all fabric."
+      "When they sent me for that pinup picture, this was a very famous photographer. I remember, I had to go down in a cab, they put me in a cab and sent me down there. Murray Korman, he was very famous, yeah. (Where was he?) Where? I don't know where he was, I just went where they sent me. (That's quite a bracelet you got on there) Oh yeah, it was all fabric."
   },
   // dezy arnes
   // "[0:42]"
