@@ -10,12 +10,14 @@ const img = {
   'bicycles': 'scrapbook/bicycles.jpeg',
   'costumesAllPage': 'scrapbook/costumes-all.png',
   'costumesBells': 'scrapbook/costumes-bells.jpg',
-  'costumesBoJangles': 'scrapbook/costumes-bojangles.png',
+  'costumesBojangles': 'scrapbook/costumes-bojangles.png',
   'costumesBustle': 'scrapbook/costumes-bustle.png',
   'costumesIlonaMassey': 'scrapbook/costumes-ilona-massey.jpg',
   'costumesJohnny': 'scrapbook/costumes-johnny.png',
   'costumesMarine': 'scrapbook/costumes-marine.png',
   'dcLineUp': 'scrapbook/earle-dances.png',
+  'dorseyDog1': 'scrapbook/dorsey-dog-1.jpg',
+  'dorseyDog2': 'scrapbook/dorsey-dog-2.jpg',
   'getWellSoon': 'scrapbook/getwellcard-2.jpeg',
   'graduation': 'timeline/graduation.jpeg',
   'earleTheatre': 'scrapbook/earlePage.png',
@@ -35,6 +37,7 @@ const img = {
   'photoshoot': 'scrapbook/photoshoot.png',
   'purpleHeart': 'scrapbook/purpleHeart.png',
   'retirement': 'timeline/bar-across-the-street.png',
+  'rickshaw': 'scrapbook/rickshaw-number.jpg',
   'roxyMemories1': 'scrapbook/roxyMemories1.jpg',
   'roxyette': 'scrapbook/ColorSpread.jpg',
   'roxyetteCloseUp': 'scrapbook/ColorSpread003.jpg',
@@ -54,14 +57,20 @@ const img = {
 
 const audio = {
   'adler': 'adler.mp3',
+  'allTheCostumes': 'all-the-costumes.mp3',
   'amesSisters': 'and-i-was-an-ames-sister.mp3',
   'amesSistersTravelling': 'five-ames-sisters-travelling.mp3',
+  'bells': 'bells-of-st-mary.mp3',
+  'bojangles': 'bojangles.mp3',
   'bicycle': 'bicycle.mp3',
   'calledToNewYork': 'back-to-new-york.mp3',
   'colorSpread': 'color-spread.mp3',
+  'dorseyDog1': 'dorsey-dog-1.mp3',
+  'dorseyDog2': 'dorsey-dog-2.mp3',
   'earleTheatre': 'earle-theatre.mp3',
   'earleTheatreDances': 'earle-theatre-dances.mp3',
   'graduation': 'during-high-school-ext.mp3',
+  'ilonaMassey': 'ilona-massey.mp3',
   'joansDog': 'joans-dog.mp3',
   'lookTheSame': 'look-the-same.mp3',
   'marvelettes': 'marvelettes-now.mp3',
@@ -72,6 +81,7 @@ const audio = {
   'nedWayburn': 'ned-wayburn.mp3',
   'photoshoot': 'headshots.mp3',
   'pinup': 'pinup-1.mp3',
+  'rickshaw': 'rickshaw.mp3',
   'rightOff': 'gone-right-off.mp3',
   'shoeCaptain': 'shoe-capt.mp3',
   'shorePatrol': 'fdr.mp3',
@@ -405,20 +415,47 @@ export const scrapbookContent = [
     "transcription":
       "When they sent me for that pinup picture, this was a very famous photographer. I remember, I had to go down in a cab, they put me in a cab and sent me down there. Murray Korman, he was very famous, yeah. (Where was he?) Where? I don't know where he was, I just went where they sent me. (That's quite a bracelet you got on there) Oh yeah, it was all fabric."
   },
+  {
+    "audioSrc": audio.rickshaw,
+    "chapter": "roxyette",
+    "imgSrc": img.rickshaw,
+    "title": "Rickshaw number",
+    "transcription":
+      "This was a– I don't know who the star was of this show– but the brought me on in a rickshaw, and they set the stage for an oriental setting. I don't remember who the act was, but the makeup was good, wasn't it?"
+  },
+
   // dezy arnes
   // "[0:42]"
 
-  // rickshaw [0:45]
+  // Oriental number; rickshaw [0:45]
 
   // [45:38]
   // We worked with Jimmy dorsey and I think there's a dog there? And that's my best friend, Viola.
   // Somebody had to take the dog up to the roof and walk it. Who wants to take the dog? I'll take the dog. Sent a photographer up to take a picture of me and that stupid dog.
+
+  {
+    "audioSrc": audio.dorseyDog1,
+    "chapter": "roxyette",
+    "imgSrc": img.dorseyDog1,
+    "title": "Dorsey's Dog",
+    "transcription":
+      "And this is Jimmy Dorsey [number]– we worked with Jimmy Dorsey, and I think there's a dog there, is there? And that's me. And my best friend Viola! Yeah, because I think the next page, I took the dog up, somebody had to take the dog up on the roof to walk it..."
+  },
+  {
+    "audioSrc": audio.dorseyDog2,
+    "chapter": "roxyette",
+    "imgSrc": img.dorseyDog2,
+    "title": "Dorsey's Dog (cont'd)",
+    "transcription":
+      "I took the dog up, somebody had to take the dog up on the roof [of the Roxy] to walk it and I had the dog up there and somebody came up and took- there - and took my picture. Now that was in rehersal clothes. I guess in rehersal somebody: 'Who wants to take the dog?' 'I'll take the dog'. Somebody said 'Well, hold it!'. They sent a photographer up to take a picture of me with the stupid dog."
+  },
 
   // [50:20] stilts. even tho it was only a foot or two... you'd have to do kicks and everything else. if you were a klutz they'd give you the week off. you'd take a vacation week that week. you'd get on on the wings on a ladder. that was scary i didn't like that number
 
   // [57:50] You know when you ... I was a Jane Russell. You put light behind things like that. I was chosen, I was the only one who was chosen for that. They liked me for some reason...
 
   {
+    "audioSrc": audio.allTheCostumes,
     "chapter": "fitModel",
     "date": "1945",
     "description": "Although we don't have official photos of Marie as a fit model, she did keep quite a few of her own costume pictures.",
@@ -426,31 +463,34 @@ export const scrapbookContent = [
     "transcriptionIntro": 
       "That's when they built the costumes on me for the sample to see if it would work. They'd send me out front to the chairman to see if he likes it. If he'd approve them, and then they'd make 36 of them.",
     "transcription":
-      "[48:01] You'd get a girlfriend with a camera, 'Come on we're going out to take pictures between shows'. We'd go out in the courtyard and we'd take pictures of each other in the different costumes and then we'd remember each number."
+      "And these are all the costumes. We used to, you know, you'd get a girlfriend with a camera, 'Come on we're going out to take pictures between shows'. We'd go out in the courtyard and we'd take pictures of each other in the different costumes and then we'd remember each number."
   },
   {
+    "audioSrc": audio.bojangles,
     "chapter": "fitModel",
     "date": "1945",
-    "imgSrc": img.costumesBoJangles,
+    "imgSrc": img.costumesBojangles,
     "title": "Bill Robinson, AKA Bojangles",
     "transcription":
-      "[48:16] This was Bojangles number, I'll tell you right now. [48:33] (That's quite a hat you have on there) Try to dance with some of those hats they create. You have to balance them."
+      "This was Bojangles number, I'll tell you right now. Oh, it says so! Try to dance with some of those hats they create. You have to balance them."
   },
   {
+    "audioSrc": audio.ilonaMassey,
     "chapter": "fitModel",
     "date": "1945",
     "imgSrc": img.costumesIlonaMassey,
     "title": "Ilona Massey",
     "transcription":
-      "[48:23] This was [for] Ilona Massey. She was a Hungarian singer. She was the one I taught how to do some kind of dance and she gave me those pearls."
+      "This was [for] Ilona Massey. She was a Hungarian singer. She was the one I taught how to do some kind of dance and she gave me those pearls."
   },
   {
+    "audioSrc": audio.bells,
     "chapter": "fitModel",
     "date": "1945",
     "imgSrc": img.costumesBells,
     "title": "Bells of St. Mary",
     "transcription":
-      "[48:48] This one was a good number. We wore bells on our waists, and our ankles, and our wrists and the musician would tune them. We'd do the Bells of St. Mary and we each had a note. And we'd go the 'Bells... of St. Mary' and we'd sing a song. We'd jump for them."
+      "This one was a good number. This one was– we wore bells on our waists, and our ankles, and our wrists and the musician would tune them. We'd do the Bells of St. Mary and we each had a note. And we'd go the 'Bells... of St. Mary' and we'd sing a song. We'd jump for them."
   },
   {
     "chapter": "fitModel",
