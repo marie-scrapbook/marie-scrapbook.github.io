@@ -1,8 +1,8 @@
 const img = {
   'adler': 'scrapbook/adler.jpeg',
   'amesSisters': 'scrapbook/ames-sisters.jpg',
-  'amesSistersChicago': 'scrapbook/chicago.png',
-  'amesSistersInCoats': 'scrapbook/ames-sisters-car.png',
+  'amesSistersChicago': 'scrapbook/web-ready/AmesSisters_Tour_1500@150.png',
+  'amesSistersInCoats': 'scrapbook/web-ready/AmesSisters_OnTheRoad_2100@150.png',
   'amesSistersOnStairs': 'timeline/ames-sisters-stairs.png',
   'armin': 'scrapbook/armin-placeholder.png',
   'articleMusicHall': 'scrapbook/hoofersLotRockettes.jpg',
@@ -25,15 +25,17 @@ const img = {
   'engagementParty': 'scrapbook/BarAcrossStreet.jpg',
   'honorableWithdrawal': 'scrapbook/honorable-withdrawal.jpg',
   'marvelettes': 'scrapbook/six-marvelettes.jpg',
-  'marvelettesAndCar': 'scrapbook/marvelettes-car.png',
-  'marvelettesContract': 'scrapbook/marvelettes-contract.jpg',
+  'marvelettesAndCar': 'scrapbook/web-ready/Marvelettes_Dog_1500@150.png',
+  'marvelettesContract': 'scrapbook/web-ready/HasseyContract_2000@150.png',
   'marvelettesPage1': 'scrapbook/marvelette-page-1.jpg',
-  'marvelettesPage2': 'scrapbook/marvelette-page-2.jpg',
-  'marvelettesRedWhiteBlue': 'scrapbook/red-white-blue.jpg',
+  'marvelettesMusclebound': 'scrapbook/web-ready/Marvelettes_Musclebound_1500@150.png',
+  'marvelettesStopLookListen': 'scrapbook/web-ready/Marvelettes_StopLookListen_1350@150.png',
+  'marvelettesUpsideDown': 'scrapbook/web-ready/Marvelettes_UpsideDown_1750@150.png',
+  'marvelettesWithTheBand': 'scrapbook/web-ready/Marvelettes_WithTheBand_1100@150.png',
   'millerSisters': 'scrapbook/miller-sisters.png',
-  'millerSistersJuniorRecital': 'scrapbook/junior-recital.png',
-  'millerSistersLastRecital': 'scrapbook/miller-sisters-last-recital.jpg',
-  'nedWayburn': 'scrapbook/ned-wayburn.jpg',
+  'millerSistersJuniorRecital': 'scrapbook/web-ready/MillerSisters_JrRecital_1100@150.png',
+  'millerSistersLastRecital': 'scrapbook/web-ready/MillerSisters_LastRecital_1100@150.png',
+  'nedWayburn': 'scrapbook/web-ready/NedSchool_1100@150.png',
   'oneOrTheOther': 'scrapbook/one-or-the-other.png',
   'photoshoot': 'scrapbook/photoshoot.png',
   'purpleHeart': 'scrapbook/purpleHeart.png',
@@ -46,13 +48,11 @@ const img = {
   'shorePatrol': 'scrapbook/presBall.jpg',
   'shoeCapt': 'scrapbook/shoeCapt.jpeg',
   'showGirlContract': 'scrapbook/showGirlContract.jpg',
-  'stopLookListen': 'scrapbook/stop-look-listen-revue.png',
   'southAmericaLetter': 'scrapbook/south-america.jpg',
   'telegrams': 'scrapbook/RoxyTelegrams.jpg',
   'thruTheseDoors': 'scrapbook/earleTheater.jpg',
-  'tracySisters': 'timeline/tracy-sister-recital.jpg',
+  'tracySisters': 'scrapbook/web-ready/TracySisters_Recital_1100@2150.png',
   'tracySistersProgram': 'scrapbook/tracy-sisters-program.jpg',
-  'upsideDown': 'scrapbook/upside-down.png',
   'weddingCard': 'timeline/wedding-card.jpg',
   'weddingParty': 'scrapbook/wedding-party.jpeg',
 }
@@ -241,7 +241,7 @@ export const scrapbookContent = [
     "caption": "Marie is fourth from the right",
     "chapter": "marvelettes",
     "date": "",
-    "imgSrc": img.stopLookListen,
+    "imgSrc": img.marvelettesStopLookListen,
     "title": "A typical show",
     "transcription":
       "Now there's a typical show that we'd travel with. The whole show would go. Some singers, some dancers, some comics. That was a big show. I think we worked that for weeks. Went from one place to the other. Every night a different place."
@@ -250,7 +250,7 @@ export const scrapbookContent = [
     "audioSrc": audio.music,
     "caption": "Marie is bottom left of the pyramid. She is fourth in from the left in the ballgown picture.",
     "chapter": "marvelettes",
-    "imgSrc": img.marvelettesPage2,
+    "imgSrc": img.marvelettesWithTheBand,
     "title": "With the band",
     "transcription":
       "One of the Ames sisters used to work with the band before we went on to get the tempo right. She'd rehearse first, you know, when we first got there. We'd bring our own music and she'd go over the music with them."
@@ -259,7 +259,7 @@ export const scrapbookContent = [
     "audioSrc": audio.nearingWar,
     "caption": "Marie is the base of the pyramid on the bottom right",
     "chapter": "marvelettes",
-    "imgSrc": img.marvelettesRedWhiteBlue,
+    "imgSrc": img.marvelettesMusclebound,
     "title": "Musclebound",
     "transcription":
       "There's me on the end here. Musclebound. These were red, white, and blue costumes. They were– it was a military [number]. We're getting near the war now, see? 1941."
@@ -278,7 +278,7 @@ export const scrapbookContent = [
     "audioSrc": audio.upsideDown,
     "chapter": "marvelettes",
     "date": "1940",
-    "imgSrc": img.upsideDown,
+    "imgSrc": img.marvelettesUpsideDown,
     "title": "Upside down",
     "transcription":
       "There's me upside down. I was always upside down. I was very good at acrobatics."
