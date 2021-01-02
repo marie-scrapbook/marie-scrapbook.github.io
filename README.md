@@ -36,4 +36,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Builds the application and submits to [marie-scrapbook.github.io/gh-pages](https://github.com/marie-scrapbook/marie-scrapbook.github.io/tree/gh-pages) for publishing to production.
 
-See [this how to](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f) or the [gh-pages npm package](https://www.npmjs.com/package/gh-pages) for more information
+See [this how to](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f) or the [gh-pages npm package](https://www.npmjs.com/package/gh-pages) for more information.
+
+Additional handling for direct routing is used through `404.html`. See the [create-react-app docs](https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing) for more.
