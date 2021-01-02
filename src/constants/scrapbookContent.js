@@ -7,6 +7,7 @@ const img = {
   'armin': 'scrapbook/armin-placeholder.png',
   'articleMusicHall': 'scrapbook/hoofersLotRockettes.jpg',
   'articleRoxy': 'scrapbook/hoofersLotGaeFoster.jpg',
+  'articleGaeFoster': 'scrapbook/RoxyNY-05a.jpg',
   'beachheadBelle': 'scrapbook/beachhead-belle.jpg',
   'bicycles': 'scrapbook/bicycles.jpeg',
   'costumesAllPage': 'scrapbook/costumes-all.png',
@@ -29,8 +30,8 @@ const img = {
   'marvelettesContract': 'scrapbook/web-ready/HasseyContract_2000@150.png',
   'marvelettesPage1': 'scrapbook/marvelette-page-1.jpg',
   'marvelettesMusclebound': 'scrapbook/web-ready/Marvelettes_Musclebound_1500@150.png',
-  'marvelettesStopLookListen': 'scrapbook/web-ready/Marvelettes_StopLookListen_1350@150.png',
-  'marvelettesUpsideDown': 'scrapbook/web-ready/Marvelettes_UpsideDown_1750@150.png',
+  'marvelettesStopLookListen': 'scrapbook/StopLookListenReview-01&02.jpg',
+  'marvelettesUpsideDown': 'scrapbook/6-Marvelettes-10&10b.jpg',
   'marvelettesWithTheBand': 'scrapbook/web-ready/Marvelettes_WithTheBand_1100@150.png',
   'millerSisters': 'scrapbook/miller-sisters.png',
   'millerSistersJuniorRecital': 'scrapbook/web-ready/MillerSisters_JrRecital_1100@150.png',
@@ -47,7 +48,7 @@ const img = {
   'roxyetteCloseUp': 'scrapbook/ColorSpread003.jpg',
   'shorePatrol': 'scrapbook/presBall.jpg',
   'shoeCapt': 'scrapbook/shoeCapt.jpeg',
-  'showGirlContract': 'scrapbook/showGirlContract.jpg',
+  'showGirlContract': 'scrapbook/showgirl2.png',
   'southAmericaLetter': 'scrapbook/south-america.jpg',
   'telegrams': 'scrapbook/RoxyTelegrams.jpg',
   'thruTheseDoors': 'scrapbook/earleTheater.jpg',
@@ -315,7 +316,7 @@ export const scrapbookContent = [
   {
     "audioSrc": audio.whatWasTheDifference,
     "chapter": "auditions",
-    "imgSrc": img.articleRoxy,
+    "imgSrc": img.articleGaeFoster,
     "title": "What was the difference?",
     "transcription":
       "That was my boss, Gae Foster. Gae Foster was an original Rockette. So instead of going to Music Hall, she stayed with Roxy and she was head of the Roxyettes. (What was the difference?) There was none. We were all Rockettes and when Rockefeller built Music Hall, the dance director for the Rockettes moved to the new Music Hall and took his name with him. So then Mr. Roxy, who owned the Roxy theatre where we all started, he named us the Roxyettes. There was nothing to compete with the Roxy until Music Hall. There was no other dance line. They called them chorus lines but– 'chorus' we didn't like that."
@@ -418,23 +419,6 @@ export const scrapbookContent = [
       "My Grandpa sat first show, front center. He never missed a show. And the kids would say, 'Hey is Grandpa out there? Yeah, there is is.' Sometimes I'd come home, and I'd see him, and he'd say 'You make your money easy this week'– he didn't like the show. (He was a critic, huh?) Oh, yeah."
   },
   {
-    "audioSrc": audio.dorseyDog1,
-    "caption": "Marie stands with the dog. Viola is seated, center, pointing.",
-    "chapter": "roxyette",
-    "imgSrc": img.dorseyDog1,
-    "title": "Dorsey's Dog",
-    "transcription":
-      "And this is [for] Jimmy Dorsey– we worked with Jimmy Dorsey, and I think there's a dog there, is there? And that's me. And my best friend Viola! Yeah, because I think the next page, I took the dog up, somebody had to take the dog up on the roof to walk it..."
-  },
-  {
-    "audioSrc": audio.dorseyDog2,
-    "chapter": "roxyette",
-    "imgSrc": img.dorseyDog2,
-    "title": "Dorsey's Dog (cont'd)",
-    "transcription":
-      "I took the dog up, somebody had to take the dog up on the roof [of the Roxy] to walk it and I had the dog up there and somebody came up and took- there - and took my picture. Now that was in rehersal clothes. I guess in rehersal somebody: 'Who wants to take the dog?' 'I'll take the dog'. Somebody said 'Well, hold it!'. They sent a photographer up to take a picture of me with the stupid dog."
-  },
-  {
     "audioSrc": audio.pinup,
     "chapter": "roxyette",
     "date": "1946",
@@ -451,6 +435,23 @@ export const scrapbookContent = [
     "title": "Working with Murray Korman",
     "transcription":
       "When they sent me for that pinup picture, this was a very famous photographer. I remember, I had to go down in a cab, they put me in a cab and sent me down there. Murray Korman, he was very famous, yeah. (Where was he?) Where? I don't know where he was, I just went where they sent me. (That's quite a bracelet you got on there) Oh yeah, it was all fabric."
+  },
+  {
+    "audioSrc": audio.dorseyDog1,
+    "caption": "Marie stands with the dog. Viola is seated, center, pointing.",
+    "chapter": "roxyette",
+    "imgSrc": img.dorseyDog1,
+    "title": "Dorsey's Dog",
+    "transcription":
+      "And this is [for] Jimmy Dorsey– we worked with Jimmy Dorsey, and I think there's a dog there, is there? And that's me. And my best friend Viola! Yeah, because I think the next page, I took the dog up, somebody had to take the dog up on the roof to walk it..."
+  },
+  {
+    "audioSrc": audio.dorseyDog2,
+    "chapter": "roxyette",
+    "imgSrc": img.dorseyDog2,
+    "title": "Dorsey's Dog (cont'd)",
+    "transcription":
+      "I took the dog up, somebody had to take the dog up on the roof [of the Roxy] to walk it and I had the dog up there and somebody came up and took- there - and took my picture. Now that was in rehersal clothes. I guess in rehersal somebody: 'Who wants to take the dog?' 'I'll take the dog'. Somebody said 'Well, hold it!'. They sent a photographer up to take a picture of me with the stupid dog."
   },
   {
     "audioSrc": audio.rickshaw,
