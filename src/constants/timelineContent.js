@@ -1,8 +1,8 @@
 import { scrapbookContent } from './scrapbookContent';
 import { formattedChapters } from './formattedChapters';
 
-const millerSisters = 'miller-sisters-recital.jpg';
-const tracySisters = 'tracy-sister-recital.jpg';
+const millerSisters = 'web-ready/JrRecital.png';
+const tracySisters = 'web-ready/TracySistersRecital.png';
 const amesSisters = 'ames-sisters-stairs.png';
 const graduation = 'graduation.jpeg';
 const marvelettes = 'marvelettes-pyramid.png';
