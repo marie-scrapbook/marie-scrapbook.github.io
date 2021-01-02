@@ -121,7 +121,7 @@ export const scrapbookContent = [
     "imgSrc": img.millerSisters,
     "title": "First dancing teachers",
     "transcription": 
-      'When I was about 8 years old, I was a sickly kid, so the doctor said "Send her to dancing school to build her up". So I went to dancing school and these were my first teachers: The Miller Sisters. Paula and Madeline. Madeline was the dancing teacher and Paula was the violin teacher, and Patricia took lessons from– piano!– Patricia took lessons from the other one. It was a walk from school right there. I didnt take ballet, I took tap and and acrobatic. Tap was my favorite. I must have stayed with them until 8th grade at school, because then I opened my own school.'
+      "When I was about 8 years old, I was a sickly kid, so the doctor said 'Send her to dancing school to build her up'. So I went to dancing school and these were my first teachers: The Miller Sisters. Paula and Madeline. Madeline was the dancing teacher and Paula was the violin teacher, and Patricia (Marie's older sister) took lessons from– piano!– Patricia took lessons from the other one. It was a walk from school right there. I didn't take ballet from them, I took tap and and acrobatic. Tap was my favorite. I must have stayed with them until 8th grade at school, because then I opened my own school."
   },
   {
     "audioSrc": audio.millerSistersJuniorRecital,
@@ -131,7 +131,7 @@ export const scrapbookContent = [
     "imgSrc": img.millerSistersJuniorRecital,
     "title": "Junior Recital",
     "transcription": 
-      "Every junior had a recital. I think this is me. I was second-tallest, I was like Tarin, I was the same height then as when I finished growing. And when there were boys and girls they always picked me for a boy. There I am. One boy in the class. It must have been just before high school. Yeah. Because in high school I decided, oh I wanted to dance."
+      "Every junior had a recital. I think this is me. I was second-tallest, I was like Tarin, I was the same height then as when I finished growing. And when there were boys and girls they always picked me for a boy. There I am. It must have been just before high school. Yeah. Because in high school I decided, oh I wanted to dance."
   },
   {
     "audioSrc": audio.millerSistersLastRecital,
@@ -150,7 +150,7 @@ export const scrapbookContent = [
     "imgSrc": img.tracySisters,
     "title": "Backyard Recital",
     "transcription": 
-      "Oh, this is my dancing school... My mother made most of the costumes. That's me, the teacher. We were doing one of the fairy tales, as you can see. This is Ann, my sister Ann. Patricia was the pianist. This is our backyard in Elmhurst. I wound up with like 100. It snowballed. Because it was 25¢ a lesson. When I look back now, it must have hurt the Miller Sisters. This was a time when Shirley Temple was starting to come up. Everyone wanted to have a Shirley Temple."
+      "Oh, this is my dancing school... My mother made most of the costumes. That's me, the teacher. We were doing one of the fairy tales, as you can see. This is Ann, my sister Ann. Patricia was the pianist. This is our backyard in Elmhurst. (How many kids would you have in your class?) I wound up with like 100. It snowballed. Because it was 25¢ a lesson. When I look back now, it must have hurt the Miller Sisters. This was a time when Shirley Temple was starting to come up. Everyone wanted to have a Shirley Temple."
   },
   {
     "audioSrc": audio.tracySistersProgram,
@@ -159,7 +159,7 @@ export const scrapbookContent = [
     "imgSrc": img.tracySistersProgram,
     "title": "First Spring Recital",
     "transcription": 
-      "And this is the program... First recital: Patricia and Marie Tracy at 7:30PM. We rented a hall. We did baby acrobatics, we did waltz clog (that's tap dancing). Ann tap danced but... she knew everything, she was a pain in the neck so we threw her out. I don't think she liked it."
+      "And this is the program... First recital: Patricia and Marie Tracy at 7:30PM. We rented a hall. (Patricia got top billing, huh?) Oh yeah, well, she was the big sister. We did baby acrobatics, we did waltz clog (that's tap dancing). Ann tap danced but... she knew everything, she was a pain in the neck so we threw her out. I don't think she liked it."
   },
   {
     "audioSrc": audio.nedWayburn,
@@ -176,7 +176,7 @@ export const scrapbookContent = [
     "date": "March 1939",
     "imgSrc": img.amesSisters,
     "transcription":
-      "Now the Ames Sisters! That was when I was in high school. I went to another dancing studio. It was just acrobatic work and we had an Arabian teacher, Hassey. There were 5 real Ames Sisters and one of them, she got married and she got pregnant so they had all these bills to fill. They had been in the business a long time, the mother, the father were the managers, and the mother made the costumes. So they had to fill the bill that they had contracted for. So Hassey said take her; I was pretty much the same size. I looked something like some of them. So they put me in the costumes and taught me the routines and I was an Ames sister.",
+      "Now the Ames Sisters! That was when I was in high school. I was in– I went to another dancing studio. It was just acrobatic work and we had an Arabian teacher, Hassey. There were 5 real Ames Sisters and one of them, she got married and she got pregnant so they had all these bills to fill. They had been in the business a long time, the mother, the father were the managers, and the mother made the costumes. So they had to fill the bill that they had contracted for. So Hassey said take her; I was pretty much the same size. I looked something like some of them. So they put me in the costumes and taught me the routines and I was an Ames sister.",
   },
   {
     "audioSrc": audio.lookTheSame,
@@ -263,7 +263,7 @@ export const scrapbookContent = [
     "imgSrc": img.marvelettesMusclebound,
     "title": "Musclebound",
     "transcription":
-      "There's me on the end here. Musclebound. These were red, white, and blue costumes. They were– it was a military [number]. We're getting near the war now, see? 1941."
+      "There's me on the end here. Musclebound. These were red, white, and blue costumes. They were– it was a military [number]. We're getting near the war now, see? '41."
   },
   {
     "audioSrc": audio.theAgent,
@@ -311,7 +311,7 @@ export const scrapbookContent = [
     "chapter": "auditions",
     "imgSrc": img.oneOrTheOther,
     "title": "Just wanted to be one of them",
-    "transcription": "I auditioned for both places in New York. I worked behind the lines at Music Hall. They let you work there and when they need you, they'd put you in line. They didn't need anybody, but the day I went over to the Roxy, I auditioned, and I think a day or two later I got a telegram: they needed me. There was a girl missing, and I got right in. That's why, if I hadn't gone there, I would've been at Music Hall, if I had held out. But I didn't care which one I wanted. I just wanted to be one of them.",
+    "transcription": "I auditioned for both places in New York. When I went for the audition, I worked behind the lines at Music Hall. They let you work there and then, when they need you, they'd put you in line. They didn't need anybody, but the day I went over to the Roxy, I auditioned, and I think a day or two later I got a telegram: they needed me. There was a girl missing, and I got right in. That's why, if I hadn't gone there, I would've been at Music Hall, if I had held out. But I didn't care which one I wanted. I just wanted to be one of them.",
   },
   {
     "audioSrc": audio.whatWasTheDifference,
@@ -319,7 +319,7 @@ export const scrapbookContent = [
     "imgSrc": img.articleGaeFoster,
     "title": "What was the difference?",
     "transcription":
-      "That was my boss, Gae Foster. Gae Foster was an original Rockette. So instead of going to Music Hall, she stayed with Roxy and she was head of the Roxyettes. (What was the difference?) There was none. We were all Rockettes and when Rockefeller built Music Hall, the dance director for the Rockettes moved to the new Music Hall and took his name with him. So then Mr. Roxy, who owned the Roxy theatre where we all started, he named us the Roxyettes. There was nothing to compete with the Roxy until Music Hall. There was no other dance line. They called them chorus lines but– 'chorus' we didn't like that."
+      "So that was my boss, Gae Foster. Gae Foster was an original Rockette. So instead of going to Music Hall, she stayed with Roxy and she was head of the Roxyettes. (What was the difference between the two?) There was none. We were all Rockettes and then when Rockefeller built Music Hall, the dance director for the Rockettes moved to the new Music Hall– Radio City– and took his name with him. Mr. Roxy, who owned the Roxy theatre where we all started, he named us the Roxyettes. There was nothing to compete with the Roxy until Music Hall. There was no other dance line. They called them chorus lines but– 'chorus' we didn't like that."
   },
   {
     "audioSrc": audio.earleTheatre,
@@ -412,6 +412,7 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.armin,
+    "caption": "Armin Weiss ('Grandpa') pictured with postcards of the Roxy",
     "chapter": "roxyette",
     "imgSrc": img.armin,
     "title": "Hey, is Grandpa out there?",
