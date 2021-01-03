@@ -8,7 +8,7 @@ const img = {
   'articleMusicHall': 'scrapbook/hoofersLotRockettes.jpg',
   'articleRoxy': 'scrapbook/hoofersLotGaeFoster.jpg',
   'articleGaeFoster': 'scrapbook/RoxyNY-05a.jpg',
-  'babalu': 'scrapbook/line-girl.png',
+  'babalu': 'scrapbook/babalu-3.png',
   'beachheadBelle': 'scrapbook/beachhead-belle.jpg',
   'bicycles': 'scrapbook/bicycles.jpeg',
   'costumesAllPage': 'scrapbook/costumes-all.png',
@@ -419,7 +419,7 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.armin,
-    "caption": "Armin Weiss ('Grandpa') pictured with postcards of the Roxy",
+    "caption": "Armin Weiss ('Grandpa') pictured with postcards of the Roxy Theatre",
     "chapter": "roxyette",
     "imgSrc": img.armin,
     "title": "Hey, is Grandpa out there?",
@@ -446,8 +446,9 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.babalu,
-    "caption": "Marie is the line girl with bongos to the left, in both pictures",
+    "caption": "Marie, with bongos, on the left",
     "chapter": "roxyette",
+    // "description": "Listen to Desi sing Babalu here: https://youtu.be/rAV3bOJaQuY",
     "imgSrc": img.babalu,
     "title": "Babalu",
     "transcription":
