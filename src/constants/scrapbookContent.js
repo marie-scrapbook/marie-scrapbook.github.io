@@ -328,7 +328,7 @@ export const scrapbookContent = [
     "imgSrc": img.earleTheatre,
     "title": "Arriving at the Earle Theatre",
     "transcription":
-      "This is very important for me. 'Call me as soon as possible. Miss Cody'– that's from the Roxy. I didn't rehearse with them. They sent me to Washington to break in. See I had to go down to Washington, they had a line in the Earle Theatre in Washington. That's where I lived until Easter. That was my 20th birthday. I got there at noontime, I went in on the train, and I went in the last show at night. Learned the routine and everything else. I don't know how I did it. I must have been good.",
+      "This is very important for me. 'Call me as soon as possible. Miss Cody'– that's from the Roxy. I didn't rehearse with them. They sent me to Washington to break in. See I had to go down to Washington, they had a line in the Earle Theatre in Washington. That's where I lived until Easter. That was my 20th birthday. And I got there at noontime, I went in on the train, and I went in the last show at night, that night. Learned the routine and everything else. I don't know how I did it. I must have been good.",
   },
   {
     "audioSrc": audio.earleTheatreDances,
@@ -336,7 +336,7 @@ export const scrapbookContent = [
     "date": "1942",
     "imgSrc": img.dcLineUp,
     "title": "Washington Routine",
-    "transcription": "Here's all the routines we did. I had to learn all this down there. Shore Patrol, bicycle, stilts– I had to learn how to walk, dance in stilts–, soft shoe, and fencing. We rehearsed while the movie was on. And then I rehearsed every day, every day, every day.",
+    "transcription": "Here's all the routines we did. I had to learn all this down there. Shore Patrol, bicycle, stilts– I had to learn how to walk, dance in stilts–, soft shoe, and fencing. We rehearsed while the movie was on. And then I rehearsed all– every day, every day, every day.",
   },
   {
     "audioSrc": audio.bicycle,
@@ -353,7 +353,7 @@ export const scrapbookContent = [
     "date": "1942",
     "imgSrc": img.shorePatrol,
     "title": "The President's Ball",
-    "transcription": "And the Shore Patrol, that was a tough one too. The President's ball, look at that. Well, we were down in Washington. (FDR? You performed for FDR?) Well it was in '42.",
+    "transcription": "And the Shore Patrol, that was a tough one too. The President's ball, look at that. Well, we were down in Washington. (You performed for FDR?) Well it was in '42. (Yeah, that was FDR)",
   },
   {
     "audioSrc": audio.calledToNewYork,
@@ -361,9 +361,9 @@ export const scrapbookContent = [
     "date": "1942",
     "imgSrc": img.roxyMemories1,
     "title": "Called to New York",
-    "transcription": "Now we're up in New York. Now I'm called to New York. I'll tell you why I'm called to New York– they closed the Earle Theatre. And they brought all the Roxyettes home. So some of us made it back here and some of didn't.",
+    "transcription": "Now we're up in New York. Now I'm called to New York. I'll tell you why I'm called to New York– they closed the Earle Theatre. And they brought all the Roxyettes home. So some of us made it back here and some didn't.",
     // [52] multiple costumes, had to learn new dances for each movie
-    // for two weeks while the movie is there, and then when the movie 
+    // for two weeks while the movie is there, and then when the movie
   },
   {
     "audioSrc": audio.shoeCaptain,
@@ -371,7 +371,7 @@ export const scrapbookContent = [
     "date": "1942",
     "imgSrc": img.shoeCapt,
     "title": "Shoe Captain",
-    "transcription": "I was shoe captain. We had lockers and lockers of pink shoes, red shoes, green shoes. 'Alright, next show we need red shoes, everyone go down to Marie– Tracy, my name was– and get shoes.' I had to listen to everybody: 'these are too small,' 'these are too big,' and everything else. Anyhow, I had that job. You got no pay for it but you got a name.",
+    "transcription": "One girl had to be in charge of– I was shoe captain. We had lockers and lockers of pink shoes, red shoes, green shoes. 'Alright, next show we need red shoes, everyone go down to Marie– Tracy, my name was– and get shoes.' I had to go down there and listen to everybody: 'these are too small,' 'these are too big,' and everything else. Anyhow, I had that job. You got no pay for it but you got a name.",
   },
   {
     "audioSrc": audio.adler,
@@ -393,16 +393,18 @@ export const scrapbookContent = [
   //     "[0:37:45] I got the purple heart for a fencing number. I got hurt.",
   // },
   {
-    "audioSrc": audio.colorSpread,
+    "introAudioSrc": audio.colorSpread,
     "chapter": "roxyette",
     "date": "1943",
+    "description": "See the next page for a close up.",
     "imgSrc": img.roxyette,
     "title": "On the ball",
-    "transcription": 
+    "introTranscription": 
       "This was in the middle of the New York News, the Sunday News. Now that'll tell you where each girl comes from. See, Marie Tracy, Elmhurst, New York. Long Island. Queens. That's me right there. Fourth.",
   },
   {
     "audioSrc": audio.walkingBalls,
+    "caption": "Marie is fourth from the left",
     "chapter": "roxyette",
     "date": "1943",
     "imgSrc": img.roxyetteCloseUp,
@@ -478,7 +480,7 @@ export const scrapbookContent = [
     "imgSrc": img.costumesAllPage,
     "introAudioSrc": audio.fitGirl,
     "introTranscription": 
-      "They built the costumes on me for the sample to see if it would work. They'd send me out front to the chairman to see if he likes it. If he'd approve them, and then they'd make 36 of them.",
+      "They built the costumes on me for the sample to see if it was gonna work. They'd send me out front to the chairman to see if he likes it. If he'd approve them, and then they'd make 36 of them.",
     "transcription":
       "And these are all the costumes. We used to, you know, you'd get a girlfriend with a camera, 'Come on we're going out to take pictures between shows'. We'd go out in the courtyard and we'd take pictures of each other in the different costumes and then we'd remember each number."
   },
@@ -516,7 +518,7 @@ export const scrapbookContent = [
     "imgSrc": img.costumesBustle,
     "title": "Bustle Number",
     "transcription":
-      "We did a bustle number. Thank God I was never the bustle. I was the girl in front. She's supposed to be hiding, one girl underneath me, holding my waist. You had to go, like you were on skates so that you looked like you were one piece. That was a cute number."
+      "This was – see, the girl was a bustle. Thank God I was never the bustle, I was the girl in front. We did a bustle number. See, she's supposed to be hiding. One girl underneath me, holding my waist. But you had to go like you were on skates so that you looked like you were one piece. That was a cute number."
   },
   {
     "audioSrc": audio.rifle,
@@ -534,7 +536,7 @@ export const scrapbookContent = [
     "imgSrc": img.costumesJohnny,
     "title": "When Johnny Comes Marching Home",
     "transcription":
-      "Here's Daddy's favorite outfit, Daddy loved me in that outfit. It was blue. It was 'Johnny comes marching home', you remember that song? It was like an orange– red hat." 
+      "Here's Daddy's favorite outfit, Daddy loved me in that outfit. It was blue. It was 'Johnny comes marching home again', you remember that song? It was like an orange– red hat." 
   },
   {
     "audioSrc": audio.sick,
@@ -566,13 +568,13 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.engagementParty,
-    "caption": "Marie and Joe, at center left and right.",
+    "caption": "Marie and Joe, seated at center left and right.",
     "chapter": "wedding",
     "date": "1947",
     "imgSrc": img.engagementParty,
     "title": "Engagement parties at the bar",
     "transcription":
-      "This is my engagement party. What does that say?... oh, it was [Rita's], I thought it was mine. That's across the street where the boys used to wait for us. Our boyfriends used to wait for us until the last show was done at 11:30 or 11 o'clock. Run across the street to the bar and we'd meet them.",
+      "I think this is my engagement party. What does that say?... oh, I thought it was my party, it was [Rita's]. That's across the street, where the boys used to wait for us. Our boyfriends used to wait for us until the last show was done at 11:30 or 11 o'clock. Run across the street to the bar and we'd meet them.",
   },
   {
     "audioSrc": audio.married,
