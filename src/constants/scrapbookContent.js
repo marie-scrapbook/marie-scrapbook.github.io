@@ -25,6 +25,7 @@ const img = {
   'earleTheatre': 'scrapbook/web-ready/Scrapbook_1942-EarleTheater_1200@150.png',
   'engagementParty': 'scrapbook/BarAcrossStreet.jpg',
   'honorableWithdrawal': 'scrapbook/honorable-withdrawal.jpg',
+  'janeRussell': 'scrapbook/lobby-shot.png',
   'marvelettes': 'scrapbook/web-ready/Scrapbook_1940-Marvelettes-NewGroup_1100@150.png',
   'marvelettesAndCar': 'scrapbook/web-ready/Scrapbook_1940-Marvelettes-6+Dog_1500@150.png',
   'marvelettesContract': 'scrapbook/web-ready/Scrapbook_1941_HasseyContract_2000@150.png',
@@ -80,6 +81,7 @@ const audio = {
   'fitGirl': 'fitgirl.mp3',
   'graduation': 'during-high-school-ext.mp3',
   'ilonaMassey': 'ilona-massey.mp3',
+  'janeRussell': 'a-jane-russell.mp3',
   'joansDog': 'joans-dog.mp3',
   'lookTheSame': 'look-the-same.mp3',
   'married': 'married.mp3',
@@ -90,7 +92,7 @@ const audio = {
   'music': 'tempo-with-band.mp3',
   'nearingWar': 'nearing-war.mp3',
   'nedWayburn': 'ned-wayburn.mp3',
-  'photoshoot': 'headshots.mp3',
+  'photoshoot': 'murray-korman.mp3',
   'pinup': 'pinup-1.mp3',
   'rickshaw': 'rickshaw.mp3',
   'rifle': 'rifle-number.mp3',
@@ -437,7 +439,7 @@ export const scrapbookContent = [
     "imgSrc": img.photoshoot,
     "title": "Working with Murray Korman",
     "transcription":
-      "When they sent me for that pinup picture, this was a very famous photographer. I remember, I had to go down in a cab, they put me in a cab and sent me down there. Murray Korman, he was very famous, yeah. (Where was he?) Where? I don't know where he was, I just went where they sent me. (That's quite a bracelet you got on there) Oh yeah, it was all fabric."
+      "When they sent me for that pinup picture, this was a very famous photographer. I remember, I had to go down in a cab, they put me in a cab and sent me down there. Murray Korman, he was very famous, yeah. (That's quite a bracelet you got on there) Oh yeah, it was all fabric."
   },
   {
     "audioSrc": audio.dorseyDog1,
@@ -470,7 +472,14 @@ export const scrapbookContent = [
 
   // [50:20] stilts. even tho it was only a foot or two... you'd have to do kicks and everything else. if you were a klutz they'd give you the week off. you'd take a vacation week that week. you'd get on on the wings on a ladder. that was scary i didn't like that number
 
-  // [57:50] You know when you ... I was a Jane Russell. You put light behind things like that. I was chosen, I was the only one who was chosen for that. They liked me for some reason...
+  {
+    "audioSrc": audio.janeRussell,
+    "chapter": "roxyette",
+    "imgSrc": img.janeRussell,
+    "title": "A Jane Russell",
+    "transcription":
+      "Oh that's that one that I always wanted to do something with. They were gonna put that, you know when you walk in the theatre to buy your tickets? And they have those? Hold it up to the window. I was a Jane Russell. They used to put light behind things like that. I was chosen, I was the only one who was chosen for that. I don't know, they liked me for some reason."
+  },
 
   {
     "audioSrc": audio.allTheCostumes,
@@ -591,9 +600,9 @@ export const scrapbookContent = [
     "chapter": "roxySwanSong",
     "date": "1960",
     "description":
-      "In 1960, the Roxy theatre closes its doors for good.",
+      "In 1960, the Roxy theatre closes its doors for the last time.",
     "imgSrc": img.roxyDemolition,
     "transcription":
-      "This is the end of the Roxy. And I missed it. I wanted Daddy– I wanted two bricks for book ends, but we didn't get it, yeah. What a beautiful theatre it was. But, it did have its day."
+      "This is the end of the Roxy. And I missed it. I wanted Daddy– I wanted two bricks for book ends, but we didn't get it, yeah. But what a beautiful theatre it was. But, it did have its day."
   }
 ];
