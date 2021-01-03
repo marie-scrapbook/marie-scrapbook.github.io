@@ -489,7 +489,7 @@ export const scrapbookContent = [
     "audioSrc": audio.janeRussell,
     "chapter": "roxyette",
     "imgSrc": img.janeRussell,
-    "title": "A Jane Russell",
+    "title": "Lobby promo",
     "transcription":
       "Oh that's that one that I always wanted to do something with. They were gonna put that, you know when you walk in the theatre to buy your tickets? And they have those? Hold it up to the window. I was a Jane Russell. They used to put light behind things like that. I was chosen, I was the only one who was chosen for that. I don't know, they liked me for some reason."
   },
