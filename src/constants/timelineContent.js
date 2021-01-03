@@ -6,11 +6,11 @@ const tracySisters = 'web-ready/TracySistersRecital.png';
 const amesSisters = 'ames-sisters-stairs.png';
 const graduation = 'graduation.jpeg';
 const marvelettes = 'marvelettes-pyramid.png';
-const southAmerica = 'south-america-crop.png';
-const oneOrTheOther = 'one-or-the-other.png';
+const southAmerica = 'web-ready/south-america-crop.png';
+const oneOrTheOther = 'web-ready/one-or-the-other.png';
 const showUpAtRoxy = 'thru-door.png';
 const roxyette = 'roxyette-ball.png';
-const fitModel = 'fit-model.jpg';
+const fitModel = 'web-ready/fit-model.jpg';
 const retirementParty = 'bar-across-the-street.png';
 const wedding = 'cropped-wedding.jpeg';
 
