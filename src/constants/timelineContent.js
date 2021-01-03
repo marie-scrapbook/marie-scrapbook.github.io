@@ -3,9 +3,9 @@ import { formattedChapters } from './formattedChapters';
 
 const millerSisters = 'web-ready/JrRecital.png';
 const tracySisters = 'web-ready/TracySistersRecital.png';
-const amesSisters = 'ames-sisters-stairs.png';
-const graduation = 'graduation.jpeg';
-const marvelettes = 'marvelettes-pyramid.png';
+const amesSisters = 'web-ready/ames-sisters-stairs.png';
+const graduation = 'web-ready/graduation.jpeg';
+const marvelettes = 'web-ready/marvelettes-pyramid.png';
 const southAmerica = 'web-ready/south-america-crop.png';
 const oneOrTheOther = 'web-ready/one-or-the-other.png';
 const showUpAtRoxy = 'thru-door.png';
