@@ -8,6 +8,7 @@ const img = {
   'articleMusicHall': 'scrapbook/hoofersLotRockettes.jpg',
   'articleRoxy': 'scrapbook/hoofersLotGaeFoster.jpg',
   'articleGaeFoster': 'scrapbook/RoxyNY-05a.jpg',
+  'babalu': 'scrapbook/line-girl.png',
   'beachheadBelle': 'scrapbook/beachhead-belle.jpg',
   'bicycles': 'scrapbook/bicycles.jpeg',
   'costumesAllPage': 'scrapbook/costumes-all.png',
@@ -32,7 +33,7 @@ const img = {
   'marvelettesPage1': 'scrapbook/marvelette-page-1.jpg',
   'marvelettesMusclebound': 'scrapbook/web-ready/Scrapbook_1941-Musclebound_1550@150.png',
   'marvelettesStopLookListen': 'scrapbook/StopLookListenReview-01&02.jpg',
-  'marvelettesUpsideDown': 'scrapbook/6-Marvelettes-10&10b.jpg',
+  'marvelettesUpsideDown': 'scrapbook/web-ready/Scrapbook_1941-Marvelettes-UpsideDown_1200@150.png',
   'marvelettesWithTheBand': 'scrapbook/web-ready/Scrapbook_1940-WithTheBand_1200@150.png',
   'millerSisters': 'scrapbook/miller-sisters.png',
   'millerSistersJuniorRecital': 'scrapbook/web-ready/Scrapbook_1930-JrRecital_1150@150.png',
@@ -65,6 +66,7 @@ const audio = {
   'amesSisters': 'and-i-was-an-ames-sister.mp3',
   'amesSistersTravelling': 'five-ames-sisters-travelling.mp3',
   'armin': 'armin.mp3',
+  'babalu': 'babalu.mp3',
   'bells': 'bells-of-st-mary.mp3',
   'bojangles': 'bojangles.mp3',
   'bicycle': 'bicycle.mp3',
@@ -279,6 +281,7 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.upsideDown,
+    "caption": "Marie pictured center– upside down on her arms",
     "chapter": "marvelettes",
     "date": "1940",
     "imgSrc": img.marvelettesUpsideDown,
@@ -442,6 +445,15 @@ export const scrapbookContent = [
       "When they sent me for that pinup picture, this was a very famous photographer. I remember, I had to go down in a cab, they put me in a cab and sent me down there. Murray Korman, he was very famous, yeah. (That's quite a bracelet you got on there) Oh yeah, it was all fabric."
   },
   {
+    "audioSrc": audio.babalu,
+    "caption": "Marie is the line girl with bongos to the left, in both pictures",
+    "chapter": "roxyette",
+    "imgSrc": img.babalu,
+    "title": "Babalu",
+    "transcription":
+      "This is, Lucille Ball's husband, what's his name? Desi [Arnaz], taught us to– he was in this number, in this show and he taught us how to do the bongos. Here's me. Talking to somebody. It's a wonder I didn't get fired. This is the rehearsal. Oh, he had a good voice. He would sing up front and then we'd be all in the back, going through his routine. Babalu.",
+  },
+  {
     "audioSrc": audio.dorseyDog1,
     "caption": "Marie stands with the dog. Viola is seated, center, pointing.",
     "chapter": "roxyette",
@@ -456,7 +468,7 @@ export const scrapbookContent = [
     "imgSrc": img.dorseyDog2,
     "title": "Dorsey's Dog (cont'd)",
     "transcription":
-      "I took the dog up, somebody had to take the dog up on the roof [of the Roxy] to walk it and I had the dog up there and somebody came up and took- there - and took my picture. Now that was in rehersal clothes. I guess in rehersal somebody: 'Who wants to take the dog?' 'I'll take the dog'. Somebody said 'Well, hold it!'. They sent a photographer up to take a picture of me with the stupid dog."
+      "I took the dog up, somebody had to take the dog up on the roof [of the Roxy] to walk it and I had the dog up there and somebody came up and took- there - and took my picture. Now that was in rehearsal clothes. I guess in rehearsal somebody: 'Who wants to take the dog?' 'I'll take the dog'. Somebody said 'Well, hold it!'. They sent a photographer up to take a picture of me with the stupid dog."
   },
   {
     "audioSrc": audio.rickshaw,
