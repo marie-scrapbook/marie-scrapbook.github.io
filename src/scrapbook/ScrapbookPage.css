@@ -78,6 +78,7 @@
 /* Desktop Screens */
 @media (min-width: 700px) {
   .scrapbook__content {
+    overflow: scroll;
     margin-left: 32px;
     margin-top: 64px;
     width: 30%;
