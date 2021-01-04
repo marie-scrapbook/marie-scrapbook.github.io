@@ -372,6 +372,7 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.shoeCaptain,
+    "caption": "Look close! Someone has drawn in an arrow pointing to the shoe captain and labelled her 'Marie Tracy'",
     "chapter": "roxyette",
     "date": "1942",
     "imgSrc": img.shoeCapt,
