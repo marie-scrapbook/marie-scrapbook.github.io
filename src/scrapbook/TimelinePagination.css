@@ -47,7 +47,7 @@
   transition: margin 0.5s ease-in-out 0.2s;
 }
 .timeline-pagination__li:hover .timeline-pagination__link-title {
-  height: 100%;
+  height: fit-content;
   opacity: 1;
   margin: inherit;
 }
