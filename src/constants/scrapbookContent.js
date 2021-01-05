@@ -43,7 +43,7 @@ const img = {
   'rickshaw': 'scrapbook/rickshaw-number.jpg',
   'roxyDemolition': 'scrapbook/roxy-swan-song.jpg',
   'roxyette': 'scrapbook/ColorSpread.jpg',
-  'roxyetteCloseUp': 'scrapbook/ColorSpread003.jpg',
+  'roxyetteCloseUp': 'scrapbook/web-ready/Scrapbook_ColorBall-Clip_1100@150.png',
   'roxyHairdresser': 'scrapbook/web-ready/Scrapbook_1943_Ernest-Hairdresser_1200@150.png',
   'roxyMemories': 'scrapbook/web-ready/Scrapbook_1942,43_RoxyNY_1225@150.png',
   'roxyShoeCaptain': 'scrapbook/web-ready/Scrapbook_1943_WAAC-Shoes_1225@150.jpg',
