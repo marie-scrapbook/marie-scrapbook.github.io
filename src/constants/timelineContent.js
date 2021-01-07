@@ -9,10 +9,10 @@ const marvelettes = 'web-ready/marvelettes-pyramid.png';
 const southAmerica = 'web-ready/south-america-crop.png';
 const oneOrTheOther = 'web-ready/one-or-the-other.png';
 const showUpAtRoxy = 'thru-door.png';
-const roxyette = 'roxyette-ball.png';
+const roxyette = 'web-ready/roxyette-ball.png';
 const fitModel = 'web-ready/fit-model.jpg';
-const retirementParty = 'bar-across-the-street.png';
-const wedding = 'cropped-wedding.jpeg';
+const retirementParty = 'web-ready/bar-across-the-street.png';
+const wedding = 'web-ready/cropped-wedding.jpeg';
 
 /**
  * Get first instance of a key with the matching chapter title property.
