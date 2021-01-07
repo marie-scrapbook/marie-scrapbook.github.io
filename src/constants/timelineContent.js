@@ -96,7 +96,7 @@ export const timelineContent = [
   {
     "chapterIndex": getChapterIndex("roxyette"),
     "date": "1942-1946",
-    "description": "As a full-time dancer, Marie performed twice-a-day, seven days a week.",
+    "description": "As a full-time dancer, Marie performed multiple times a day, seven days a week.",
     "imgSrc": roxyette,
     "title": formattedChapters["roxyette"],
     "navYear": "1942",
@@ -112,7 +112,7 @@ export const timelineContent = [
   {
     "chapterIndex": getChapterIndex("retirement"),
     "date": "1946",
-    "description": "Marie falls ill with mastoiditis– a serious complication from an ear infection. The infection forces her to retire. \nAlthough it may have felt like an early retirement, few lasted as long as Marie did at the Roxy, due to the rigorous standards for the dancers as well as societal pressure on the girls.",
+    "description": "Marie falls ill with a viral infection. The resulting dizziness forces her to retire. \nAlthough it may have felt like an early retirement, few lasted as long as Marie did at the Roxy, due to the rigorous standards for the dancers as well as societal pressure on the girls.",
     "imgSrc": retirementParty,
     "title": formattedChapters["retirement"],
     "navYear": "1946",

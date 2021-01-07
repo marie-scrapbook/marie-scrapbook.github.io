@@ -171,7 +171,7 @@ export const scrapbookContent = [
     "chapter": "nedWayburn",
     "date": "1937",
     "imgSrc": img.nedWayburn,
-    "transcription": "When I got enough money from teaching dancing, I went to a better school, I went to a school in New York, a dancing school in New York: Ned Wayburn. That's where I put my money. I used to go into the subway with my girlfriend, Florence Birkan. I wonder... I dated her brother. We used to go in the subway together on Saturdays. And there were triplets in that class; which I'll never find now."
+    "transcription": "When I got enough money from teaching dancing, I went to a better school, I went to a school in New York, a dancing school in New York: Ned Wayburn. That's where I put my money. I used to go into the subway with my girlfriend, Florence Birklan. I wonder... I dated her brother. We used to go in the subway together on Saturdays. And there were triplets in that class; which I'll never find now."
   },
   {
     "audioSrc": audio.amesSisters,
@@ -210,7 +210,7 @@ export const scrapbookContent = [
     "imgSrc": img.amesSistersChicago,
     "title": "Cross-country tour",
     "transcription":
-    "When school closed in September, then we went out of town. We did all of Pennsylvania, we did New England... we did Chicago! Got top billing on that one, huh? We didn't make a lot of money evidently because we used to work at night, and then, we slept in the daytime and somebody would drive and co-pilot. Didn't get rich on that job but it was certainly a lot of fun. We had a ball."
+    "When school closed in [June], then we went out of town. We did all of Pennsylvania, we did New England... we did Chicago! Got top billing on that one, huh? We didn't make a lot of money evidently because we used to work at night, and then, we slept in the daytime and somebody would drive and co-pilot. Didn't get rich on that job but it was certainly a lot of fun. We had a ball."
   },
   {
     "audioSrc": audio.graduation,
@@ -316,7 +316,7 @@ export const scrapbookContent = [
     "chapter": "auditions",
     "imgSrc": img.oneOrTheOther,
     "title": "Just wanted to be one of them",
-    "transcription": "I auditioned for both places in New York. When I went for the audition, I worked behind the lines at Music Hall. They let you work there and then, when they need you, they'd put you in line. They didn't need anybody, but the day I went over to the Roxy, I auditioned, and I think a day or two later I got a telegram: they needed me. There was a girl missing, and I got right in. That's why, if I hadn't gone there, I would've been at Music Hall, if I had held out. But I didn't care which one I wanted. I just wanted to be one of them.",
+    "transcription": "I auditioned for both places in New York [Radio City and the Roxy Theatre]. When I went for the audition, I worked behind the lines at Music Hall. They let you work there and then, when they need you, they'd put you in line. They didn't need anybody, but the day I went over to the Roxy, I auditioned, and I think a day or two later I got a telegram: they needed me. There was a girl missing, and I got right in. That's why, if I hadn't gone there, I would've been at Music Hall, if I had held out. But I didn't care which one I wanted. I just wanted to be one of them.",
   },
   {
     "audioSrc": audio.whatWasTheDifference,
@@ -385,7 +385,7 @@ export const scrapbookContent = [
     "date": "1942",
     "imgSrc": img.roxyHairdresser,
     "title": "The hairdresser",
-    "transcription": "This is Adler, Earnest Adler, he was the hairdresser. Everyone had to wear their hair the same. And he dressed my hair for the wedding, my own wedding.",
+    "transcription": "This is Earnest Adler, he was the hairdresser. Everyone had to wear their hair the same. And he dressed my hair for the wedding, my own wedding.",
   },
   // [0:37:59] Night of stars "That was a great night, yeah. We did that a couple of years."
   // "[0:22:45] To work a benefit was a plus, but ... it was like an honor."
@@ -447,7 +447,7 @@ export const scrapbookContent = [
   },
   {
     "audioSrc": audio.babalu,
-    "caption": "Marie, with bongos, on the left",
+    "caption": "Marie, with bongos, on the left in both photos",
     "chapter": "roxyette",
     // "description": "Listen to Desi sing Babalu here: https://youtu.be/rAV3bOJaQuY",
     "imgSrc": img.babalu,
@@ -478,7 +478,7 @@ export const scrapbookContent = [
     "imgSrc": img.rickshaw,
     "title": "Rickshaw number",
     "transcription":
-      "This was a– I don't know who the star was of this show– but the brought me on in a rickshaw, and they set the stage for an oriental setting. I don't remember who the act was, but the makeup was good, wasn't it?"
+      "This was a– I don't know who the star was of this show– but they brought me on in a rickshaw, and they set the stage for an oriental setting. I don't remember who the act was, but the makeup was good, wasn't it?"
   },
 
   // dezy arnes
