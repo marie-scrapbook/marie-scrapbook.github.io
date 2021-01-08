@@ -13,8 +13,10 @@ function Welcome() {
         </div>
         <div className="row">
           <div className="welcome-text col-md-8 col-sm-12">
-            <p>Welcome to Marie's scrapbook!</p>
-            <p>This is placeholder text until we write an actual intro letter. This website is a digitized and annotated copy of Roxyette Marie Tracy's scrapbook, detailing her dancing career throughout the 1930s and 1940s.</p>
+            <p>Welcome to Marie's dancing scrapbook!</p>
+            <p>
+              This website is a digital copy of Roxyette Marie Tracy's scrapbook– a memorial to a talented woman and her dancing career throughout the 1930s and 1940s.
+            </p>
             <p>
               In the 1970s, my mom helped Grandma put together a scrapbook of photos, ticket stubs, and newspaper clippings related to her dancing career. In 2008, my dad sat down with Grandma to record her memories as they flipped through the pages. And in 2020, we finally got the VHS tape converted, cut the audio clips, scanned the pages and pieces we had, and my mom and I worked on designing a timeline and scrapbook page website to bring everything together.
             </p>
