@@ -30,7 +30,14 @@ function ScrapbookPage({index}) {
       <div className="scrapbook__container">
         <figure className="scrapbook__figure figure">
           <img className="scrapbook__figure-img figure-img img-fluid" src={`${process.env.PUBLIC_URL}/assets/${imgSrc}`} alt=""/>
-          { caption && <figcaption className="scrapbook__figure-caption figure-caption">{caption}</figcaption> }
+          { caption &&
+            <figcaption className="scrapbook__figure-caption figure-caption">
+              {caption}
+              <button className="scrapbook__caption-dismiss"
+                onClick={dismissCaption}>
+                ✕
+              </button>
+            </figcaption> }
         </figure>
         <div className="scrapbook__content">
           <h3 className="scrapbook__chapter">{formattedChapter}</h3>
@@ -45,6 +52,17 @@ function ScrapbookPage({index}) {
       </div>
     </section>
   );
+}
+
+/**
+ * For some screens, a caption overly overlays the image.
+ * This function offers dismissal to clear the caption for viewers.
+ * @param {HTMLEvent} e 
+ */
+function dismissCaption(e) {
+  if (e.target && e.target.parentElement) {
+    e.target.parentElement.style.display = "none";
+  }
 }
 
 export default ScrapbookPage;

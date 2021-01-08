@@ -3,7 +3,7 @@ body {
   background-color: #f7f6f3;
 }
 
-a, p, h1, h2, h3, figcaption {
+a, p, h1, h2, h3, figcaption, button {
   color: #343a40;
 }
 

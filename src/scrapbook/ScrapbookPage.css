@@ -62,7 +62,7 @@
     width: 220px;
     left: 1%;
     bottom: 20%;
-    padding: 12px;
+    padding: 12px 22px 12px 12px; /* 20px added to accomodate dismiss btn */
     box-shadow: 3px 4px 6px 0px rgba(0, 0, 0, 0.2);
     color: #343a40;
   }
@@ -72,6 +72,29 @@
 @media (max-width: 700px) {
   .scrapbook__figure-caption {
     margin: 0 16px;
+  }
+}
+
+/* Desktop Screens */
+@media (min-width: 700px) {
+  .scrapbook__caption-dismiss {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+    padding: 6px 8px;
+  }
+
+  .scrapbook__caption-dismiss:hover {
+    cursor: pointer;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 700px) {
+  .scrapbook__caption-dismiss {
+    display: none;
   }
 }
 
