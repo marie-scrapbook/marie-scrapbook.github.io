@@ -210,7 +210,7 @@ export const scrapbookContent = [
     "imgSrc": img.amesSistersChicago,
     "title": "Cross-country tour",
     "transcription":
-    "When school closed in [June], then we went out of town. We did all of Pennsylvania, we did New England... we did Chicago! Got top billing on that one, huh? We didn't make a lot of money evidently because we used to work at night, and then, we slept in the daytime and somebody would drive and co-pilot. Didn't get rich on that job but it was certainly a lot of fun. We had a ball."
+    "When school closed, then we went out of town. We did all of Pennsylvania, we did New England... we did Chicago! Got top billing on that one, huh? We didn't make a lot of money evidently because we used to work at night, and then, we slept in the daytime and somebody would drive and co-pilot. Didn't get rich on that job but it was certainly a lot of fun. We had a ball."
   },
   {
     "audioSrc": audio.graduation,
