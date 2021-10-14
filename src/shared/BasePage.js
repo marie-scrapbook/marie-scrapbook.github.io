@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Route,
+  Route
 } from 'react-router-dom';
 import './BasePage.css';
 import Nav from './Nav';
@@ -36,6 +36,13 @@ function BasePage() {
         <div class="d-flex">
           {!isMobile && <TimelinePagination />}
           <ScrapbookPage index={match.params.index} />
+        </div>
+      )}/>
+
+      {/* Autographs */}
+      <Route path="/autographs/page/:index" render={({ match }) => (
+        <div class="d-flex">
+          <ScrapbookPage index={match.params.index} isAutograph={true} />
         </div>
       )}/>
     </Router>

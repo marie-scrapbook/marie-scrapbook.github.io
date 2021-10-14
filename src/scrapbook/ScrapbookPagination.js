@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './ScrapbookPagination.css';
+import { autographsContent } from './../constants/autographsContent';
 import { scrapbookContent } from './../constants/scrapbookContent';
 
 /**
@@ -8,12 +9,16 @@ import { scrapbookContent } from './../constants/scrapbookContent';
  * @param {Number} index - human-friendly indexed number corresponding to the current scrapbook page content
  */
 function ScrapbookPagination({
-  index
+  index,
+  isAutograph
 }) {
+  const content = isAutograph ? autographsContent : scrapbookContent,
+        urlPrefix = isAutograph ? 'autographs' : 'scrapbook';
+
   const nextIndex = parseInt(index) + 1,
-        nextLink = nextIndex <= scrapbookContent.length ? `/scrapbook/page/${nextIndex}` : '',
+        nextLink = nextIndex <= content.length ? `/${urlPrefix}/page/${nextIndex}` : '',
         prevIndex = parseInt(index) - 1,
-        prevLink = prevIndex > 0 ? `/scrapbook/page/${prevIndex}` : '';
+        prevLink = prevIndex > 0 ? `/${urlPrefix}/page/${prevIndex}` : '';
 
   return (
     <nav className="scrapbook-pagination" aria-label="Scrapbook page navigation">
