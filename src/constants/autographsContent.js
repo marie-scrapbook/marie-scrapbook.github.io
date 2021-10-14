@@ -1,23 +1,43 @@
 const img = {
+  'beatrice': 'autographs/Beatrice.jpg',
   'bettyGrable': 'autographs/BettyGrable01.jpg',
   'billRobinson': 'autographs/BillRobinson.jpg',
   'carmenMiranda': 'autographs/CarmenMiranda01.jpg',
   'carolLandis': 'autographs/CaroleLandis01.jpg',
+  'chicoMarx': 'autographs/ChicoMarx01-2.jpg',
+  'cowgirl': 'autographs/Cowgirl.jpg',
   'dannyKaye': 'autographs/DannyKaye01.jpg',
   'demarco': 'autographs/Tony&SallyDeMarco01.jpg',
   'dickHaymes': 'autographs/DH.jpg',
+  'dukeEllington': 'autographs/DukeEllington01.jpg',
+  'evelynKnight': 'autographs/EvelynKnight01.jpg',
+  'jerryLester': 'autographs/GerryLester01.jpg',
+  'graceMoore': 'autographs/4x5-Autographs.jpg',
+  'helen': 'autographs/HelenF01.jpg',
+  'hildegarde': 'autographs/Hildegarde01.jpg',
   'ilonaMassey': 'autographs/LornaMassey01.jpg', // Massey.jpg
   'janePickens': 'autographs/JanePickens01.jpg',
+  'janMurray': 'autographs/JanMurray.jpg',
   'joeBesser': 'autographs/JoeBesser01.jpg',
-  'evelynKnight': 'autographs/EvelynKnight01.jpg',
-  'helen': 'autographs/HelenF01.jpg',
+  'jeanJackJudy': 'autographs/JeanJack&Judy01.jpg',
+  'jerryWald': 'autographs/JerryWald01.jpg',
+  'jimmyDorsey': 'autographs/JimmyDorsey01.jpg',
+  'lucilleManners': 'autographs/LucilleManners01.jpg',
+  'madriguera': 'autographs/EddieMadriguera01.jpg',
+  'marthaRay': 'autographs/Marla.jpg',
   'nadineGae': 'autographs/NadineGae01.jpg',
+  'patLeRoy': 'autographs/PatLeRoy01.jpg',
+  'patriciaBowman': 'autographs/PatriciaBowman01.jpg',
   'paul': 'autographs/Paul01.jpg',
+  'paulDraper': 'autographs/PaulDraper01.jpg',
   'paulWhiteman': 'autographs/PaulWhiteman01.jpg',
   'peterLorre': 'autographs/PeterLorre01.jpg',
   'poodle': 'autographs/2men&DogOnHead.jpg',
   'profJerry': 'autographs/ProfJerry.jpg',
   'radioAces': 'autographs/RadioAces01.jpg',
+  'ritzBros': 'autographs/RitzBros01.jpg',
+  'sammyBirch': 'autographs/SammyBirch01.jpg',
+  'sevenMen': 'autographs/7MenInSilk01.jpg',
   'victorBorge': 'autographs/VictorBorge01.jpg',
   'vivianBlaine': 'autographs/VivianBlaine01.jpg',
   'yolanda': 'autographs/Yolanda.jpg'
@@ -180,10 +200,12 @@ export const autographsContent = [
     "wiki": "Joe Besser"
   },
   {
+    "imgSrc": img.patLeRoy,
     "transcription":
       "Pay LeRoy - You remember him? He was a good dancer."
   },
   {
+    "imgSrc": img.patriciaBowman,
     "title": "Patricia Bowman",
     "transcription":
       "And Patricia Bowman, she was from the MET too also.",
@@ -194,99 +216,117 @@ export const autographsContent = [
       "I forget what he did but he was good. Eddie... power?"
   },
   {
-    // LucilleManners01.jpg
+    "imgSrc": img.lucilleManners,
     "transcription":
       "“To Marie, with Best wishes..” Doesn't ring a bell... even the face doesn't. She evidently wasn't a big star, ha!"
   },
   {
-    // Jean Jack Judy
+    "imgSrc": img.jeanJackJudy,
+    "title": "Jean, Jack, and Judy",
     "transcription":
       "As you can see... (“So these people are acrobats?”) and comedians, yeah. We had a lot of fun because it was never too heavy. As You can see, a lot of comedians that make you laugh"
   },
   {
+    "imgSrc": img.paulDraper,
     "title": "Paul Draper",
     "transcription":
       "This is Paul Draper, he was from the MET also.",
     "wiki": "Paul Draper (dancer)"
   },
   {
-    // JerryWald01.jpg
+    "imgSrc": img.jerryWald,
+    "title": "Jerry Wald",
     "transcription":
       "I don't remember what he did. Ok, there you have it."
   },
   {
+    "imgSrc": img.sevenMen,
     "transcription":
       "They are an Arabian troupe. (Acrobats?) Yep. Just what you see. They had a good act. They had a ball where they would throw people up and catch them, chairs, things like that. Same act that goes on even today."
   },
   {
+    "imgSrc": img.sammyBirch,
+    "title": "Sammy Birch",
     "transcription":
       "Sammy Birch! I think he was the first one that mouthed– they'd have a song and he would mouth it. And you would think that he was singing it. And he'd make funny facial things. He worked with - the first one I remember that did that. He was a good act.",
   },
   {
-    // Cowgirl
+    "imgSrc": img.cowgirl,
     "transcription":
       "I don't know who this is but she looks like the MET again. I don't remember her act.",
   },
   {
-    // 4x5-Autographs.jpg
+    "imgSrc": img.graceMoore,
     "title": "Grace Moore",
     "transcription":
       "This is Grace Moore. Grace Moore, she was from the Metropolitan Opera",
     "wiki": "Grace Moore"
   },
   {
-    // Marla.jpg
+    "imgSrc": img.marthaRay,
     "title": "Martha Ray",
     "transcription":
       "This is Martha Raye. Martha Raye, she did a lot of... Big loud mouth and she married... She did a lot of USO work. All these people toured with Bob Hope.",
   },
   {
+    "imgSrc": img.hildegarde,
     "title": "Hildegarde",
     "transcription":
       "This was Hildeguard and I cut this out because she just died recently. She played all the clubs, as you can see. She'd sit on a piano and sing one of those kind, you know?",
     "wiki": "Hildegarde"
   },
   {
+    "imgSrc": img.madriguera,
     "title": "Enric Madriguera",
     "transcription":
       "I guess he was a singer too... ('And his orchestra”) Ok, there you have it.",
     "wiki": "Enric Madriguera"
   },
   {
+    "imgSrc": img.dukeEllington,
     "title": "Duke Ellington",
     "transcription":
       "He- Duke Ellington! What a great, huh? He'd bring his orchestra. I don't know if I have a picture of the count but he'd do the same thing. Count Basey.",
     "wiki": "Duke Ellington"
   },
   {
+    "imgSrc": img.jimmyDorsey,
     "title": "Jimmy Dorsey",
     "transcription":
       "Jimmy Dorsey, of course, you know.",
     "wiki": "Jimmy Dorsey"
   },
   {
+    "imgSrc": img.ritzBros,
     "title": "Ritz Brothers",
     "transcription":
       "Ritz brothers? They were very famous, yeah.",
     "wiki": "Ritz Brothers"
   },
   {
+    "imgSrc": img.chicoMarx,
     "title": "Chico Marx",
     "transcription":
       "And there's my friend Chico Marx. It was just Chico. And if you were caught it in the elevator going to change room, you'd be fired. He had many hands. Chico, oh yeah, he was a bad boy.",
     "wiki": "Chico Marx"
   },
   {
+    "imgSrc": img.janMurray,
     "title": "Jan Murray",
     "transcription":
       "And this I know too, Jan Murray. He wound up in Florida doing one of those day shows. He was a comedian but he'd have acts on, he'd have a whole show like the Today Show. He had that for years. (“Thanks for making my table look beautiful?“) oh he would sit at the table like uh- we'd have a set like we'd be in a club like the Latin club or something. And he'd work from there. I guess I was at his table. He talked a lot, I think he was a singer too. it was all fixed, it was all routine. He'd have a story for everything.",
     "wiki": "Jan Murray",
   },
   {
+    "imgSrc": img.jerryLester,
+    "title": "Jerry Lester",
     "transcription":
-      "And last we have - Gerry Lester, is that his name? He was um, who did this when you were kids? But he was very famous. (“He was a singer?“) And a comedian, yeah. Trying to think what show he did was for a while, a kid's show, something like 'Green Jeans' and things like that.",
+      "And last we have - Jerry Lester, is that his name? He was um, who did this when you were kids? But he was very famous. (“He was a singer?“) And a comedian, yeah. Trying to think what show he did was for a while, a kid's show, something like 'Green Jeans' and things like that.",
+    "wiki": "Jerry Lester"
   },
   {
+    "imgSrc": img.beatrice,
+    "title": "Beatrice",
     "transcription":
       "Another singer. Beatrice something - she wasn't very famous.",
   }

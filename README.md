@@ -38,4 +38,8 @@ Builds the application and submits to [marie-scrapbook.github.io/gh-pages](https
 
 See [this how to](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f) or the [gh-pages npm package](https://www.npmjs.com/package/gh-pages) for more information.
 
+Follow these instructions for authenticating via personal access tokens: https://github.com/tschaub/gh-pages/issues/413
+
+---
+
 Additional handling for direct routing is used through `404.html`. See the [create-react-app docs](https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing) for more.
