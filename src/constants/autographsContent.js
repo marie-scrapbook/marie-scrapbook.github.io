@@ -47,6 +47,7 @@ const audio = {};
 
 export const autographsContent = [
   {
+    "caption": '“For Marie T; Pops”',
     "imgSrc": img.paulWhiteman,
     "title": "Paul Whiteman",
     "transcription":
@@ -54,15 +55,16 @@ export const autographsContent = [
     "wiki": "Paul Whiteman",
   },
   {
+    "caption": '“To Marie, Best Wishes, Danny Kaye”',
     "imgSrc": img.dannyKaye,
     "title": "Danny Kaye",
     "transcription":
-      "Then we had Danny Kaye. I don't remember what he did.",
+      "Then we had Danny Kaye.",
     "wiki": "Danny Kaye"
   },
   {
     "audioSrc": audio.billRobinson,
-    "caption": 'Inscription reads: "To Marie, In appreciation of making our number a success, Bill Robinson, 1-9-44',
+    "caption": '“To Marie, In appreciation of making our number a success, Bill Robinson, 1-9-44”',
     "date": "1944",
     "imgSrc": img.billRobinson,
     "title": "Bill Robinson (Bojangles)",
@@ -71,12 +73,14 @@ export const autographsContent = [
     "wiki": "Bill Robinson"
   },
   {
+    "caption": '“To Marie: [?] happiness to you! Nadine Gae”',
     "imgSrc": img.nadineGae,
     "title": "Nadine Gae",
     "transcription":
-      "This is Nating Gae's daughter. She was a director of dance and this was her daughter. She was a star herself. She was a dancer also. I can't see what her name is, Nadine? She was also a dancer. She did a little of everything.",
+      "This is Nadine Gae's daughter. She was a director of dance and this was her daughter. She was a star herself. She was a dancer also. I can't see what her name is, Nadine? She was also a dancer. She did a little of everything.",
   },
   {
+    "caption": '“To Marie – Best wishes, Betty Grable”',
     "imgSrc": img.bettyGrable,
     "title": "Betty Grable",
     "transcription":
@@ -84,6 +88,7 @@ export const autographsContent = [
     "wiki": "Betty Grable"
   },
   {
+    "caption": '“To Marie, With kindest regards, Sincerely, Evelyn Knight”',
     "imgSrc": img.evelynKnight,
     "title": "Evelyn Knight",
     "transcription":
@@ -91,8 +96,8 @@ export const autographsContent = [
     "wiki": "Evelyn Knight (singer)"
   },
   {
-    "audioSrc": audio.carmenMiranda,
-    "caption": 'Inscription reads: "To Marie, Regards from Carmen Miranda',
+    // "audioSrc": audio.carmenMiranda,
+    "caption": '“To Marie, Regards from Carmen Miranda”',
     "imgSrc": img.carmenMiranda,
     "title": "Carmen Miranda",
     "transcription": 
@@ -100,19 +105,22 @@ export const autographsContent = [
     "wiki": "Carmen Miranda"
   },
   {
+    "caption": '“To "[x]" My best wishes always! Ilona Masey”',
     "imgSrc": img.ilonaMassey,
     "title": "Ilona Massey",
     "transcription":
-      "And this is um this is Lona Massey? Yeah she was famous. She was a singer also. Yeah, she was, she was Hollywood.",
+      "And this is um this is Ilona Massey? Yeah she was famous. She was a singer also. Yeah, she was, she was Hollywood.",
     "wiki": "Ilona Massey"
   },
   {
+    "caption": '“To "Marie T" Best Wishes\nRadio Aces”',
     "imgSrc": img.radioAces,
     "title": "The Radio Aces",
     "transcription":
       "They were famous too. The Radio Aces, yeah they were singers. You could tell haha. With the handkerchief in the pocket.",
   },
   {
+    "caption": '“To the beautiful and talented Marie who, I hope, will find every happiness — Jane Pickens — August, 1946”',
     "imgSrc": img.janePickens,
     "title": "Jane Pickens",
     "transcription": 
@@ -120,6 +128,7 @@ export const autographsContent = [
     "wiki": "Jane Pickens"
   },
   {
+    "caption": '“To Marie, Veloz & Yolanda”',
     "imgSrc": img.yolanda,
     "title": "Veloz and Yolanda",
     "transcription":
@@ -127,6 +136,7 @@ export const autographsContent = [
     "wiki": "Veloz and Yolanda"
   },
   {
+    "caption": "“To Marie T– Thanks to you– and the swellest bunch of Girls I've ever worked with– Sincerley, Victor Borge”",
     "imgSrc": img.victorBorge,
     "title": "Victor Borge",
     "transcription":
@@ -134,32 +144,37 @@ export const autographsContent = [
     "wiki": "Victor Borge"
   },
   {
+    "caption": '“To Marie T. Yours sincerely, Tony + Sally DeMarco”',
     "imgSrc": img.demarco,
     "title": "The Dancing DeMarcos",
     "transcription":
-      "I don't remember their names. On Demarcos! They were famous also, these couples, they worked clubs like the Latin quarter and the Cotton club, they'd work all the clubs.",
+      "I don't remember their names. Oh, DeMarcos! They were famous also, these couples, they worked clubs like the Latin quarter and the Cotton club, they'd work all the clubs.",
     "wiki": "Tony DeMarco (dancer)"
   },
   {
+    "caption": '“To Marie – with love, Carole”',
     "imgSrc": img.carolLandis,
     "title": "Carole Landis",
     "transcription":
-      "And she was a movie star. Carol Anders. She was a movie star and sang also.",
+      "And she was a movie star. Carol Landis. She was a movie star and sang also.",
     "wiki": "Carole Landis"
   },
   {
+    "title": "Poodle Act",
     "imgSrc": img.poodle,
     "transcription":
       "Oh that was a funny act. The Groucho brothers is that what it says? That was one with a big poodle? and it was a comedy act and they'd pull the poodle’s skin up and say “The zoot don't fit”. They were from Germany or something but all I remember is “The zoot don’t fit”"
   },
   {
+    "caption": '“To Marie – With best wishes from the "Prof.", Jerry Colonna”',
     "imgSrc": img.profJerry,
     "title": "Jerry Colonna",
     "transcription":
-      "Course you know who this is, this is uh Cologne He worked with Bob Hope all the time - Jerry Cologne. He was a funny man. “With best wishes”. The and Bob Hope were a team. They did all the USO shows, He was a comic too, yeah.",
+      "Course you know who this is, this is uh Colonna He worked with Bob Hope all the time - Jerry Colonna. He was a funny man. “With best wishes”. The and Bob Hope were a team. They did all the USO shows, He was a comic too, yeah.",
     "wiki": "Jerry Colonna (entertainer)"
   },
   {
+    "caption": '“Sincerely, Dick Haymes”',
     "imgSrc": img.dickHaymes,
     "title": "Dick Haymes",
     "transcription":
@@ -167,6 +182,7 @@ export const autographsContent = [
     "wiki": "Dick Haymes"
   },
   {
+    "caption": '“To Marie, Peter Lorre”',
     "imgSrc": img.peterLorre,
     "title": "Peter Lorre",
     "transcription":
@@ -174,11 +190,14 @@ export const autographsContent = [
     "wiki": "Peter Lorre"
   },
   {
+    "caption": '“To Marie, Best Wishes, from Paul Haakon. 1948”',
+    "title": "Paul Haakon",
     "imgSrc": img.paul,
     "transcription":
       "He was a ballet dancer. Paul? I guess he was from the MET."
   },
   {
+    "caption": '“To "Marie" – Sincerest Wishes – Helen Forrest”',
     "imgSrc": img.helen,
     "title": "Helen Forrest",
     "transcription":
@@ -186,13 +205,15 @@ export const autographsContent = [
     "wiki": "Helen Forrest"
   },
   {
+    "caption": '“To Marie– My best– Always, Vivian Blaine”',
     "imgSrc": img.vivianBlaine,
     "title": "Vivian Blaine",
     "transcription":
-      "Blaine! She was an actress. She was mostly an actress. They had these names so they could put them on the marquis. And then they did next to nothing, maybe because they were in Hollywood.",
+      "Blaine! She was an actress. She was mostly an actress. They had these names so they could put them on the marquee. And then they did next to nothing, maybe because they were in Hollywood.",
     "wiki": "Vivian Blaine"
   },
   {
+    "caption": '“To Marie, Best wishes, Sincerely, Joe Besser”',
     "imgSrc": img.joeBesser,
     "title": "Joe Besser",
     "transcription":
@@ -200,33 +221,43 @@ export const autographsContent = [
     "wiki": "Joe Besser"
   },
   {
+    "caption": '“To Marie Tracy– Sincere good wishes to you, Hal Le Roy”',
     "imgSrc": img.patLeRoy,
+    "title": "Hal Le Roy",
     "transcription":
-      "Pay LeRoy - You remember him? He was a good dancer."
+      "Hal Le Roy - You remember him? He was a good dancer.",
+    "wiki": "Hal Le Roy"
   },
   {
+    "caption": '“To Marie, Sincerely, Patricia Bowman, 1943”',
     "imgSrc": img.patriciaBowman,
     "title": "Patricia Bowman",
     "transcription":
       "And Patricia Bowman, she was from the MET too also.",
     "wiki": "Patricia Bowman"
   },
+  // {
+  //   "caption": '“”',
+  //   // No picture
+  //   "transcription":
+  //     "I forget what he did but he was good. Eddie... power?"
+  // },
   {
-    "transcription":
-      "I forget what he did but he was good. Eddie... power?"
-  },
-  {
+    "caption": '“To Marie – With best wishes, Lucille Manners”',
     "imgSrc": img.lucilleManners,
+    "title": "Lucille Manners",
     "transcription":
-      "“To Marie, with Best wishes..” Doesn't ring a bell... even the face doesn't. She evidently wasn't a big star, ha!"
+      "“To Marie– with Best wishes...” Doesn't ring a bell... even the face doesn't. She evidently wasn't a big star, ha!"
   },
   {
+    "caption": '“To Marie T. Best ever, Jean Jack + Judy”',
     "imgSrc": img.jeanJackJudy,
     "title": "Jean, Jack, and Judy",
     "transcription":
-      "As you can see... (“So these people are acrobats?”) and comedians, yeah. We had a lot of fun because it was never too heavy. As You can see, a lot of comedians that make you laugh"
+      "As you can see... (“So these people are acrobats?”) and comedians, yeah. We had a lot of fun because it was never too heavy. As you can see, a lot of comedians that make you laugh"
   },
   {
+    "caption": '“To Marie, Paul Draper – 1943”',
     "imgSrc": img.paulDraper,
     "title": "Paul Draper",
     "transcription":
@@ -234,28 +265,33 @@ export const autographsContent = [
     "wiki": "Paul Draper (dancer)"
   },
   {
+    "caption": '“To Marie, Good luck, Jerry Wald”',
     "imgSrc": img.jerryWald,
     "title": "Jerry Wald",
     "transcription":
-      "I don't remember what he did. Ok, there you have it."
+      "I don't remember what he did. (“Jerry Wald and his Orchestra”) Ok, there you have it."
   },
   {
     "imgSrc": img.sevenMen,
+    "title": "Arabian Troupe",
     "transcription":
       "They are an Arabian troupe. (Acrobats?) Yep. Just what you see. They had a good act. They had a ball where they would throw people up and catch them, chairs, things like that. Same act that goes on even today."
   },
   {
+    "caption": '“To Marie T. Sincerely, Sammy Birch”',
     "imgSrc": img.sammyBirch,
     "title": "Sammy Birch",
     "transcription":
       "Sammy Birch! I think he was the first one that mouthed– they'd have a song and he would mouth it. And you would think that he was singing it. And he'd make funny facial things. He worked with - the first one I remember that did that. He was a good act.",
   },
   {
+    "caption": '“For Marie T. Sincerely, [?]”',
     "imgSrc": img.cowgirl,
     "transcription":
       "I don't know who this is but she looks like the MET again. I don't remember her act.",
   },
   {
+    "caption": '“To Tracy”',
     "imgSrc": img.graceMoore,
     "title": "Grace Moore",
     "transcription":
@@ -263,12 +299,15 @@ export const autographsContent = [
     "wiki": "Grace Moore"
   },
   {
+    "caption": '“To Marie T – Best wishes, Martha Raye”',
     "imgSrc": img.marthaRay,
-    "title": "Martha Ray",
+    "title": "Martha Raye",
     "transcription":
       "This is Martha Raye. Martha Raye, she did a lot of... Big loud mouth and she married... She did a lot of USO work. All these people toured with Bob Hope.",
+    "wiki": "Martha Raye"
   },
   {
+    "caption": '“To Marie with my good wishes, Bless you! Hildegarde”',
     "imgSrc": img.hildegarde,
     "title": "Hildegarde",
     "transcription":
@@ -276,6 +315,7 @@ export const autographsContent = [
     "wiki": "Hildegarde"
   },
   {
+    "caption": '“To Marie T, Sincerely, Enric Madriguera”',
     "imgSrc": img.madriguera,
     "title": "Enric Madriguera",
     "transcription":
@@ -283,13 +323,15 @@ export const autographsContent = [
     "wiki": "Enric Madriguera"
   },
   {
+    "caption": '“To Marie, good luck, Duke”',
     "imgSrc": img.dukeEllington,
     "title": "Duke Ellington",
     "transcription":
-      "He- Duke Ellington! What a great, huh? He'd bring his orchestra. I don't know if I have a picture of the count but he'd do the same thing. Count Basey.",
+      "He- Duke Ellington! What a great, huh? He'd bring his orchestra. I don't know if I have a picture of the Count but he'd do the same thing. Count Basie.",
     "wiki": "Duke Ellington"
   },
   {
+    "caption": '“Sincerely, Jimmy Dorsey”',
     "imgSrc": img.jimmyDorsey,
     "title": "Jimmy Dorsey",
     "transcription":
@@ -297,6 +339,7 @@ export const autographsContent = [
     "wiki": "Jimmy Dorsey"
   },
   {
+    "caption": '[Jimmy, Harry, Al] “Marie, Best wishes, Ritz Bros”',
     "imgSrc": img.ritzBros,
     "title": "Ritz Brothers",
     "transcription":
@@ -304,6 +347,7 @@ export const autographsContent = [
     "wiki": "Ritz Brothers"
   },
   {
+    "caption": '“With Best Wishes To– Marie Tracy, Chico Marx”',
     "imgSrc": img.chicoMarx,
     "title": "Chico Marx",
     "transcription":
@@ -311,20 +355,22 @@ export const autographsContent = [
     "wiki": "Chico Marx"
   },
   {
+    "caption": '“To Marie – Thanks for making my table look beautiful – Good luck – Jan Murray”',
     "imgSrc": img.janMurray,
     "title": "Jan Murray",
     "transcription":
-      "And this I know too, Jan Murray. He wound up in Florida doing one of those day shows. He was a comedian but he'd have acts on, he'd have a whole show like the Today Show. He had that for years. (“Thanks for making my table look beautiful?“) oh he would sit at the table like uh- we'd have a set like we'd be in a club like the Latin club or something. And he'd work from there. I guess I was at his table. He talked a lot, I think he was a singer too. it was all fixed, it was all routine. He'd have a story for everything.",
+      "And this I know too, Jan Murray. He wound up in Florida doing one of those day shows. He was a comedian but he'd have acts on, he'd have a whole show like the Today Show. He had that for years. (“Thanks for making my table look beautiful?”) Oh, he would sit at the table like uh- we'd have a set like we'd be in a club like the Latin club or something. And he'd work from there. I guess I was at his table. He talked a lot, I think he was a singer too. it was all fixed, it was all routine. He'd have a story for everything.",
     "wiki": "Jan Murray",
   },
   {
+    "caption": '“[?] Marie, Love Jer”',
     "imgSrc": img.jerryLester,
     "title": "Jerry Lester",
     "transcription":
-      "And last we have - Jerry Lester, is that his name? He was um, who did this when you were kids? But he was very famous. (“He was a singer?“) And a comedian, yeah. Trying to think what show he did was for a while, a kid's show, something like 'Green Jeans' and things like that.",
+      "Jerry Lester, is that his name? He was um, who did this when you were kids? But he was very famous. (“He was a singer?“) And a comedian, yeah. Trying to think what show he did was for a while, a kid's show, something like 'Green Jeans' and things like that.",
     "wiki": "Jerry Lester"
   },
-  {
+  {"caption": '“To Marie, Sincerely, Beatrice [?]”',
     "imgSrc": img.beatrice,
     "title": "Beatrice",
     "transcription":
