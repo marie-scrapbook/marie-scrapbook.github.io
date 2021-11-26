@@ -63,7 +63,7 @@ export const autographsContent = [
     "wiki": "Danny Kaye"
   },
   {
-    "audioSrc": audio.billRobinson,
+    // "audioSrc": audio.billRobinson,
     "caption": '“To Marie, In appreciation of making our number a success, Bill Robinson, 1-9-44”',
     "date": "1944",
     "imgSrc": img.billRobinson,
@@ -194,7 +194,8 @@ export const autographsContent = [
     "title": "Paul Haakon",
     "imgSrc": img.paul,
     "transcription":
-      "He was a ballet dancer. Paul? I guess he was from the MET."
+      "He was a ballet dancer. Paul? I guess he was from the MET.",
+    "wiki": "Paul Haakon"
   },
   {
     "caption": '“To "Marie" – Sincerest Wishes – Helen Forrest”',

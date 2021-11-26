@@ -133,18 +133,23 @@
   margin-bottom: 0;
 }
 
-.scrapbook__learn-more-btn {
-  background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.24);
-  border-radius: 10px;
-  padding: 8px;
+.scrapbook__tabs {
+  padding: 0;
+  box-shadow: none;
 }
 
-.scrapbook__wiki {
-  max-height: 300px;
-  overflow: auto;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.24) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-  margin: 8px;
-  padding: 12px;
+.scrapbook__tab {
+  margin-right: 12px;
+}
+
+.scrapbook__tab-link.nav-link.active {
+  background-color: transparent;
+}
+
+.scrapbook__tab-link:hover {
+  cursor: pointer;
+}
+
+.scrapbook__tab-content {
+  margin: 12px;
 }

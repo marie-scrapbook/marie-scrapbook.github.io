@@ -42,6 +42,74 @@ function ScrapbookPage({ index , isAutograph }) {
     }
   }, [location]);
 
+  /**
+   * TranscriptContent
+   * Main content for the scrapbook page
+   */
+  function TranscriptContent() {
+    let availableContent = [];
+    if (introAudioSrc) {
+      availableContent.push(
+        <audio controls src={`${process.env.PUBLIC_URL}/assets/audio/${introAudioSrc}`}></audio>
+      );
+    }
+    if (introTranscription) {
+      availableContent.push(
+        <blockquote className="blockquote"><p className="scrapbook__transcription">{introTranscription}</p></blockquote>);
+    }
+    if (audioSrc) {
+      availableContent.push(
+        <audio controls src={`${process.env.PUBLIC_URL}/assets/audio/${audioSrc}`}></audio>
+      )
+    }
+    if (description) {
+      availableContent.push(
+        <p className="scrapbook__description">{description}</p>
+      )
+    }
+    if (transcription) {
+      availableContent.push(
+        <blockquote className="blockquote">
+          <p className="scrapbook__transcription">{transcription}</p>
+        </blockquote>
+      );
+    }
+    return (availableContent);
+  }
+
+  /**
+   * LearnMoreTabs
+   * Include "Learn more" tab for Wikipedia excerpt in addition to TranscriptContent
+   */
+   function LearnMoreTabs() {
+    return (
+      <div>
+        <ul className="scrapbook__tabs nav nav-tabs" role="tablist">
+          <li className="scrapbook__tab nav-item" role="presentation">
+            <button className="scrapbook__tab-link nav-link active" id="transcript-tab" data-bs-toggle="tab" data-bs-target="#transcript" type="button" role="tab" aria-controls="transcript" aria-selected="true">
+              In her words
+            </button>
+          </li>
+          <li className="scrapbook__tab nav-item" role="presentation">
+            <button className="scrapbook__tab-link nav-link" id="more-tab" data-bs-toggle="tab" data-bs-target="#more" type="button" role="tab" aria-controls="more" aria-selected="false" >
+              Learn more
+            </button>
+          </li>
+        </ul>
+        <div className="scrapbook__tab-content tab-content">
+          <div className="tab-pane fade show active" id="transcript" role="tabpanel" aria-labelledby="transcript-tab">
+            <TranscriptContent/>
+          </div>
+          <div className="tab-pane fade" id="more" role="tabpanel" aria-labelledby="more-tab">
+            <div className="scrapbook__learn-more">
+              <div className="scrapbook__wiki" id="wikiContent"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <section className="scrapbook pt-0 pb-0">
       <div className="scrapbook__container">
@@ -51,24 +119,14 @@ function ScrapbookPage({ index , isAutograph }) {
             <figcaption className="scrapbook__figure-caption figure-caption">
               {caption}
               <button className="scrapbook__caption-dismiss"
-                onClick={dismissCaption}>
-                ✕
-              </button>
+                onClick={dismissCaption}>✕</button>
             </figcaption> }
         </figure>
         <div className="scrapbook__content">
           { mainTitle && <h3 className="scrapbook__chapter">{mainTitle}</h3> }
           { chapter && title && <h4 className="scrapbook__title">{title}</h4> }
-          { introAudioSrc && <audio controls src={`${process.env.PUBLIC_URL}/assets/audio/${introAudioSrc}`}></audio> }
-          { introTranscription && <blockquote className="blockquote"><p className="scrapbook__transcription">{introTranscription}</p></blockquote>}
-          { description && <p className="scrapbook__description">{description}</p>}
-          { audioSrc && <audio controls src={`${process.env.PUBLIC_URL}/assets/audio/${audioSrc}`}></audio> }
-          { transcription && <blockquote className="blockquote"><p className="scrapbook__transcription">{transcription}</p></blockquote>}
-          { wiki &&
-            <div className="scrapbook__learn-more">
-              <button className="scrapbook__learn-more-btn" onClick={toggleWiki}>Learn more</button>
-              <div className="scrapbook__wiki collapse" id="wikiContent"></div>
-            </div>}
+          { wiki && <LearnMoreTabs/> }
+          { !wiki && <TranscriptContent/> }
           <ScrapbookPagination index={index} isAutograph={isAutograph} />
         </div>
       </div>
@@ -88,15 +146,6 @@ function dismissCaption(e) {
 }
 
 /**
- * Toggle show/hide Wiki content
- * @param {HTMLEvent} e 
- */
-function toggleWiki(e) {
-  let wikiContentContainer = document.getElementById('wikiContent');
-  wikiContentContainer.classList.contains('show') ? wikiContentContainer.classList.remove('show') : wikiContentContainer.classList.add('show') ;
-}
-
-/**
  * Fetch Wikipedia page extracts
  * API: https://www.mediawiki.org/wiki/API:Get_the_contents_of_a_page
  * @param {Number} pageId - Unique ID for Wikipedia article
@@ -107,7 +156,7 @@ function fetchWikiContent(pageId) {
     .then((data) => {
       let page = Object.values(data?.query?.pages)[0];
       if (page) {
-        page.url = `http://en.wikipedia.org/?curid=${pageId}`;
+        page.url = `http://en.wikipedia.org/wiki/${pageId}`;
         updateWikiContent(page);
       }
     });
@@ -127,12 +176,15 @@ function updateWikiContent({ extract, url }) {
   // Read more link
   let subtitleEl = document.createElement('a');
   subtitleEl.setAttribute('href', url);
+  subtitleEl.setAttribute("target", "_blank");
   subtitleEl.innerHTML = '<em>Read the full article »</em>';
   wikiContentFragment.appendChild(subtitleEl);
   // Update DOM
   let wikiContentContainer = document.getElementById('wikiContent');
-  wikiContentContainer.innerHTML = "";
-  wikiContentContainer.appendChild(wikiContentFragment);
+  if (wikiContentContainer) {
+    wikiContentContainer.innerHTML = "";
+    wikiContentContainer.appendChild(wikiContentFragment);
+  }
 }
 
 export default ScrapbookPage;
