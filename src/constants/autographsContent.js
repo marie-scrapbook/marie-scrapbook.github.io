@@ -47,6 +47,12 @@ const audio = {};
 
 export const autographsContent = [
   {
+    "description": "The Roxyettes performed with some of the hottest names in music, theatre, and dance. The following are Marie's recollections and autograph collection.",
+    "title": "Headshots and Autographs",
+    "transcription":
+      "You know sometimes I wonder if somebody didn't sign some of  these things. You know, “To Marie” somebody had to write it but I don't know if she wrote these nice or not. I have no way of knowing, I didn't see her write or not. They would give them to us. “Anybody want an autograph?” “Yeah, okay”"
+  },
+  {
     "caption": '“For Marie T; Pops”',
     "imgSrc": img.paulWhiteman,
     "title": "Paul Whiteman",

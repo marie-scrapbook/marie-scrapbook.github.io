@@ -118,13 +118,17 @@
 
 .scrapbook__chapter {
   font-size: 1.8rem;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .scrapbook__title {
   font-weight: normal;
   font-size: 1.5rem;
   margin-bottom: 24px;
+}
+
+.scrapbook__chapter ~ .scrapbook__title {
+  margin-top: -12px;
 }
 
 .scrapbook__transcription {
@@ -136,14 +140,22 @@
 .scrapbook__tabs {
   padding: 0;
   box-shadow: none;
+  flex-direction: row;
 }
 
 .scrapbook__tab {
   margin-right: 12px;
 }
 
+.scrapbook__tab-link.nav-link {
+  border: 1px #ddd solid;
+  border-color: #ddd;
+  box-shadow: 2px -2px 5px #ddd;
+}
+
 .scrapbook__tab-link.nav-link.active {
   background-color: transparent;
+  border-bottom-color: #f7f6f3;
 }
 
 .scrapbook__tab-link:hover {
