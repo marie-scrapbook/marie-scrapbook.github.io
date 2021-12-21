@@ -5,6 +5,7 @@ import {
 import './ScrapbookPage.css';
 import { autographsContent } from './../constants/autographsContent';
 import { scrapbookContent } from './../constants/scrapbookContent';
+import { storyContent } from './../constants/storyContent';
 import { formattedChapters } from './../constants/formattedChapters';
 import ScrapbookPagination from './ScrapbookPagination';
 
@@ -12,8 +13,9 @@ import ScrapbookPagination from './ScrapbookPagination';
  * ScrapbookPage
  * @param {Number} index - human-friendly indexed number
  */
-function ScrapbookPage({ index , isAutograph }) {
+function ScrapbookPage({ index , type }) {
   const realIndex = index - 1; // zero index the human friendly index
+  const content = getContent(type, realIndex);
   const {
     audioSrc,
     caption,
@@ -26,7 +28,7 @@ function ScrapbookPage({ index , isAutograph }) {
     title,
     transcription,
     wiki
-  } = isAutograph ? autographsContent[realIndex] : scrapbookContent[realIndex];
+  } = content;
 
   let mainTitle = formattedChapters[chapter] || title;
 
@@ -127,7 +129,7 @@ function ScrapbookPage({ index , isAutograph }) {
           { chapter && title && <h4 className="scrapbook__title">{title}</h4> }
           { wiki && <LearnMoreTabs/> }
           { !wiki && <TranscriptContent/> }
-          <ScrapbookPagination index={index} isAutograph={isAutograph} />
+          <ScrapbookPagination index={index} type={type} />
         </div>
       </div>
     </section>
@@ -184,6 +186,19 @@ function updateWikiContent({ extract, url }) {
   if (wikiContentContainer) {
     wikiContentContainer.innerHTML = "";
     wikiContentContainer.appendChild(wikiContentFragment);
+  }
+}
+
+function getContent(type, i) {
+  switch(type) {
+    case 'autographs':
+      return autographsContent[i];
+    case 'stories':
+      return storyContent[i];
+    case 'scrapbook':
+      return scrapbookContent[i];
+    default:
+      return {};
   }
 }
 

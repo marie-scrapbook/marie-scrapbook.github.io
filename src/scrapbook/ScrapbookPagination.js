@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './ScrapbookPagination.css';
 import { autographsContent } from './../constants/autographsContent';
 import { scrapbookContent } from './../constants/scrapbookContent';
+import { storyContent } from '../constants/storyContent';
 
 /**
  * ScrapbookPagination
@@ -10,10 +11,10 @@ import { scrapbookContent } from './../constants/scrapbookContent';
  */
 function ScrapbookPagination({
   index,
-  isAutograph
+  type
 }) {
-  const content = isAutograph ? autographsContent : scrapbookContent,
-        urlPrefix = isAutograph ? 'autographs' : 'scrapbook';
+  const content = getContent(type),
+        urlPrefix = type;
 
   const nextIndex = parseInt(index) + 1,
         nextLink = nextIndex <= content.length ? `/${urlPrefix}/page/${nextIndex}` : '',
@@ -32,6 +33,19 @@ function ScrapbookPagination({
       </ul>
     </nav>
   );
+}
+
+function getContent(type) {
+  switch(type) {
+    case 'autographs':
+      return autographsContent;
+    case 'stories':
+      return storyContent;
+    case 'scrapbook':
+      return scrapbookContent;
+    default:
+      return {};
+  }
 }
 
 export default ScrapbookPagination;

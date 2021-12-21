@@ -35,17 +35,24 @@ function BasePage() {
       <Route path="/scrapbook/page/:index" render={({ match }) => (
         <div class="d-flex">
           {!isMobile && <TimelinePagination />}
-          <ScrapbookPage index={match.params.index} />
+          <ScrapbookPage index={match.params.index} type="scrapbook" />
         </div>
       )}/>
 
       {/* Autographs */}
       <Route path="/autographs/page/:index" render={({ match }) => (
         <div class="d-flex">
-          <ScrapbookPage index={match.params.index} isAutograph={true} />
+          <ScrapbookPage index={match.params.index} type="autographs" />
         </div>
       )}/>
-    </Router>
+
+    {/* Stories */}
+    <Route path="/stories/page/:index" render={({ match }) => (
+      <div class="d-flex">
+        <ScrapbookPage index={match.params.index} type="stories" />
+      </div>
+    )}/>
+  </Router>
   );
 }
 
