@@ -5,6 +5,7 @@ const audio = {};
 export const storyContent = [
   {
     "chapter": "roxyette",
+    "imgSrc": "stories/wooden-soldiers.jpeg", // https://www.rockettes.com/blog/wardrobe-wednesday-wooden-soldier/
     "title": "Christmastime",
     "transcription":
       "Plenty of acts going around. Mostly at Christmas show they'd repeat. If it was a good Christmas show they'd bring that back again. Same as your [Radio City] Music Hall Christmas show, you know, they do the wooden soldiers act? If we had a good act at Christmastime, maybe they'd skip a couple of years and they'd bring it back again. We used to play a lot of midgets. You know, the toy boys."
@@ -17,9 +18,12 @@ export const storyContent = [
   },
   {
     "chapter": "roxyette",
-    "title": "Coco Cobana Auditions",
+    "imgSrc": "stories/copa.jpg", // https://jezebel.com/a-brief-twirl-through-eighty-years-at-the-copacabana-1843675986
+    // "imgSrc": "", // https://www.nytimes.com/2020/06/19/nyregion/1957-yankees-brawl-copacabana-silvestri.html
+    "title": "Copacabana Auditions",
     "transcription": 
-      "At one time 3 of us got together, we had no rehearsals so let's go try and they're hiring at the Latin Quarter. Coco Cabana I think it was. So we all went there at lunch times in full makeup– of course you can't take your makeup off between shows, it's hard to get off. Too long. And I was too tall and too short. I was too short for the show girls and they have what they call a Pony Line, which is a little kick routines, and I was too tall for that. Just something to do. Oh a lot of people looked at us. We have these big eyelashes on. There were a lot of nice clubs. Lot of nice clubs."
+      "At one time 3 of us got together, we had no rehearsals so let's go try and they're hiring at the Latin Quarter. Copacabana I think it was. So we all went there at lunch times in full makeup– of course you can't take your makeup off between shows, it's hard to get off. Too long. And I was too tall and too short. I was too short for the show girls and they have what they call a Pony Line, which is a little kick routines, and I was too tall for that. Just something to do. Oh a lot of people looked at us. We have these big eyelashes on. There were a lot of nice clubs. Lot of nice clubs.",
+    "wiki": "Copacabana_(nightclub)"
   },
   {
     "chapter": "roxyette",
@@ -49,12 +53,14 @@ export const storyContent = [
   },
   {
     "chapter": "tracys",
+    "imgSrc": "stories/willy-uniform.jpeg",
     "title": "Willy Tracy",
     "transcription": 
       "(What did your dad do?) He wasn't an accountant - he was a bookkeeper. He didn't have a degree in accounting. He worked for Texas Oil. And he did- he kept the books. He was in the Navy as a matter of fact. He was a yeoman in the Navy. Before he went in the Navy, he went to school he learned how to do - when you take depositions? What do you call that machine? There's a special machine, and he learned that. He was working in the courts. In Maine. Oh yeah. He was a maine-iac. Haha. Then he joined the Navy and came back to New York. They were married in 1918 - when was the war over? He came down in 17, the war was over in 18, they were married in 18. He was in uniform when they were married, so the war was still on. Because he was a yeoman, which is all book work, he was down at the Whitehall building at the end of New York, by Battery Park. He never went to the ocean."
   },
   {
     "chapter": "tracys",
+    "imgSrc": "stories/willy-mae-wedding.jpeg",
     "title": "Willy & Mae Tracy",
     "transcription":
       "When they were married, it was during the flu epidemic of 1918. And my grandmother from Maine wouldn't come down because she was afraid of getting the flu. Everybody was wearing face masks. She was right. She wouldn't come to the wedding. They were dying like flies I guess.",
@@ -127,6 +133,7 @@ export const storyContent = [
   },
   {
     "title": "Now you know",
+    // "imgSrc": "stories/Momma.png",
     "introTranscription":
       "Well this was very nice, thank you. I never would have sat down and thought about all these good times that I had. I did enjoy it very much. You know, it sounds like work but it wasn't work when you like what you're doing. Whatever you're doing- if you like it, You got it.",
     "transcription":

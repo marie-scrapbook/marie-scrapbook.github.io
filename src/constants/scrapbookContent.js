@@ -171,7 +171,8 @@ export const scrapbookContent = [
     "chapter": "nedWayburn",
     "date": "1937",
     "imgSrc": img.nedWayburn,
-    "transcription": "When I got enough money from teaching dancing, I went to a better school, I went to a school in New York, a dancing school in New York: Ned Wayburn. That's where I put my money. I used to go into the subway with my girlfriend, Florence Birklan. I wonder... I dated her brother. We used to go in the subway together on Saturdays. And there were triplets in that class; which I'll never find now."
+    "transcription": "When I got enough money from teaching dancing, I went to a better school, I went to a school in New York, a dancing school in New York: Ned Wayburn. That's where I put my money. I used to go into the subway with my girlfriend, Florence Birklan. I wonder... I dated her brother. We used to go in the subway together on Saturdays. And there were triplets in that class; which I'll never find now.",
+    "wiki": "Ned Wayburn"
   },
   {
     "audioSrc": audio.amesSisters,
@@ -325,6 +326,7 @@ export const scrapbookContent = [
     "title": "What was the difference?",
     "transcription":
       "So that was my boss, Gae Foster. Gae Foster was an original Rockette. So instead of going to Music Hall, she stayed with Roxy and she was head of the Roxyettes. (What was the difference between the two?) There was none. We were all Rockettes and then when Rockefeller built Music Hall, the dance director for the Rockettes moved to the new Music Hall– Radio City– and took his name with him. Mr. Roxy, who owned the Roxy theatre where we all started, he named us the Roxyettes. There was nothing to compete with the Roxy until Music Hall. There was no other dance line. They called them chorus lines but– 'chorus' we didn't like that."
+    // "wiki": "Gae Foster"
   },
   {
     "audioSrc": audio.earleTheatre,
@@ -334,6 +336,7 @@ export const scrapbookContent = [
     "title": "Arriving at the Earle Theatre",
     "transcription":
       "This is very important for me. 'Call me as soon as possible. Miss Cody'– that's from the Roxy. I didn't rehearse with them. They sent me to Washington to break in. See I had to go down to Washington, they had a line in the Earle Theatre in Washington. That's where I lived until Easter. That was my 20th birthday. And I got there at noontime, I went in on the train, and I went in the last show at night, that night. Learned the routine and everything else. I don't know how I did it. I must have been good.",
+    "wiki": "Earle Theatre"
   },
   {
     "audioSrc": audio.earleTheatreDances,
@@ -386,6 +389,7 @@ export const scrapbookContent = [
     "imgSrc": img.roxyHairdresser,
     "title": "The hairdresser",
     "transcription": "This is Earnest Adler, he was the hairdresser. Everyone had to wear their hair the same. And he dressed my hair for the wedding, my own wedding.",
+    // "wiki": "Earnest Adler"
   },
   // [0:37:59] Night of stars "That was a great night, yeah. We did that a couple of years."
   // "[0:22:45] To work a benefit was a plus, but ... it was like an honor."
@@ -443,7 +447,8 @@ export const scrapbookContent = [
     "imgSrc": img.photoshoot,
     "title": "Working with Murray Korman",
     "transcription":
-      "When they sent me for that pinup picture, this was a very famous photographer. I remember, I had to go down in a cab, they put me in a cab and sent me down there. Murray Korman, he was very famous, yeah. (That's quite a bracelet you got on there) Oh yeah, it was all fabric."
+      "When they sent me for that pinup picture, this was a very famous photographer. I remember, I had to go down in a cab, they put me in a cab and sent me down there. Murray Korman, he was very famous, yeah. (That's quite a bracelet you got on there) Oh yeah, it was all fabric.",
+    "wiki": "Murray Korman"
   },
   {
     "audioSrc": audio.babalu,
