@@ -133,6 +133,14 @@ export const storyContent = [
       "And then the time Joe brought his uncle, a Monsignor! Monsignor Irwin to see his girlfriend. Oh, I felt about this big."
   },
   {
+    "chapter": "marieAndJoe",
+    "title": "Post-sickness",
+    "introAudioSrc": "stories/bored.mp3",
+    "introTranscription": "After I got married I was living in Brooklyn. With Daddy. I didn't know what to do with myself so I went back and said, oh I think I'll try it again. So I went back, I'll say October, we were married in September and I said, “I think I'd like to come back” so they said, “Okay, come in for rehearsal tomorrow” so I went in for rehearsal, and I don't remember the number we were doing - but I got very dizzy. I wasn't well enough to go back, but I thought I was. Yeah. So I said “Nope, can't do it” “Okay”. But I thought it was nice that they took me back. Oh, it must have been almost a year. I think I got sick in February. Yeah, I did. So then I didn't go back until October. Daddy was gone all day and I was living in his house. With his sisters. And I didn't know how to drive the car so I was home sick so I thought, eh, I’ll go to work.",
+    "audioSrc": "stories/confidence.mp3",
+    "transcription": "I think I lost my confidence too. That all goes together with being sick. Because I thought I was good. I know I was pretty good when they picked me out a couple times. but I went back and I felt.. maybe I shouldn't go back, haha. [How long were you sick?] Well, I was in bed 6 weeks. Yeah. That was a heavy one."
+  },
+  {
     "chapter": "after",
     "title": "Moving to Brooklyn",
     "transcription":
@@ -161,6 +169,7 @@ export const storyContent = [
     "introAudioSrc": "stories/thank-you.mp3",
     "introTranscription":
       "Well this was very nice, thank you. I would never have sat down and thought about all these good times that I had. I did enjoy it very much. You know, it sounds like work but it wasn't work when you like what you're doing. Whatever you're doing- if you like it, you got it.",
+    "audioSrc": "stories/life-story.mp3",
     "transcription":
       "Now you know my life story. There it is! It's not very exciting but it was when I was doing it. I had a great time."
   }
