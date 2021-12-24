@@ -99,12 +99,14 @@ export const storyContent = [
   {
     "chapter": "marieAndJoe",
     "title": "Funeral Director",
+    "audioSrc": "stories/funeral.mp3",
     "transcription":
       "He was a funeral director. He was an embalmer. He got his license. His dad was a director. Daddy went to school for - I don't know how many years. Then they had to do so many bodies to get - I have his license downstairs. His diploma. Didn't like any part of it but his father needed him. He said he would do it."
   },
   {
     "chapter": "marieAndJoe",
     "title": "Studying as a Marshal",
+    "audioSrc": "stories/locked-in.mp3",
     "transcription":
       "He was a marshal when I met him. He would lock himself in and do his homework. When he was in law school. You know? He would bring prisoners from one place to another. And while they're in court there's nothing for him to do. So he'd get his work done. Lot of reading in law school."
   },
@@ -143,8 +145,9 @@ export const storyContent = [
   {
     "chapter": "after",
     "title": "Moving to Brooklyn",
+    "audioSrc": "stories/brooklyn-flat.mp3",
     "transcription":
-      "And then– don't forget, that was right when the war finished. You couldn't find a place to live. So we were living in Joe's house, in his mother's house. I probably would have stayed working because what am I gonna do there? You know? We didn't find - we didn't find any place to live in until... I guess it was just before Stephen was born. We found a flat, a place in Brooklyn. His cousin said– hey, I'm working with somebody in a two family house and they got a floor for rent. It was more than we could afford. But we were lucky to get it."
+      "And then– don't forget, that was right when the war finished. You couldn't find a place to live. So we were living in Joe's house, in his mother's house. I probably would have stayed working because what am I gonna do there, you know? We didn't find - we didn't find any place to live in until... I guess it was just before Stephen was born. We found a flat, a place in Brooklyn. His cousin said– hey, I'm working with somebody with a two family house and they got a floor for rent. It was more than we could afford. But we were lucky to get it."
   },
   {
     "chapter": "after",
