@@ -1,25 +1,23 @@
-const img = {};
-
-const audio = {};
-
 export const storyContent = [
   {
+    "audioSrc": "stories/wooden-soldier.mp3",
     "chapter": "roxyette",
     "imgSrc": "stories/wooden-soldiers.jpeg", // https://www.rockettes.com/blog/wardrobe-wednesday-wooden-soldier/
     "title": "Christmastime",
     "transcription":
-      "Plenty of acts going around. Mostly at Christmas show they'd repeat. If it was a good Christmas show they'd bring that back again. Same as your [Radio City] Music Hall Christmas show, you know, they do the wooden soldiers act? If we had a good act at Christmastime, maybe they'd skip a couple of years and they'd bring it back again. We used to play a lot of midgets. You know, the toy boys."
+      "Plenty of acts going around. Mostly at Christmas show they'd repeat. If it was a good Christmas show, they would bring that back again. Same as your [Radio City] Music Hall Christmas show, they do, like, the wooden soldiers act? If we had a good act one year at Christmastime, maybe they'd skip a couple of years and come again."
   },
   {
+    "audioSrc": "stories/war-bonds.mp3",
     "chapter": "roxyette",
     "title": "War Bonds",
     "transcription":
-      "I know what I wanted to tell you. Is this on? I wanted to tell you that we went out every Saturday night in the audience. Saturday night house lights come on and we'd be in whatever outfit we were gonna wear that's cute, you, know. And we go out in the audience and we sold war bonds. Pledges. Every Saturday night. There were a lot of people buying them. I think there were $17.95 and then we'd charge $20, $25, I don't remember. But that's what we did on Saturday night. But when all the lights come on and all the girls came out in the aisles. The excitement, yeah. So that's what we did for the war."
+      "Oh! Saturday night house lights would come on and we'd be in whatever outfit we were gonna wear. Usually something cute, you know. And we'd go out in the audience and we sold war bonds. Pledges. Every Saturday night. A lot of people were buying them. I think there were $17.95 and then we'd charge $20, $25, I don't remember. But that's what we did on Saturday night. But when all the lights come on and all the girls came out in the aisles, it was exciting, yeah. That's what we did for the war."
   },
   {
     "audioSrc": "stories/copa.mp3",
     "chapter": "roxyette",
-    "imgSrc": "stories/copa.jpg", // https://jezebel.com/a-brief-twirl-through-eighty-years-at-the-copacabana-1843675986
+    "imgSrc": "stories/copa.jpg", // https://jezebel.com/a-brief-twirl-thro ugh-eighty-years-at-the-copacabana-1843675986
     // "imgSrc": "", // https://www.nytimes.com/2020/06/19/nyregion/1957-yankees-brawl-copacabana-silvestri.html
     "title": "Copacabana Auditions",
     "transcription": 
@@ -29,14 +27,24 @@ export const storyContent = [
   {
     "chapter": "roxyette",
     "title": "What's in the hat box?",
+    "audioSrc": "stories/hat-box.mp3",
     "transcription": 
-      "The showgirl - she always came in the morning with a hat box. And I didn't find out until I worked with her- we worked in the same place, but anyhow- in the hat box, she had liquor. And she - I can't even remember her name, she married Harris Dodge, one of the Dodges. She wasn't married to him long, but she was a character, she was wild. And she was a beautiful girl."
+      "One showgirl - she always came in the morning with a hat box. And I didn't find out until I worked with her– we worked in the same place, but anyhow– in the hat box, she had liquor. And she - I can't remember her name, she married Harris Dodge... one of the Dodges. She didn't stay with him too long. But she was a character, she was wild. She was a beautiful girl."
+  },
+  {
+    "caption": "A scale replica of the Roxy theatre from the Museum of the Moving Image in Astoria, Queens",
+    "chapter": "roxyette",
+    "imgSrc": "stories/roxy-scale-model.jpg",
+    "title": "A block long",
+    "audioSrc": "stories/block-long.mp3",
+    "transcription": "And downstairs, in the Roxy, in the mansion, it was a block long, that's how big the place was! All the costumes were hanging and labeled. And all the material, that we weren't using? You know that we might repeat again? Everything that was made had to be all organized downstairs. That was one of my jobs– go down there. I hated that job. Afraid of rats and everything. Haha! As a matter-of-fact, down there, if you entered on one side of the stage and then exited on the other, and had to get back on again for a routine? We had to go downstairs and run all the way through the basement and come up the other way. We couldn't get behind the curtains because there used every space of it."
   },
   {
     "chapter": "tracys",
-    "title": "All in the family",
+    "title": "All in the union",
+    "audioSrc": "stories/mother-sew.mp3",
     "transcription": 
-      "And then my mother, my mother got sick. Trying to keep her busy. She had cancer. Anyhow, I said oh we have a heavy week this week, when I was in the costume department, we need seamstresses and not for the machine - sewing on snaps and buttons and things like that. And so my mother came in, 6 o'clock, a couple nights a week. And she had to get a union card also."
+      "And then my mother, my mother was sick. Trying to keep her busy. She had cancer. Anyhow, I said oh, we have a heavy week this week– when I was in the costume department– we need seamstresses and not for the machine. Sewing on snaps and buttons and things like that. And so my mother came in, 6 o'clock, a couple nights a week. And she had to get a union card also."
   },
   {
     "chapter": "tracys",
@@ -64,14 +72,15 @@ export const storyContent = [
       "[What did your dad do?] He wasn't an accountant - he was a bookkeeper. He didn't get a degree in accounting. But he worked for Texas Oil. And he did- he kept the books. [He was trained in the Army or something, wasn’t he?] Not for that. He was in the Navy as a matter of fact. He was a yeoman in the Navy. But, before he went in the Navy, he went to school and he learned how to do– when you take depositions? What do you call that machine? [Stenographer?] Yeah something like that. There's a special machine. Yeah. And he learned that. He was working in the courts, up in Maine. [Oh ok. Court stenographer?] Then he joined the Navy and came down to New York. [When was that? World War 1?] Yeah. [Really?] Yeah. [He was in WWI?] Oh yeah. They were married in 1918 – when was the war over? [1917, 1918] Ok, so he came down in ‘17, the war was over in ‘18, I think. They were married in ‘18. He was in uniform when they were married, so the war was still on, yeah. [What kind of ship was he on? Do you know?] No, because he was a yeoman, which is all book work, he was down at the Whitehall building at the end of New York, down by Battery Place. [So he wasn’t out, on the ocean?] No, he never went to the ocean. [He didn’t go overseas?] No."
   },
   {
+    "audioSrc": "stories/willy-mae-wedding.mp3",
     "chapter": "tracys",
     "imgSrc": "stories/willy-mae-wedding.jpeg",
     "title": "Willy & Mae Tracy",
-    "audioSrc": "stories/willy-mae-wedding.mp3",
     "transcription":
       "When they were married, it was during the flu epidemic of 1918. And my grandmother from Maine wouldn't come down because she was afraid of getting the flu. Everybody was wearing face masks. She was right. She wouldn't come to the wedding. But they were dying like fleas I guess.",
   },
   {
+    "audioSrc": "stories/south-boston.mp3",
     "chapter": "marieAndJoe",
     "title": "Long Distance",
     "transcription": 
@@ -80,8 +89,9 @@ export const storyContent = [
   {
     "chapter": "marieAndJoe",
     "title": "He was like Stephen",
+    "introAudioSrc": "stories/stephen-1.mp3",
     "introTranscription": 
-      "On my week off, my mother would invite him to dinner a couple nights a week. So we'd sit around, chatting. He had a lot of friends. He knew everybody. He was like Stephen - he had a lot of guys, he was a marshal. He was always busy doing something.",
+      "And on my week off, my mother would invite him to dinner a couple nights a week. So we'd sit around, chatting. He had a lot of friends. He knew everybody. He was like Stephen - he had guys. He was always busy doing something.",
     "audioSrc": "stories/stephen.mp3",
     "transcription":
       "Everybody knew Joe. He was like Stephen - he knew everybody."
@@ -133,7 +143,7 @@ export const storyContent = [
     "title": "Back to Queens",
     "audioSrc": "stories/queens.mp3",
     "transcription":
-      "But then I was only there 6 months and then Daddy called me home because mother was dying. So we moved home. So that's how we got to Elmhurst. My mother died 10 days later. But we stayed there until Michael was born because Joe said to Daddy - my father — we can't stay, we need more space. Because we were living in the basement, we were living here, there was a room there.. it was all wrong. All over the place. So my father begged us. He said if you stay- Ann was there too– if you stay, I'll get rid of the tenants and you'll have the whole place. So we stayed. And we stayed there until my father died. And then we moved to Garden City Park."
+      "But then I was only there 6 months and then my Daddy called me home because Mother was dying. So we moved home. So that's how we got to Elmhurst. My mother died 10 days later. But we stayed there until Michael was born because Joe said to Daddy - my father — we can't stay, we need more space. Because we were living in the basement, we were living here, there was a room there.. it was all wrong. All over the place. So my father begged us. He said if you stay- Ann was there too– if you stay, I'll get rid of the tenants and you'll have the whole place. So we stayed. And we stayed there until my father died. And then we moved to Garden City Park."
   },
   {
     "chapter": "after",
