@@ -1,6 +1,7 @@
 export const storyContent = [
   {
     "audioSrc": "stories/wooden-soldier.mp3",
+    // "caption": "Photo from https://www.rockettes.com/blog/wardrobe-wednesday-wooden-soldier/",
     "chapter": "roxyette",
     "imgSrc": "stories/wooden-soldiers.jpeg", // https://www.rockettes.com/blog/wardrobe-wednesday-wooden-soldier/
     "title": "Christmastime",
@@ -10,6 +11,8 @@ export const storyContent = [
   {
     "audioSrc": "stories/war-bonds.mp3",
     "chapter": "roxyette",
+    "imgSrc": "stories/war-bond.jpg",
+    "caption": "Example of a theatre war bond advertisement", // http://www.lindashentonmatchett.com/2018/02/wartime-wednesday-war-bonds.html
     "title": "War Bonds",
     "transcription":
       "Oh! Saturday night house lights would come on and we'd be in whatever outfit we were gonna wear. Usually something cute, you know. And we'd go out in the audience and we sold war bonds. Pledges. Every Saturday night. A lot of people were buying them. I think there were $17.95 and then we'd charge $20, $25, I don't remember. But that's what we did on Saturday night. But when all the lights come on and all the girls came out in the aisles, it was exciting, yeah. That's what we did for the war."
@@ -42,6 +45,8 @@ export const storyContent = [
   {
     "chapter": "tracys",
     "title": "All in the union",
+    "imgSrc": "stories/mae.jpeg",
+    "caption": "Ann and Mae on the way to the Roxy",
     "audioSrc": "stories/mother-sew.mp3",
     "transcription": 
       "And then my mother, my mother was sick. Trying to keep her busy. She had cancer. Anyhow, I said oh, we have a heavy week this week– when I was in the costume department– we need seamstresses and not for the machine. Sewing on snaps and buttons and things like that. And so my mother came in, 6 o'clock, a couple nights a week. And she had to get a union card also."
@@ -49,6 +54,8 @@ export const storyContent = [
   {
     "chapter": "tracys",
     "title": "Commuting",
+    "imgSrc": "stories/car.jpeg",
+    "caption": "Mae in family car",
     "introAudioSrc": "stories/whistle.mp3",
     "introTranscription":
       "Many a night, maybe 2-3 nights a week they would meet me at the subway. At 11:30 at night. I’m sure they would rather be– go to bed, you know? Rather than have me walk up from the subway. [How far did you live from the subway?] Oh, a good walk. From here… past your house, yeah. But at dark… Daddy gave me a whistle that I wore around my neck. I was supposed to whistle if somebody grabbed me.",
@@ -82,16 +89,20 @@ export const storyContent = [
   {
     "audioSrc": "stories/south-boston.mp3",
     "chapter": "marieAndJoe",
+    "imgSrc": "stories/map.jpg",
+    "caption": "Subway map from 1954", //https://viewing.nyc/maps-vintage-map-shows-new-york-city-subway-system-in-1954/
     "title": "Long Distance",
     "transcription": 
-      "I lived in Elmhurst. Out in the sticks. And he lived in Brooklyn. it took him so long to get home he said I lived in South Boston."
+      "I lived in Elmhurst. Out in the sticks. And he lived in Brooklyn. He used to say– it took him so long to get home he said I lived in South Boston."
   },
   {
     "chapter": "marieAndJoe",
     "title": "He was like Stephen",
+    "imgSrc": "stories/boys.jpeg",
+    "caption": "Joe, Herbie, and Ray",
     "introAudioSrc": "stories/stephen-1.mp3",
     "introTranscription": 
-      "And on my week off, my mother would invite him to dinner a couple nights a week. So we'd sit around, chatting. He had a lot of friends. He knew everybody. He was like Stephen - he had guys. He was always busy doing something.",
+      "And on my week off, my mother would invite him to dinner a couple nights a week. So we'd sit around, chatting. That's why I said– he had a lot of friends. He knew everybody. He was like Stephen - he had guys. He was always busy doing something.",
     "audioSrc": "stories/stephen.mp3",
     "transcription":
       "Everybody knew Joe. He was like Stephen - he knew everybody."
@@ -101,14 +112,14 @@ export const storyContent = [
     "title": "Funeral Director",
     "audioSrc": "stories/funeral.mp3",
     "transcription":
-      "He was a funeral director. He was an embalmer. He got his license. His dad was a director. Daddy went to school for - I don't know how many years. Then they had to do so many bodies to get - I have his license downstairs. His diploma. Didn't like any part of it but his father needed him. He said he would do it."
+      "He was a funeral director. He was an embalmer. He got his license. His father wasn't. His dad was a director. Daddy went to school for - I don't know how many years. Then they had to do so many bodies to get - I have his license downstairs. His diploma. Didn't like any part of it but his father needed him. He said he would do it."
   },
   {
     "chapter": "marieAndJoe",
     "title": "Studying as a Marshal",
     "audioSrc": "stories/locked-in.mp3",
     "transcription":
-      "He was a marshal when I met him. He would lock himself in and do his homework. When he was in law school. You know? He would bring prisoners from one place to another. And while they're in court there's nothing for him to do. So he'd get his work done. Lot of reading in law school."
+      "He was a marshal when I met him. He would lock himself in and do his homework. When he was in law school. You know? He'd bring prisoners from one place to the other. And while they're in court there's nothing for him to do. So he'd get his work done. Lot of reading in law school."
   },
   {
     "chapter": "marieAndJoe",
@@ -125,33 +136,36 @@ export const storyContent = [
     "title": "Jim Brannigan",
     "audioSrc": "stories/jim.mp3",
     "transcription":
-      "Oh, that was a story. He brought his friend Jim Brannigan, “Come see my girl”. So he comes to the show and that show, we did some kind of a circus act, and the Roxy stage had kind of like a skirt on the end, on each side? And we were stationed at the end while an act was going on and I was standing out on the apex. And it was like standing here and here comes Jim Brannigan. He comes down the aisle and he's looking at me. Peering at me. And I'm trying to be theatrical, you know? Standing all - “Get-him-out-of-here”"
+      "Oh, that was a story. He brought his friend Jim Brannigan, “Come see my girl”. So he comes to the show and that show, we did some kind of a circus act, and the Roxy stage had like a skirt on the end, on each side? And we were stationed at the end while an act was going on and I was standing out on the apex. And it was like standing here and here comes Jim Brannigan. He comes down the aisle and he's looking at me. Peering at me. And I'm trying to be theatrical, you know? Standing all - “Get-him-out-of-here”"
   },
   {
     "chapter": "marieAndJoe",
     "title": "Monsignor Irwin",
+    "imgSrc": "stories/monsignor.jpg",
+    "caption": "Stephen and Monsignor Irwin",
     "audioSrc": "stories/uncle.mp3",
     "transcription":
       "And then the time Joe brought his uncle, a Monsignor! Monsignor Irwin to see his girlfriend. Oh, I felt about this big."
   },
   {
     "chapter": "marieAndJoe",
-    "title": "Post-sickness",
+    "title": "Life after marriage",
+    "imgSrc": "stories/family.jpg",
     "introAudioSrc": "stories/bored.mp3",
     "introTranscription": "After I got married I was living in Brooklyn. With Daddy. I didn't know what to do with myself so I went back and said, oh I think I'll try it again. So I went back, I'll say October, we were married in September and I said, “I think I'd like to come back” so they said, “Okay, come in for rehearsal tomorrow” so I went in for rehearsal, and I don't remember the number we were doing - but I got very dizzy. I wasn't well enough to go back, but I thought I was. Yeah. So I said “Nope, can't do it” “Okay”. But I thought it was nice that they took me back. Oh, it must have been almost a year. I think I got sick in February. Yeah, I did. So then I didn't go back until October. Daddy was gone all day and I was living in his house. With his sisters. And I didn't know how to drive the car so I was home sick so I thought, eh, I’ll go to work.",
     "audioSrc": "stories/confidence.mp3",
-    "transcription": "I think I lost my confidence too. That all goes together with being sick. Because I thought I was good. I know I was pretty good when they picked me out a couple times. but I went back and I felt.. maybe I shouldn't go back, haha. [How long were you sick?] Well, I was in bed 6 weeks. Yeah. That was a heavy one."
+    "transcription": "I think I lost my confidence too. That all goes together with being sick. Because I thought I was good. I know I was pretty good when they picked me out a couple times. But when I went back I felt.. maybe I shouldn't go back, haha. [How long were you sick?] Well, I was in bed 6 weeks. Yeah. That was a heavy one."
   },
   {
     "chapter": "after",
     "title": "Moving to Brooklyn",
     "audioSrc": "stories/brooklyn-flat.mp3",
     "transcription":
-      "And then– don't forget, that was right when the war finished. You couldn't find a place to live. So we were living in Joe's house, in his mother's house. I probably would have stayed working because what am I gonna do there, you know? We didn't find - we didn't find any place to live in until... I guess it was just before Stephen was born. We found a flat, a place in Brooklyn. His cousin said– hey, I'm working with somebody with a two family house and they got a floor for rent. It was more than we could afford. But we were lucky to get it."
+      "And then– don't forget, that was right when the war finished. You couldn't find a place to live. So we were living in Joe's house, in his mother's house. [If she hadn't gotten sick] I probably would have stayed working because what am I gonna do there, you know? We didn't find - we didn't find any place to live in until... I guess it was just before Stephen was born. We found a flat, a place in Brooklyn. His cousin said– hey, I'm working with somebody with a two family house and they got a floor for rent. It was more than we could afford. But we were lucky to get it."
   },
   {
     "chapter": "after",
-    "title": "Back to Queens",
+    "title": "Back to Elmhurst",
     "audioSrc": "stories/queens.mp3",
     "transcription":
       "But then I was only there 6 months and then my Daddy called me home because Mother was dying. So we moved home. So that's how we got to Elmhurst. My mother died 10 days later. But we stayed there until Michael was born because Joe said to Daddy - my father — we can't stay, we need more space. Because we were living in the basement, we were living here, there was a room there.. it was all wrong. All over the place. So my father begged us. He said if you stay- Ann was there too– if you stay, I'll get rid of the tenants and you'll have the whole place. So we stayed. And we stayed there until my father died. And then we moved to Garden City Park."
@@ -159,6 +173,7 @@ export const storyContent = [
   {
     "chapter": "after",
     "title": "Mother of the year",
+    "imgSrc": "stories/mother.jpeg",
     "introAudioSrc": "stories/home.mp3",
     "introTranscription":
       "[Re: the Chinese restaurant] Oh, it was like home. It was just like home",
@@ -168,7 +183,8 @@ export const storyContent = [
   },
   {
     "title": "Now you know",
-    // "imgSrc": "stories/Momma.png",
+    "imgSrc": "stories/color.jpeg",
+    "caption": "Color photo found in Joe's scrapbook, 1946",
     "introAudioSrc": "stories/thank-you.mp3",
     "introTranscription":
       "Well this was very nice, thank you. I would never have sat down and thought about all these good times that I had. I did enjoy it very much. You know, it sounds like work but it wasn't work when you like what you're doing. Whatever you're doing- if you like it, you got it.",
