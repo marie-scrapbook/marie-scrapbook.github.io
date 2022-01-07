@@ -30,6 +30,7 @@ export const storyContent = [
   {
     "chapter": "roxyette",
     "title": "What's in the hat box?",
+    "imgSrc": "stories/hats.jpg",
     "audioSrc": "stories/hat-box.mp3",
     "transcription": 
       "One showgirl - she always came in the morning with a hat box. And I didn't find out until I worked with her– we worked in the same place, but anyhow– in the hat box, she had liquor. And she - I can't remember her name, she married Harris Dodge... one of the Dodges. She didn't stay with him too long. But she was a character, she was wild. She was a beautiful girl."
@@ -110,6 +111,8 @@ export const storyContent = [
   {
     "chapter": "marieAndJoe",
     "title": "Funeral Director",
+    "imgSrc": "stories/funeral-home.jpg",
+    "caption": "Chair from R.J. Irwin & Sons Funeral Home",
     "audioSrc": "stories/funeral.mp3",
     "transcription":
       "He was a funeral director. He was an embalmer. He got his license. His father wasn't. His dad was a director. Daddy went to school for - I don't know how many years. Then they had to do so many bodies to get - I have his license downstairs. His diploma. Didn't like any part of it but his father needed him. He said he would do it."
@@ -117,6 +120,8 @@ export const storyContent = [
   {
     "chapter": "marieAndJoe",
     "title": "Studying as a Marshal",
+    "imgSrc": "stories/marshal.jpg",
+    "caption": "Marshal clippings from 1942",
     "audioSrc": "stories/locked-in.mp3",
     "transcription":
       "He was a marshal when I met him. He would lock himself in and do his homework. When he was in law school. You know? He'd bring prisoners from one place to the other. And while they're in court there's nothing for him to do. So he'd get his work done. Lot of reading in law school."
@@ -124,6 +129,8 @@ export const storyContent = [
   {
     "chapter": "marieAndJoe",
     "title": "Friend of the Fireman",
+    "imgSrc": "stories/herbie.jpeg",
+    "caption": "Herbie Houston 1946",
     "introAudioSrc": "stories/fireman.mp3",
     "introTranscription":
       "He was a friend of the fireman. Every show a fireman had to sit backstage. That was the law, a NYC fireman, because the curtains were flammable. Or the paint or something. So you had to have a fireman. So the fireman was his neighbor, and his friend. It was Herbie's cousin, Herbie Houston’s cousin. “Hey Joe, you want to meet some pretty girls?” “Yeah sure, I got nothing else to do.” So he comes over there, he was sitting backstage. So... next thing, he's asking me for a date I said sure.",
@@ -166,6 +173,8 @@ export const storyContent = [
   {
     "chapter": "after",
     "title": "Back to Elmhurst",
+    "imgSrc": "stories/elmhurst.jpeg",
+    "caption": "Shots from Elmhurst",
     "audioSrc": "stories/queens.mp3",
     "transcription":
       "But then I was only there 6 months and then my Daddy called me home because Mother was dying. So we moved home. So that's how we got to Elmhurst. My mother died 10 days later. But we stayed there until Michael was born because Joe said to Daddy - my father — we can't stay, we need more space. Because we were living in the basement, we were living here, there was a room there.. it was all wrong. All over the place. So my father begged us. He said if you stay- Ann was there too– if you stay, I'll get rid of the tenants and you'll have the whole place. So we stayed. And we stayed there until my father died. And then we moved to Garden City Park."
