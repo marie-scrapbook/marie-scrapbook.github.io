@@ -4,6 +4,7 @@ export const storyContent = [
     // "caption": "Photo from https://www.rockettes.com/blog/wardrobe-wednesday-wooden-soldier/",
     "chapter": "roxyette",
     "imgSrc": "stories/wooden-soldiers.jpeg", // https://www.rockettes.com/blog/wardrobe-wednesday-wooden-soldier/
+    "caption": "Stock photo",
     "title": "Christmastime",
     "transcription":
       "Plenty of acts going around. Mostly at Christmas show they'd repeat. If it was a good Christmas show, they would bring that back again. Same as your [Radio City] Music Hall Christmas show, they do, like, the wooden soldiers act? If we had a good act one year at Christmastime, maybe they'd skip a couple of years and come again."
@@ -12,7 +13,7 @@ export const storyContent = [
     "audioSrc": "stories/war-bonds.mp3",
     "chapter": "roxyette",
     "imgSrc": "stories/war-bond.jpg",
-    "caption": "Example of a theatre war bond advertisement", // http://www.lindashentonmatchett.com/2018/02/wartime-wednesday-war-bonds.html
+    "caption": "Stock photo of a theatre war bond advertisement", // http://www.lindashentonmatchett.com/2018/02/wartime-wednesday-war-bonds.html
     "title": "War Bonds",
     "transcription":
       "Oh! Saturday night house lights would come on and we'd be in whatever outfit we were gonna wear. Usually something cute, you know. And we'd go out in the audience and we sold war bonds. Pledges. Every Saturday night. A lot of people were buying them. I think there were $17.95 and then we'd charge $20, $25, I don't remember. But that's what we did on Saturday night. But when all the lights come on and all the girls came out in the aisles, it was exciting, yeah. That's what we did for the war."
@@ -22,6 +23,7 @@ export const storyContent = [
     "chapter": "roxyette",
     "imgSrc": "stories/copa.jpg", // https://jezebel.com/a-brief-twirl-thro ugh-eighty-years-at-the-copacabana-1843675986
     // "imgSrc": "", // https://www.nytimes.com/2020/06/19/nyregion/1957-yankees-brawl-copacabana-silvestri.html
+    "caption": "Stock photo",
     "title": "Copacabana Auditions",
     "transcription": 
       "At one time, three of us got together, we got the giggles, we had no rehearsals, so let's go try at the– they're hiring at the Latin Quarter. So we went– Copacabana I think it was. So we go over there at lunch time. We all have full makeup on becauase you can't take your makeup off between shows, it's too hard to get on again. Too long. And I was too tall and too short. I was too short for the show girls and they have what they call a Pony Line, which is a little kick routine, and I was too tall for that. But we got the giggles anyhow.",
@@ -31,6 +33,7 @@ export const storyContent = [
     "chapter": "roxyette",
     "title": "What's in the hat box?",
     "imgSrc": "stories/hats.jpg",
+    "caption": "Stock photo",
     "audioSrc": "stories/hat-box.mp3",
     "transcription": 
       "One showgirl - she always came in the morning with a hat box. And I didn't find out until I worked with her– we worked in the same place, but anyhow– in the hat box, she had liquor. And she - I can't remember her name, she married Harris Dodge... one of the Dodges. She didn't stay with him too long. But she was a character, she was wild. She was a beautiful girl."
@@ -119,7 +122,7 @@ export const storyContent = [
   },
   {
     "chapter": "marieAndJoe",
-    "title": "Studying as a Marshal",
+    "title": "Studying Law as a Marshal",
     "imgSrc": "stories/marshal.jpg",
     "caption": "Marshal clippings from 1942",
     "audioSrc": "stories/locked-in.mp3",
@@ -130,7 +133,7 @@ export const storyContent = [
     "chapter": "marieAndJoe",
     "title": "Friend of the Fireman",
     "imgSrc": "stories/herbie.jpeg",
-    "caption": "Herbie Houston 1946",
+    "caption": "Herbie Houston, 1946",
     "introAudioSrc": "stories/fireman.mp3",
     "introTranscription":
       "He was a friend of the fireman. Every show a fireman had to sit backstage. That was the law, a NYC fireman, because the curtains were flammable. Or the paint or something. So you had to have a fireman. So the fireman was his neighbor, and his friend. It was Herbie's cousin, Herbie Houston’s cousin. “Hey Joe, you want to meet some pretty girls?” “Yeah sure, I got nothing else to do.” So he comes over there, he was sitting backstage. So... next thing, he's asking me for a date I said sure.",
@@ -192,8 +195,7 @@ export const storyContent = [
   },
   {
     "title": "Now you know",
-    "imgSrc": "stories/color.jpeg",
-    "caption": "Color photo found in Joe's scrapbook, 1946",
+    "imgSrc": "stories/Momma.png",
     "introAudioSrc": "stories/thank-you.mp3",
     "introTranscription":
       "Well this was very nice, thank you. I would never have sat down and thought about all these good times that I had. I did enjoy it very much. You know, it sounds like work but it wasn't work when you like what you're doing. Whatever you're doing- if you like it, you got it.",
