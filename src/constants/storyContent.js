@@ -143,10 +143,12 @@ export const storyContent = [
   },
   {
     "chapter": "marieAndJoe",
-    "title": "Jim Brannigan",
+    "title": "Jim Branigan",
+    "imgSrc": "stories/jim.jpeg",
+    "caption": "Jim Branigan, 1946",
     "audioSrc": "stories/jim.mp3",
     "transcription":
-      "Oh, that was a story. He brought his friend Jim Brannigan, “Come see my girl”. So he comes to the show and that show, we did some kind of a circus act, and the Roxy stage had like a skirt on the end, on each side? And we were stationed at the end while an act was going on and I was standing out on the apex. And it was like standing here and here comes Jim Brannigan. He comes down the aisle and he's looking at me. Peering at me. And I'm trying to be theatrical, you know? Standing all - “Get-him-out-of-here”"
+      "Oh, that was a story. He brought his friend Jim Branigan, “Come see my girl”. So he comes to the show and that show, we did some kind of a circus act, and the Roxy stage had like a skirt on the end, on each side? And we were stationed at the end while an act was going on and I was standing out on the apex. And it was like standing here and here comes Jim Branigan. He comes down the aisle and he's looking at me. Peering at me. And I'm trying to be theatrical, you know? Standing all - “Get-him-out-of-here”"
   },
   {
     "chapter": "marieAndJoe",
@@ -169,9 +171,13 @@ export const storyContent = [
   {
     "chapter": "after",
     "title": "Moving to Brooklyn",
-    "audioSrc": "stories/brooklyn-flat.mp3",
-    "transcription":
-      "And then– don't forget, that was right when the war finished. You couldn't find a place to live. So we were living in Joe's house, in his mother's house. [If she hadn't gotten sick] I probably would have stayed working because what am I gonna do there, you know? We didn't find - we didn't find any place to live in until... I guess it was just before Stephen was born. We found a flat, a place in Brooklyn. His cousin said– hey, I'm working with somebody with a two family house and they got a floor for rent. It was more than we could afford. But we were lucky to get it."
+    "imgSrc": "stories/irwins.jpeg",
+    "caption": "Irwins, June 18, 1945. See right for full names.",
+    "introAudioSrc": "stories/brooklyn-flat.mp3",
+    "introTranscription":
+      "And then– don't forget, that was right when the war finished. You couldn't find a place to live. So we were living in Joe's house, in his mother's house. [If she hadn't gotten sick] I probably would have stayed working because what am I gonna do there, you know? We didn't find - we didn't find any place to live in until... I guess it was just before Stephen was born. We found a flat, a place in Brooklyn. His cousin said– hey, I'm working with somebody with a two family house and they got a floor for rent. It was more than we could afford. But we were lucky to get it.",
+    "description": 
+      "Pictured left: JBI, Fred Lennon, Charlie and Flo, Gene, Essie, Marian, Helen, Marion Gay, Sis Gay Lennon, Edith and Jim, Marie. Claire Huner and Mary Lennon. Bob and Floss, Pauline, Ann and Laura Compton. Paul Hunter, Pat McCarthy, Lennon kid, the twins, Dot and Jan."
   },
   {
     "chapter": "after",
