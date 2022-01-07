@@ -44,7 +44,7 @@ export const storyContent = [
     "imgSrc": "stories/roxy-scale-model.jpg",
     "title": "A block long",
     "audioSrc": "stories/block-long.mp3",
-    "transcription": "And downstairs, in the Roxy, in the mansion, it was a block long, that's how big the place was! All the costumes were hanging and labeled. And all the material, that we weren't using? You know that we might repeat again? Everything that was made had to be all organized downstairs. That was one of my jobs– go down there. I hated that job. Afraid of rats and everything. Haha! As a matter-of-fact, down there, if you entered on one side of the stage and then exited on the other, and had to get back on again for a routine? We had to go downstairs and run all the way through the basement and come up the other way. We couldn't get behind the curtains because there used every space of it."
+    "transcription": "And downstairs, in the Roxy, in the mansion, it was a block long, that's how big the place was! All the costumes were hanging and labeled and all the material that we weren't using, you know, that we might repeat again? Everything that was made had to be all organized downstairs. That was one of my jobs– go down there. I hated that job. Afraid of rats and everything. Haha! As a matter-of-fact, down there, if you entered on one side of the stage and then exited on the other, and had to get back on again for a routine? We had to go downstairs and run all the way through the basement and come up the other way. We couldn't get behind the curtains because there used every space of it."
   },
   {
     "chapter": "tracys",
@@ -67,13 +67,14 @@ export const storyContent = [
     "transcription":
       "Sunday morning, again, they would drive me in. Sunday morning we had a movie first and then the show so I wouldn't have to be in until noontime. And a couple of nice Sunday mornings, they would drive me in, all the way from Elmhurst. They cooperated, yeah."
   },
-  {
-    "chapter": "tracys",
-    "title": "The Sisters",
-    "audioSrc": "stories/sisters.mp3",
-    "transcription":
-      "Well, the war was on and Patricia wasn't home. Patricia was– [She was married by then?] Yeah, oh yeah, she was married. And Ann was working in– not Sloan Kettering... she was at the hospital– that's where she met her husband. She was working at the hospital in research. Yeah, she was working in research. [Was Ann living at home?] Yes."
-  },
+  // {
+  //   "chapter": "tracys",
+  //   "title": "The Sisters",
+  //   "imgSrc": "",
+  //   "audioSrc": "stories/sisters.mp3",
+  //   "transcription":
+  //     "Well, the war was on and Patricia wasn't home. Patricia was– [She was married by then?] Yeah, oh yeah, she was married. And Ann was working in– not Sloan Kettering... she was at the hospital– that's where she met her husband. She was working at the hospital in research. Yeah, she was working in research. [Was Ann living at home?] Yes."
+  // },
   {
     "chapter": "tracys",
     "imgSrc": "stories/willy-uniform.jpeg",
@@ -86,6 +87,7 @@ export const storyContent = [
     "audioSrc": "stories/willy-mae-wedding.mp3",
     "chapter": "tracys",
     "imgSrc": "stories/willy-mae-wedding.jpeg",
+    "caption": "Mae, Aunt Bella Weiss, Willy, Armin, Nana Tracy, Aunt Car, Granma Weiss. October 1918",
     "title": "Willy & Mae Tracy",
     "transcription":
       "When they were married, it was during the flu epidemic of 1918. And my grandmother from Maine wouldn't come down because she was afraid of getting the flu. Everybody was wearing face masks. She was right. She wouldn't come to the wedding. But they were dying like fleas I guess.",
@@ -106,7 +108,7 @@ export const storyContent = [
     "caption": "Joe, Herbie, and Ray",
     "introAudioSrc": "stories/stephen-1.mp3",
     "introTranscription": 
-      "And on my week off, my mother would invite him to dinner a couple nights a week. So we'd sit around, chatting. That's why I said– he had a lot of friends. He knew everybody. He was like Stephen - he had guys. He was always busy doing something.",
+      "I made more money than Daddy, believe it or not. Can you believe it? But look I had to work 12 hours a day, 7 days a week. We worked 7 days for 5 weeks and then got a week off. And on my week off, my mother would invite him to dinner a couple nights a week. So we'd sit around, chatting. That's why I said– he had a lot of friends. He knew everybody. He was like Stephen - he had guys. He was always busy doing something.",
     "audioSrc": "stories/stephen.mp3",
     "transcription":
       "Everybody knew Joe. He was like Stephen - he knew everybody."
@@ -172,7 +174,7 @@ export const storyContent = [
     "chapter": "after",
     "title": "Moving to Brooklyn",
     "imgSrc": "stories/irwins.jpeg",
-    "caption": "Irwins, June 18, 1945. See right for full names.",
+    "caption": "Robert and Florence (Compton) Irwin – 40th Anniversary – June 18, 1945. See right for names.",
     "introAudioSrc": "stories/brooklyn-flat.mp3",
     "introTranscription":
       "And then– don't forget, that was right when the war finished. You couldn't find a place to live. So we were living in Joe's house, in his mother's house. [If she hadn't gotten sick] I probably would have stayed working because what am I gonna do there, you know? We didn't find - we didn't find any place to live in until... I guess it was just before Stephen was born. We found a flat, a place in Brooklyn. His cousin said– hey, I'm working with somebody with a two family house and they got a floor for rent. It was more than we could afford. But we were lucky to get it.",
@@ -183,7 +185,7 @@ export const storyContent = [
     "chapter": "after",
     "title": "Back to Elmhurst",
     "imgSrc": "stories/elmhurst.jpeg",
-    "caption": "Shots from Elmhurst",
+    "caption": "Photos from Elmhurst. Clockwise from left: Ann, Joe & Marie, Willy Tracy, and Armin Weiss.",
     "audioSrc": "stories/queens.mp3",
     "transcription":
       "But then I was only there 6 months and then my Daddy called me home because Mother was dying. So we moved home. So that's how we got to Elmhurst. My mother died 10 days later. But we stayed there until Michael was born because Joe said to Daddy - my father — we can't stay, we need more space. Because we were living in the basement, we were living here, there was a room there.. it was all wrong. All over the place. So my father begged us. He said if you stay- Ann was there too– if you stay, I'll get rid of the tenants and you'll have the whole place. So we stayed. And we stayed there until my father died. And then we moved to Garden City Park."
@@ -192,6 +194,7 @@ export const storyContent = [
     "chapter": "after",
     "title": "Mother of the year",
     "imgSrc": "stories/mother.jpeg",
+    "caption": "Marie with Michael, Joanne, and Stephen",
     "introAudioSrc": "stories/home.mp3",
     "introTranscription":
       "[Re: the Chinese restaurant] Oh, it was like home. It was just like home",
