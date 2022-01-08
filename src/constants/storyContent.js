@@ -98,7 +98,6 @@ export const storyContent = [
     "transcription":
       "When they were married, it was during the flu epidemic of 1918. And my grandmother from Maine wouldn't come down because she was afraid of getting the flu. Everybody was wearing face masks. She was right. She wouldn't come to the wedding. But they were dying like fleas I guess.",
   },
-
   {
     "chapter": "marieAndJoe",
     "title": "Herbie Houston: Friend of the Fireman",

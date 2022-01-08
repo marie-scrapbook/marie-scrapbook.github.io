@@ -48,7 +48,7 @@ const audio = {};
 export const autographsContent = [
   {
     "description": "The Roxyettes performed with some of the hottest names in music, theatre, and dance. The following are Marie's recollections and autograph collection.",
-    "transcription": "She skipped over these two autographs in the interview. Bert Lahr, the Cowardly Lion, and Carl Lavazza, orchestra leader.",
+    "transcription": "She skipped over these two autographs in the interview. Carl Lavazza, orchestra leader (left) and Bert Lahr, the Cowardly Lion (right).",
     "title": "Autographs",
     "imgSrc": "autographs/page1.jpg",
     // "transcription":
