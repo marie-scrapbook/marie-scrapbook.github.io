@@ -12,7 +12,7 @@ export const storyContent = [
   {
     "audioSrc": "stories/war-bonds.mp3",
     "chapter": "roxyette",
-    "imgSrc": "stories/war-bond.jpg",
+    "imgSrc": "stories/scaled-war-bonds.png",
     "caption": "Stock photo of a theatre war bond advertisement", // http://www.lindashentonmatchett.com/2018/02/wartime-wednesday-war-bonds.html
     "title": "War Bonds",
     "transcription":
@@ -32,7 +32,7 @@ export const storyContent = [
   {
     "chapter": "roxyette",
     "title": "What's in the hat box?",
-    "imgSrc": "stories/hats.jpg",
+    "imgSrc": "stories/scaled-hat-girl.png",
     "caption": "Stock photo",
     "audioSrc": "stories/hat-box.mp3",
     "transcription": 
@@ -204,7 +204,7 @@ export const storyContent = [
   },
   {
     "title": "Now you know",
-    "imgSrc": "stories/Momma.png",
+    "imgSrc": "stories/sclaed-momma.png",
     "introAudioSrc": "stories/thank-you.mp3",
     "introTranscription":
       "Well this was very nice, thank you. I would never have sat down and thought about all these good times that I had. I did enjoy it very much. You know, it sounds like work but it wasn't work when you like what you're doing. Whatever you're doing- if you like it, you got it.",
