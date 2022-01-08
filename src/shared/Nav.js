@@ -38,12 +38,12 @@ function Nav({isMobile}) {
         <li className="nav-link-item">
           <Link className="nav-link" to="/scrapbook/page/1">Scrapbook</Link>
         </li>
-        <li className="nav-link-item">
+        {/* <li className="nav-link-item">
           <Link className="nav-link" to="/autographs/page/1">Autographs</Link>
         </li>
         <li className="nav-link-item">
           <Link className="nav-link" to="/stories/page/1">Stories</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
