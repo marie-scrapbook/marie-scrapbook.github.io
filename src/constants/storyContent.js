@@ -106,9 +106,9 @@ export const storyContent = [
     "title": "He was like Stephen",
     "imgSrc": "stories/boys.jpeg",
     "caption": "Joe, Herbie, and Ray",
-    "introAudioSrc": "stories/stephen-1.mp3",
+    "introAudioSrc": "stories/guys.mp3",
     "introTranscription": 
-      "I made more money than Daddy, believe it or not. Can you believe it? But look I had to work 12 hours a day, 7 days a week. We worked 7 days for 5 weeks and then got a week off. And on my week off, my mother would invite him to dinner a couple nights a week. So we'd sit around, chatting. That's why I said– he had a lot of friends. He knew everybody. He was like Stephen - he had guys. He was always busy doing something.",
+      "I made more money than Daddy, believe it or not. Would you believe it? But look at how we worked. We worked 12 hours a day, 7 days a week. We worked 7 days for 5 weeks and got a week off. And on my week off, my mother would invite [Joe] to dinner a couple nights a week. So we'd sit around, chatting. That's why I said– he had a lot of friends. He knew everybody. He was like Stephen - he had guys. He was always busy doing something.",
     "audioSrc": "stories/stephen.mp3",
     "transcription":
       "Everybody knew Joe. He was like Stephen - he knew everybody."
