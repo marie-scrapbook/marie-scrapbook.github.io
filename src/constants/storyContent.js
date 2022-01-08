@@ -203,9 +203,9 @@ export const storyContent = [
     "title": "Mother of the year",
     "imgSrc": "stories/mother.jpeg",
     "caption": "Marie with Michael, Joanne, and Stephen, January 1952",
-    "introAudioSrc": "stories/home.mp3",
+    "introAudioSrc": "stories/chinese-resto-2.mp3",
     "introTranscription":
-      "[Re: the Chinese restaurant, across the street from the Roxy] Oh, it was like home. It was just like home",
+      "Joe would come in, pick me up, and we'd have a drink across the street at the Chinese restaurant, and he'd drive me home. Oh, it was like home. It was just like home",
     "audioSrc": "stories/mother-of-the-year.mp3",
     "transcription":
       "And the owner was a young man. Not much older than we were. And he got married and had a little boy and he called him Kevin. Kevin Chang. We'd go back there once in a while and we'd get a babysitter and he'd say “Here comes the mother of the year” – I always had a new baby."
