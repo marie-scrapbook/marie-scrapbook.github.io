@@ -187,7 +187,7 @@ export const storyContent = [
     "introTranscription":
       "And then– don't forget, that was right when the war finished. You couldn't find a place to live. So we were living in Joe's house, in his mother's house. [If she hadn't gotten sick] I probably would have stayed working because what am I gonna do there, you know? We didn't find - we didn't find any place to live in until... I guess it was just before Stephen was born. We found a flat, a place in Brooklyn. His cousin said– hey, I'm working with somebody with a two family house and they got a floor for rent. It was more than we could afford. But we were lucky to get it.",
     "description": 
-      "Pictured left: JBI, Fred Lennon, Charlie, Flo, Gene, Essie, Marian, Helen, Marion Gay, Sis Gay Lennon, Edith and Jim, Marie. Claire Huner and Mary Lennon. Bob and Floss, Pauline, Ann and Laura Compton. Paul Hunter, Pat McCarthy, Lennon kid, the twins, Dot and Jan."
+      "Pictured left: JBI, Fred Lennon, Charlie, Flo, Gene, Essie, Marian, Helen, Marion Gay, Sis Gay Lennon, Edith and Jim, Marie. Claire Huner and Mary Lennon. Bob and Floss, Pauline, Ann and Laura Compton. Paul Hunter, Pat McCarthy, Lennon kid, and the twins Dot and Jan."
   },
   {
     "chapter": "after",
