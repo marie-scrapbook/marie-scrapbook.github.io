@@ -201,6 +201,7 @@ export const scrapbookContent = [
     "chapter": "amesSisters",
     "date": "1939",
     "imgSrc": img.amesSistersInCoats,
+    "caption": "Marie pictured second from the right",
     "title": "On the road",
     "transcription":
     "Here we are travelling. [The father], he had a big pack-up car, the top had a big box with all the costumes and we were all jammed in there, a whole flock of us in the car, and he'd take us from one place to another, here we are, the Ames Sisters. That's me, the tallest one. Barbara and I were the youngest ones, the big girl next to me, I think we were the youngest ones. Very happy group. Very nice family. They taught me how to put makeup on, they taught me so much. They befriended me, yeah...",

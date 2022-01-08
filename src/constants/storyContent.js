@@ -1,5 +1,22 @@
 export const storyContent = [
   {
+    // "chapter": "",
+    "imgSrc": "stories/headshot.jpeg",
+    "title": "Marie's Stories",
+    "description": "The following are excerpts of the personal stories Marie told during these audio interviews. We tried to find photos to match along the way– some are stock photos, and some are from the family archives."
+  },
+  {
+    "audioSrc": "stories/copa.mp3",
+    "chapter": "roxyette",
+    "imgSrc": "stories/copa.jpg", // https://jezebel.com/a-brief-twirl-thro ugh-eighty-years-at-the-copacabana-1843675986
+    // "imgSrc": "", // https://www.nytimes.com/2020/06/19/nyregion/1957-yankees-brawl-copacabana-silvestri.html
+    "caption": "Stock photo",
+    "title": "Copacabana Auditions",
+    "transcription": 
+      "At one time, three of us got together, we got the giggles, we had no rehearsals, so let's go try at the– they're hiring at the Latin Quarter. So we went– Copacabana I think it was. So we go over there at lunch time. We all have full makeup on becauase you can't take your makeup off between shows, it's too hard to get on again. Too long. And I was too tall and too short. I was too short for the show girls and they have what they call a Pony Line, which is a little kick routine, and I was too tall for that. But we got the giggles anyhow.",
+    "wiki": "Copacabana_(nightclub)"
+  },
+  {
     "audioSrc": "stories/wooden-soldier.mp3",
     // "caption": "Photo from https://www.rockettes.com/blog/wardrobe-wednesday-wooden-soldier/",
     "chapter": "roxyette",
@@ -17,17 +34,6 @@ export const storyContent = [
     "title": "War Bonds",
     "transcription":
       "Oh! Saturday night house lights would come on and we'd be in whatever outfit we were gonna wear. Usually something cute, you know. And we'd go out in the audience and we sold war bonds. Pledges. Every Saturday night. A lot of people were buying them. I think there were $17.95 and then we'd charge $20, $25, I don't remember. But that's what we did on Saturday night. But when all the lights come on and all the girls came out in the aisles, it was exciting, yeah. That's what we did for the war."
-  },
-  {
-    "audioSrc": "stories/copa.mp3",
-    "chapter": "roxyette",
-    "imgSrc": "stories/copa.jpg", // https://jezebel.com/a-brief-twirl-thro ugh-eighty-years-at-the-copacabana-1843675986
-    // "imgSrc": "", // https://www.nytimes.com/2020/06/19/nyregion/1957-yankees-brawl-copacabana-silvestri.html
-    "caption": "Stock photo",
-    "title": "Copacabana Auditions",
-    "transcription": 
-      "At one time, three of us got together, we got the giggles, we had no rehearsals, so let's go try at the– they're hiring at the Latin Quarter. So we went– Copacabana I think it was. So we go over there at lunch time. We all have full makeup on becauase you can't take your makeup off between shows, it's too hard to get on again. Too long. And I was too tall and too short. I was too short for the show girls and they have what they call a Pony Line, which is a little kick routine, and I was too tall for that. But we got the giggles anyhow.",
-    "wiki": "Copacabana_(nightclub)"
   },
   {
     "chapter": "roxyette",
@@ -53,7 +59,7 @@ export const storyContent = [
     "caption": "Ann and Mae on the way to the Roxy",
     "audioSrc": "stories/mother-sew.mp3",
     "transcription": 
-      "And then my mother, my mother was sick. Trying to keep her busy. She had cancer. Anyhow, I said oh, we have a heavy week this week– when I was in the costume department– we need seamstresses and not for the machine. Sewing on snaps and buttons and things like that. And so my mother came in, 6 o'clock, a couple nights a week. And she had to get a union card also."
+      "And then my mother was sick. Trying to keep her busy. She had cancer. Anyhow, I said oh, we have a heavy week this week– when I was in the costume department– we need seamstresses and not for the machine. Sewing on snaps and buttons and things like that. And so my mother came in, 6 o'clock, a couple nights a week. And she had to get a union card also."
   },
   {
     "chapter": "tracys",
@@ -87,10 +93,24 @@ export const storyContent = [
     "audioSrc": "stories/willy-mae-wedding.mp3",
     "chapter": "tracys",
     "imgSrc": "stories/willy-mae-wedding.jpeg",
-    "caption": "Mae, Aunt Bella Weiss, Willy, Armin, Nana Tracy, Aunt Car, Granma Weiss. October 1918",
+    "caption": "Mae, Aunt Bella Weiss, Willy, Armin, Nana Tracy, Aunt Car, Grandma Weiss. October 1918",
     "title": "Willy & Mae Tracy",
     "transcription":
       "When they were married, it was during the flu epidemic of 1918. And my grandmother from Maine wouldn't come down because she was afraid of getting the flu. Everybody was wearing face masks. She was right. She wouldn't come to the wedding. But they were dying like fleas I guess.",
+  },
+
+  {
+    "chapter": "marieAndJoe",
+    "title": "Herbie Houston: Friend of the Fireman",
+    "imgSrc": "stories/herbie.jpeg",
+    "caption": "Herbie Houston, 1946",
+    // "description": "In December 1943, Joe asked Marie out for the first time",
+    "introAudioSrc": "stories/fireman.mp3",
+    "introTranscription":
+      "He was a friend of the fireman. Every show a fireman had to sit backstage. That was the law, a NYC fireman, because the curtains were flammable. Or the paint or something. So you had to have a fireman. So the fireman was his neighbor, and his friend. It was Herbie's cousin, Herbie Houston’s cousin. “Hey Joe, you want to meet some pretty girls?” “Yeah sure, I got nothing else to do.” So he comes over there, he was sitting backstage. So... next thing, he's asking me for a date I said sure.",
+    "audioSrc": "stories/elaine.mp3",
+    "transcription":
+      "I wasn't the first one! The first one was Elaine. Elaine. That didn't work out I guess, next thing I know he says “Hey, wanna go out for a soda? Or whatever? A beer or something?” I say “Sure”",
   },
   {
     "audioSrc": "stories/south-boston.mp3",
@@ -118,8 +138,9 @@ export const storyContent = [
     "title": "Funeral Director",
     "imgSrc": "stories/funeral-home.jpg",
     "caption": "Chair from R.J. Irwin & Sons Funeral Home",
-    "audioSrc": "stories/funeral.mp3",
-    "transcription":
+    "introAudioSrc": "stories/funeral.mp3",
+    "description": "Joe received his embalmer license in 1937.",
+    "introTranscription":
       "He was a funeral director. He was an embalmer. He got his license. His father wasn't. His dad was a director. Daddy went to school for - I don't know how many years. Then they had to do so many bodies to get - I have his license downstairs. His diploma. Didn't like any part of it but his father needed him. He said he would do it."
   },
   {
@@ -130,18 +151,6 @@ export const storyContent = [
     "audioSrc": "stories/locked-in.mp3",
     "transcription":
       "He was a marshal when I met him. He would lock himself in and do his homework. When he was in law school. You know? He'd bring prisoners from one place to the other. And while they're in court there's nothing for him to do. So he'd get his work done. Lot of reading in law school."
-  },
-  {
-    "chapter": "marieAndJoe",
-    "title": "Friend of the Fireman",
-    "imgSrc": "stories/herbie.jpeg",
-    "caption": "Herbie Houston, 1946",
-    "introAudioSrc": "stories/fireman.mp3",
-    "introTranscription":
-      "He was a friend of the fireman. Every show a fireman had to sit backstage. That was the law, a NYC fireman, because the curtains were flammable. Or the paint or something. So you had to have a fireman. So the fireman was his neighbor, and his friend. It was Herbie's cousin, Herbie Houston’s cousin. “Hey Joe, you want to meet some pretty girls?” “Yeah sure, I got nothing else to do.” So he comes over there, he was sitting backstage. So... next thing, he's asking me for a date I said sure.",
-    "audioSrc": "stories/elaine.mp3",
-    "transcription":
-      "I wasn't the first one! The first one was Elaine. Elaine. That didn't work out I guess, next thing I know he says “Hey, wanna go out for a soda? Or whatever? A beer or something?” I say “Sure”",
   },
   {
     "chapter": "marieAndJoe",
@@ -194,7 +203,7 @@ export const storyContent = [
     "chapter": "after",
     "title": "Mother of the year",
     "imgSrc": "stories/mother.jpeg",
-    "caption": "Marie with Michael, Joanne, and Stephen",
+    "caption": "Marie with Michael, Joanne, and Stephen, January 1952",
     "introAudioSrc": "stories/home.mp3",
     "introTranscription":
       "[Re: the Chinese restaurant] Oh, it was like home. It was just like home",

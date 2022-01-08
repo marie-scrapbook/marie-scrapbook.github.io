@@ -49,7 +49,7 @@ export const autographsContent = [
   {
     "description": "The Roxyettes performed with some of the hottest names in music, theatre, and dance. The following are Marie's recollections and autograph collection.",
     "transcription": "She skipped over these two autographs in the interview. Bert Lahr, the Cowardly Lion, and Carl Lavazza, orchestra leader.",
-    "title": "Headshots and Autographs",
+    "title": "Autographs",
     "imgSrc": "autographs/page1.jpg",
     // "transcription":
     //   "You know sometimes I wonder if somebody didn't sign some of  these things. You know, “To Marie” somebody had to write it but I don't know if she wrote these nice or not. I have no way of knowing, I didn't see her write or not. They would give them to us. “Anybody want an autograph?” “Yeah, okay”"
@@ -186,7 +186,7 @@ export const autographsContent = [
     "imgSrc": img.dickHaymes,
     "title": "Dick Haymes",
     "transcription":
-      "Aw, I was in love with him. That's uh, what's his name? Dick Haymes! And he married the girl who married the Arab king after. What was her name? I'll have to get back. And he was so shy - he was young and handsome but he used to stay away from everybody he was so shy. He used to grin like this. (“He was a singer?”) Oh, yes. Beautiful voice.",
+      "Aw, I was in love with him. That's uh, what's his name? Dick Haymes! And he married the girl who married the Arab king after. What was her name? [Rita Hayworth] I'll have to get back. And he was so shy - he was young and handsome but he used to stay away from everybody he was so shy. He used to grin like this. (“He was a singer?”) Oh, yes. Beautiful voice.",
     "wiki": "Dick Haymes"
   },
   {
